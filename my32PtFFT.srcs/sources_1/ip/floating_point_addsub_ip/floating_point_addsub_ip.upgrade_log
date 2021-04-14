@@ -1,0 +1,16 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.4 (win64) Build 1412921 Wed Nov 18 09:43:45 MST 2015
+| Date         : Mon Feb 29 18:16:54 2016
+| Host         : Josh-Surface running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg676-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'floating_point_addsub_ip'
+
+1. Summary
+----------
+
+SUCCESS in the update of floating_point_addsub_ip (xilinx.com:ip:floating_point:7.1 (Rev. 1)) to current project options.
+

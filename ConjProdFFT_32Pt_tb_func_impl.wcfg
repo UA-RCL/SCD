@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="ConjProdFFT_32Pt_tb_func_impl.wdb" id="1">
+         <top_modules>
+            <top_module name="ConjProdFFT_32Pt_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="376000002fs"></ZoomEndTime>
+      <Cursor1Time time="190200000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="12" />
+   <wvobject db_ref_id="1" fp_name="/ConjProdFFT_32Pt_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ConjProdFFT_32Pt_tb/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ConjProdFFT_32Pt_tb/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ConjProdFFT_32Pt_tb/done" type="logic">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ConjProdFFT_32Pt_tb/clk_P" type="logic">
+      <obj_property name="ElementShortName">clk_P</obj_property>
+      <obj_property name="ObjectShortName">clk_P</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ConjProdFFT_32Pt_tb/clk_N" type="logic">
+      <obj_property name="ElementShortName">clk_N</obj_property>
+      <obj_property name="ObjectShortName">clk_N</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ConjProdFFT_32Pt_tb/myConjProdFFT/R_addr1" type="array">
+      <obj_property name="ElementShortName">R_addr1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">R_addr1[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ConjProdFFT_32Pt_tb/myConjProdFFT/R_addr1_REG" type="array">
+      <obj_property name="ElementShortName">R_addr1_REG[7:0]</obj_property>
+      <obj_property name="ObjectShortName">R_addr1_REG[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ConjProdFFT_32Pt_tb/myConjProdFFT/R_addr2" type="array">
+      <obj_property name="ElementShortName">R_addr2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">R_addr2[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ConjProdFFT_32Pt_tb/myConjProdFFT/R_addr2_REG" type="array">
+      <obj_property name="ElementShortName">R_addr2_REG[7:0]</obj_property>
+      <obj_property name="ObjectShortName">R_addr2_REG[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ConjProdFFT_32Pt_tb/myConjProdFFT/CS" type="array">
+      <obj_property name="ElementShortName">CS[1:0]</obj_property>
+      <obj_property name="ObjectShortName">CS[1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ConjProdFFT_32Pt_tb/myConjProdFFT/NS" type="array">
+      <obj_property name="ElementShortName">NS[1:0]</obj_property>
+      <obj_property name="ObjectShortName">NS[1:0]</obj_property>
+   </wvobject>
+</wave_config>

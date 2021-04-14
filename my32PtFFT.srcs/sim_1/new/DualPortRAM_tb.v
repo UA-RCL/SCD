@@ -22,8 +22,8 @@
 
 module DualPortRAM_tb();
 
-    parameter wordWidth = 32;
-    parameter addrSize = 6;
+    parameter wordWidth = 1024;
+    parameter addrSize = 8;
 
     reg [wordWidth-1:0] dataIn1, dataIn2;
     reg [addrSize-1:0] addr1, addr2;
@@ -31,8 +31,22 @@ module DualPortRAM_tb();
     
     wire [wordWidth-1:0] dataOut1, dataOut2;
     
+    /*
     DualPortRAM #(.wordWidth(wordWidth), .addrSize(addrSize)) 
             myRAM(.clk1(clk), .clk2(clk), .dataIn1(dataIn1), .dataIn2(dataIn2), .addr1(addr1), .addr2(addr2), .writeEn1(writeEn1), .writeEn2(writeEn2), .dataOut1(dataOut1), .dataOut2(dataOut2));
+    */
+    blk_mem_ip myRAM_IP (
+      .clka(clk),    // input wire clka
+      .wea(writeEn1),      // input wire [0 : 0] wea
+      .addra(addr1),  // input wire [7 : 0] addra
+      .dina(dataIn1),    // input wire [1023 : 0] dina
+      .douta(dataOut1),  // output wire [1023 : 0] douta
+      .clkb(clk),    // input wire clkb
+      .web(writeEn2),      // input wire [0 : 0] web
+      .addrb(addr2),  // input wire [7 : 0] addrb
+      .dinb(dataIn2),    // input wire [1023 : 0] dinb
+      .doutb(dataOut2)  // output wire [1023 : 0] doutb
+    );
 
     always begin
         clk <= 1'b0; #10;
@@ -40,10 +54,10 @@ module DualPortRAM_tb();
     end
 
     initial begin
-        dataIn1 <= 32'd0;
-        dataIn2 <= 32'd0;
-        addr1 <= 6'd0;
-        addr2 <= 6'd1;
+        dataIn1 <= {wordWidth{1'd0}};
+        dataIn2 <= {wordWidth{1'd0}};
+        addr1 <= {addrSize{1'd0}};
+        addr2 <= {addrSize{1'd1}};
         writeEn1 <= 1'b0;
         writeEn2 <= 1'b0;
         repeat(2)@(posedge clk);

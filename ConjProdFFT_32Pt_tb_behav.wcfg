@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="ConjProdFFT_32Pt_TopController_func_impl.wdb" id="1">
+         <top_modules>
+            <top_module name="ConjProdFFT_32Pt_TopController" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="2446700000fs"></ZoomStartTime>
+      <ZoomEndTime time="2481500001fs"></ZoomEndTime>
+      <Cursor1Time time="2452500000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="15" />
+   <wvobject db_ref_id="1" fp_name="/ConjProdFFT_32Pt_TopController/clk_N" type="logic">
+      <obj_property name="ElementShortName">clk_N</obj_property>
+      <obj_property name="ObjectShortName">clk_N</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ConjProdFFT_32Pt_TopController/clk_P" type="logic">
+      <obj_property name="ElementShortName">clk_P</obj_property>
+      <obj_property name="ObjectShortName">clk_P</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ConjProdFFT_32Pt_TopController/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ConjProdFFT_32Pt_TopController/FFT_Output_Imag" type="array">
+      <obj_property name="ElementShortName">FFT_Output_Imag[1023:0]</obj_property>
+      <obj_property name="ObjectShortName">FFT_Output_Imag[1023:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ConjProdFFT_32Pt_TopController/FFT_Output_Real" type="array">
+      <obj_property name="ElementShortName">FFT_Output_Real[1023:0]</obj_property>
+      <obj_property name="ObjectShortName">FFT_Output_Real[1023:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="vbus1142" type="vbus">
+      <obj_property name="label">Re[0]</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+      <wvobject db_ref_id="1" fp_name="/ConjProdFFT_32Pt_TopController/FFT_Output_Real[31]" type="logic">
+         <obj_property name="ElementShortName">[31]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Real[31]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdFFT_32Pt_TopController/FFT_Output_Real[30]" type="logic">
+         <obj_property name="ElementShortName">[30]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Real[30]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdFFT_32Pt_TopController/FFT_Output_Real[29]" type="logic">
+         <obj_property name="ElementShortName">[29]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Real[29]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdFFT_32Pt_TopController/FFT_Output_Real[28]" type="logic">
+         <obj_property name="ElementShortName">[28]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Real[28]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdFFT_32Pt_TopController/FFT_Output_Real[27]" type="logic">
+         <obj_property name="ElementShortName">[27]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Real[27]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdFFT_32Pt_TopController/FFT_Output_Real[26]" type="logic">
+         <obj_property name="ElementShortName">[26]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Real[26]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdFFT_32Pt_TopController/FFT_Output_Real[25]" type="logic">
+         <obj_property name="ElementShortName">[25]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Real[25]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdFFT_32Pt_TopController/FFT_Output_Real[24]" type="logic">
+         <obj_property name="ElementShortName">[24]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Real[24]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdFFT_32Pt_TopController/FFT_Output_Real[23]" type="logic">
+         <obj_property name="ElementShortName">[23]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Real[23]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdFFT_32Pt_TopController/FFT_Output_Real[22]" type="logic">
+         <obj_property name="ElementShortName">[22]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Real[22]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdFFT_32Pt_TopController/FFT_Output_Real[21]" type="logic">
+         <obj_property name="ElementShortName">[21]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Real[21]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdFFT_32Pt_TopController/FFT_Output_Real[20]" type="logic">
+         <obj_property name="ElementShortName">[20]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Real[20]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdFFT_32Pt_TopController/FFT_Output_Real[19]" type="logic">
+         <obj_property name="ElementShortName">[19]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Real[19]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdFFT_32Pt_TopController/FFT_Output_Real[18]" type="logic">
+         <obj_property name="ElementShortName">[18]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Real[18]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdFFT_32Pt_TopController/FFT_Output_Real[17]" type="logic">
+         <obj_property name="ElementShortName">[17]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Real[17]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdFFT_32Pt_TopController/FFT_Output_Real[16]" type="logic">
+         <obj_property name="ElementShortName">[16]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Real[16]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdFFT_32Pt_TopController/FFT_Output_Real[15]" type="logic">
+         <obj_property name="ElementShortName">[15]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Real[15]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdFFT_32Pt_TopController/FFT_Output_Real[14]" type="logic">
+         <obj_property name="ElementShortName">[14]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Real[14]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdFFT_32Pt_TopController/FFT_Output_Real[13]" type="logic">
+         <obj_property name="ElementShortName">[13]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Real[13]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdFFT_32Pt_TopController/FFT_Output_Real[12]" type="logic">
+         <obj_property name="ElementShortName">[12]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Real[12]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdFFT_32Pt_TopController/FFT_Output_Real[11]" type="logic">
+         <obj_property name="ElementShortName">[11]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Real[11]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdFFT_32Pt_TopController/FFT_Output_Real[10]" type="logic">
+         <obj_property name="ElementShortName">[10]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Real[10]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdFFT_32Pt_TopController/FFT_Output_Real[9]" type="logic">
+         <obj_property name="ElementShortName">[9]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Real[9]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdFFT_32Pt_TopController/FFT_Output_Real[8]" type="logic">
+         <obj_property name="ElementShortName">[8]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Real[8]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdFFT_32Pt_TopController/FFT_Output_Real[7]" type="logic">
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Real[7]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdFFT_32Pt_TopController/FFT_Output_Real[6]" type="logic">
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Real[6]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdFFT_32Pt_TopController/FFT_Output_Real[5]" type="logic">
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Real[5]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdFFT_32Pt_TopController/FFT_Output_Real[4]" type="logic">
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Real[4]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdFFT_32Pt_TopController/FFT_Output_Real[3]" type="logic">
+         <obj_property name="ElementShortName">[3]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Real[3]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdFFT_32Pt_TopController/FFT_Output_Real[2]" type="logic">
+         <obj_property name="ElementShortName">[2]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Real[2]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdFFT_32Pt_TopController/FFT_Output_Real[1]" type="logic">
+         <obj_property name="ElementShortName">[1]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Real[1]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdFFT_32Pt_TopController/FFT_Output_Real[0]" type="logic">
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Real[0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ConjProdFFT_32Pt_TopController/controllerPath/R_addr1" type="array">
+      <obj_property name="ElementShortName">R_addr1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">R_addr1[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ConjProdFFT_32Pt_TopController/controllerPath/R_addr2" type="array">
+      <obj_property name="ElementShortName">R_addr2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">R_addr2[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ConjProdFFT_32Pt_TopController/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ConjProdFFT_32Pt_TopController/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ConjProdFFT_32Pt_TopController/myRAM_IP/addra" type="array">
+      <obj_property name="ElementShortName">addra[7:0]</obj_property>
+      <obj_property name="ObjectShortName">addra[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ConjProdFFT_32Pt_TopController/myRAM_IP/addrb" type="array">
+      <obj_property name="ElementShortName">addrb[7:0]</obj_property>
+      <obj_property name="ObjectShortName">addrb[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ConjProdFFT_32Pt_TopController/myRAM_IP/douta" type="array">
+      <obj_property name="ElementShortName">douta[2047:0]</obj_property>
+      <obj_property name="ObjectShortName">douta[2047:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ConjProdFFT_32Pt_TopController/myRAM_IP/doutb" type="array">
+      <obj_property name="ElementShortName">doutb[2047:0]</obj_property>
+      <obj_property name="ObjectShortName">doutb[2047:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ConjProdFFT_32Pt_TopController/dummySel" type="logic">
+      <obj_property name="ElementShortName">dummySel</obj_property>
+      <obj_property name="ObjectShortName">dummySel</obj_property>
+   </wvobject>
+</wave_config>

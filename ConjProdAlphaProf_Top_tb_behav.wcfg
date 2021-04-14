@@ -1,0 +1,670 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="ConjProdAlphaProf_Top_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="ConjProdAlphaProf_Top_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1313147200000fs"></ZoomStartTime>
+      <ZoomEndTime time="1313286400001fs"></ZoomEndTime>
+      <Cursor1Time time="1313238400000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="29" />
+   <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/clk_P" type="logic">
+      <obj_property name="ElementShortName">clk_P</obj_property>
+      <obj_property name="ObjectShortName">clk_P</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/clk_N" type="logic">
+      <obj_property name="ElementShortName">clk_N</obj_property>
+      <obj_property name="ObjectShortName">clk_N</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider2878">
+      <obj_property name="label">ConjProdFFT Signals</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/conjProdFFT/dataValid" type="logic">
+      <obj_property name="ElementShortName">dataValid</obj_property>
+      <obj_property name="ObjectShortName">dataValid</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/conjProdFFT/R_word1" type="array">
+      <obj_property name="ElementShortName">R_word1[2047:0]</obj_property>
+      <obj_property name="ObjectShortName">R_word1[2047:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/conjProdFFT/R_word2" type="array">
+      <obj_property name="ElementShortName">R_word2[2047:0]</obj_property>
+      <obj_property name="ObjectShortName">R_word2[2047:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/conjProdFFT/myIterativeFFT/pairwiseMultValid" type="array">
+      <obj_property name="ElementShortName">pairwiseMultValid[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pairwiseMultValid[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/conjProdFFT/myIterativeFFT/Mult_Real" type="array">
+      <obj_property name="ElementShortName">Mult_Real[1023:0]</obj_property>
+      <obj_property name="ObjectShortName">Mult_Real[1023:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/conjProdFFT/myIterativeFFT/Mult_Imag" type="array">
+      <obj_property name="ElementShortName">Mult_Imag[1023:0]</obj_property>
+      <obj_property name="ObjectShortName">Mult_Imag[1023:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/conjProdFFT/myIterativeFFT/myFFT/myFFT/done" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+      <obj_property name="label">FFT_Done</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="vbus3907" type="vbus">
+      <obj_property name="label">FFT_Real</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/conjProdFFT/myIterativeFFT/FFT_Output_Real[31]" type="logic">
+         <obj_property name="ElementShortName">[31]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Real[31]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/conjProdFFT/myIterativeFFT/FFT_Output_Real[30]" type="logic">
+         <obj_property name="ElementShortName">[30]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Real[30]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/conjProdFFT/myIterativeFFT/FFT_Output_Real[29]" type="logic">
+         <obj_property name="ElementShortName">[29]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Real[29]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/conjProdFFT/myIterativeFFT/FFT_Output_Real[28]" type="logic">
+         <obj_property name="ElementShortName">[28]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Real[28]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/conjProdFFT/myIterativeFFT/FFT_Output_Real[27]" type="logic">
+         <obj_property name="ElementShortName">[27]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Real[27]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/conjProdFFT/myIterativeFFT/FFT_Output_Real[26]" type="logic">
+         <obj_property name="ElementShortName">[26]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Real[26]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/conjProdFFT/myIterativeFFT/FFT_Output_Real[25]" type="logic">
+         <obj_property name="ElementShortName">[25]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Real[25]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/conjProdFFT/myIterativeFFT/FFT_Output_Real[24]" type="logic">
+         <obj_property name="ElementShortName">[24]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Real[24]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/conjProdFFT/myIterativeFFT/FFT_Output_Real[23]" type="logic">
+         <obj_property name="ElementShortName">[23]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Real[23]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/conjProdFFT/myIterativeFFT/FFT_Output_Real[22]" type="logic">
+         <obj_property name="ElementShortName">[22]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Real[22]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/conjProdFFT/myIterativeFFT/FFT_Output_Real[21]" type="logic">
+         <obj_property name="ElementShortName">[21]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Real[21]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/conjProdFFT/myIterativeFFT/FFT_Output_Real[20]" type="logic">
+         <obj_property name="ElementShortName">[20]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Real[20]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/conjProdFFT/myIterativeFFT/FFT_Output_Real[19]" type="logic">
+         <obj_property name="ElementShortName">[19]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Real[19]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/conjProdFFT/myIterativeFFT/FFT_Output_Real[18]" type="logic">
+         <obj_property name="ElementShortName">[18]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Real[18]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/conjProdFFT/myIterativeFFT/FFT_Output_Real[17]" type="logic">
+         <obj_property name="ElementShortName">[17]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Real[17]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/conjProdFFT/myIterativeFFT/FFT_Output_Real[16]" type="logic">
+         <obj_property name="ElementShortName">[16]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Real[16]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/conjProdFFT/myIterativeFFT/FFT_Output_Real[15]" type="logic">
+         <obj_property name="ElementShortName">[15]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Real[15]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/conjProdFFT/myIterativeFFT/FFT_Output_Real[14]" type="logic">
+         <obj_property name="ElementShortName">[14]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Real[14]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/conjProdFFT/myIterativeFFT/FFT_Output_Real[13]" type="logic">
+         <obj_property name="ElementShortName">[13]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Real[13]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/conjProdFFT/myIterativeFFT/FFT_Output_Real[12]" type="logic">
+         <obj_property name="ElementShortName">[12]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Real[12]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/conjProdFFT/myIterativeFFT/FFT_Output_Real[11]" type="logic">
+         <obj_property name="ElementShortName">[11]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Real[11]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/conjProdFFT/myIterativeFFT/FFT_Output_Real[10]" type="logic">
+         <obj_property name="ElementShortName">[10]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Real[10]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/conjProdFFT/myIterativeFFT/FFT_Output_Real[9]" type="logic">
+         <obj_property name="ElementShortName">[9]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Real[9]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/conjProdFFT/myIterativeFFT/FFT_Output_Real[8]" type="logic">
+         <obj_property name="ElementShortName">[8]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Real[8]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/conjProdFFT/myIterativeFFT/FFT_Output_Real[7]" type="logic">
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Real[7]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/conjProdFFT/myIterativeFFT/FFT_Output_Real[6]" type="logic">
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Real[6]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/conjProdFFT/myIterativeFFT/FFT_Output_Real[5]" type="logic">
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Real[5]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/conjProdFFT/myIterativeFFT/FFT_Output_Real[4]" type="logic">
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Real[4]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/conjProdFFT/myIterativeFFT/FFT_Output_Real[3]" type="logic">
+         <obj_property name="ElementShortName">[3]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Real[3]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/conjProdFFT/myIterativeFFT/FFT_Output_Real[2]" type="logic">
+         <obj_property name="ElementShortName">[2]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Real[2]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/conjProdFFT/myIterativeFFT/FFT_Output_Real[1]" type="logic">
+         <obj_property name="ElementShortName">[1]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Real[1]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/conjProdFFT/myIterativeFFT/FFT_Output_Real[0]" type="logic">
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Real[0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="vbus4964" type="vbus">
+      <obj_property name="label">FFT_Imag</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/conjProdFFT/myIterativeFFT/FFT_Output_Imag[31]" type="logic">
+         <obj_property name="ElementShortName">[31]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Imag[31]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/conjProdFFT/myIterativeFFT/FFT_Output_Imag[30]" type="logic">
+         <obj_property name="ElementShortName">[30]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Imag[30]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/conjProdFFT/myIterativeFFT/FFT_Output_Imag[29]" type="logic">
+         <obj_property name="ElementShortName">[29]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Imag[29]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/conjProdFFT/myIterativeFFT/FFT_Output_Imag[28]" type="logic">
+         <obj_property name="ElementShortName">[28]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Imag[28]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/conjProdFFT/myIterativeFFT/FFT_Output_Imag[27]" type="logic">
+         <obj_property name="ElementShortName">[27]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Imag[27]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/conjProdFFT/myIterativeFFT/FFT_Output_Imag[26]" type="logic">
+         <obj_property name="ElementShortName">[26]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Imag[26]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/conjProdFFT/myIterativeFFT/FFT_Output_Imag[25]" type="logic">
+         <obj_property name="ElementShortName">[25]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Imag[25]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/conjProdFFT/myIterativeFFT/FFT_Output_Imag[24]" type="logic">
+         <obj_property name="ElementShortName">[24]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Imag[24]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/conjProdFFT/myIterativeFFT/FFT_Output_Imag[23]" type="logic">
+         <obj_property name="ElementShortName">[23]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Imag[23]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/conjProdFFT/myIterativeFFT/FFT_Output_Imag[22]" type="logic">
+         <obj_property name="ElementShortName">[22]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Imag[22]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/conjProdFFT/myIterativeFFT/FFT_Output_Imag[21]" type="logic">
+         <obj_property name="ElementShortName">[21]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Imag[21]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/conjProdFFT/myIterativeFFT/FFT_Output_Imag[20]" type="logic">
+         <obj_property name="ElementShortName">[20]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Imag[20]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/conjProdFFT/myIterativeFFT/FFT_Output_Imag[19]" type="logic">
+         <obj_property name="ElementShortName">[19]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Imag[19]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/conjProdFFT/myIterativeFFT/FFT_Output_Imag[18]" type="logic">
+         <obj_property name="ElementShortName">[18]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Imag[18]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/conjProdFFT/myIterativeFFT/FFT_Output_Imag[17]" type="logic">
+         <obj_property name="ElementShortName">[17]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Imag[17]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/conjProdFFT/myIterativeFFT/FFT_Output_Imag[16]" type="logic">
+         <obj_property name="ElementShortName">[16]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Imag[16]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/conjProdFFT/myIterativeFFT/FFT_Output_Imag[15]" type="logic">
+         <obj_property name="ElementShortName">[15]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Imag[15]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/conjProdFFT/myIterativeFFT/FFT_Output_Imag[14]" type="logic">
+         <obj_property name="ElementShortName">[14]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Imag[14]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/conjProdFFT/myIterativeFFT/FFT_Output_Imag[13]" type="logic">
+         <obj_property name="ElementShortName">[13]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Imag[13]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/conjProdFFT/myIterativeFFT/FFT_Output_Imag[12]" type="logic">
+         <obj_property name="ElementShortName">[12]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Imag[12]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/conjProdFFT/myIterativeFFT/FFT_Output_Imag[11]" type="logic">
+         <obj_property name="ElementShortName">[11]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Imag[11]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/conjProdFFT/myIterativeFFT/FFT_Output_Imag[10]" type="logic">
+         <obj_property name="ElementShortName">[10]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Imag[10]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/conjProdFFT/myIterativeFFT/FFT_Output_Imag[9]" type="logic">
+         <obj_property name="ElementShortName">[9]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Imag[9]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/conjProdFFT/myIterativeFFT/FFT_Output_Imag[8]" type="logic">
+         <obj_property name="ElementShortName">[8]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Imag[8]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/conjProdFFT/myIterativeFFT/FFT_Output_Imag[7]" type="logic">
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Imag[7]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/conjProdFFT/myIterativeFFT/FFT_Output_Imag[6]" type="logic">
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Imag[6]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/conjProdFFT/myIterativeFFT/FFT_Output_Imag[5]" type="logic">
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Imag[5]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/conjProdFFT/myIterativeFFT/FFT_Output_Imag[4]" type="logic">
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Imag[4]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/conjProdFFT/myIterativeFFT/FFT_Output_Imag[3]" type="logic">
+         <obj_property name="ElementShortName">[3]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Imag[3]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/conjProdFFT/myIterativeFFT/FFT_Output_Imag[2]" type="logic">
+         <obj_property name="ElementShortName">[2]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Imag[2]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/conjProdFFT/myIterativeFFT/FFT_Output_Imag[1]" type="logic">
+         <obj_property name="ElementShortName">[1]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Imag[1]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/conjProdFFT/myIterativeFFT/FFT_Output_Imag[0]" type="logic">
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">FFT_Output_Imag[0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/ConjProd_Done" type="logic">
+      <obj_property name="ElementShortName">ConjProd_Done</obj_property>
+      <obj_property name="ObjectShortName">ConjProd_Done</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/conjProdFFT/ConjProdDataValid" type="logic">
+      <obj_property name="ElementShortName">ConjProdDataValid</obj_property>
+      <obj_property name="ObjectShortName">ConjProdDataValid</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider2879">
+      <obj_property name="label">Alpha Prof Signals</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/AlphaProf_Done" type="logic">
+      <obj_property name="ElementShortName">AlphaProf_Done</obj_property>
+      <obj_property name="ObjectShortName">AlphaProf_Done</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/ReductionXOR_AlphaProfile" type="logic">
+      <obj_property name="ElementShortName">ReductionXOR_AlphaProfile</obj_property>
+      <obj_property name="ObjectShortName">ReductionXOR_AlphaProfile</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="vbus170" type="vbus">
+      <obj_property name="label">AbsValNums[0]_RegOut</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/alphaProf/absValNums_RegOut[31]" type="logic">
+         <obj_property name="ElementShortName">[31]</obj_property>
+         <obj_property name="ObjectShortName">absValNums_RegOut[31]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/alphaProf/absValNums_RegOut[30]" type="logic">
+         <obj_property name="ElementShortName">[30]</obj_property>
+         <obj_property name="ObjectShortName">absValNums_RegOut[30]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/alphaProf/absValNums_RegOut[29]" type="logic">
+         <obj_property name="ElementShortName">[29]</obj_property>
+         <obj_property name="ObjectShortName">absValNums_RegOut[29]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/alphaProf/absValNums_RegOut[28]" type="logic">
+         <obj_property name="ElementShortName">[28]</obj_property>
+         <obj_property name="ObjectShortName">absValNums_RegOut[28]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/alphaProf/absValNums_RegOut[27]" type="logic">
+         <obj_property name="ElementShortName">[27]</obj_property>
+         <obj_property name="ObjectShortName">absValNums_RegOut[27]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/alphaProf/absValNums_RegOut[26]" type="logic">
+         <obj_property name="ElementShortName">[26]</obj_property>
+         <obj_property name="ObjectShortName">absValNums_RegOut[26]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/alphaProf/absValNums_RegOut[25]" type="logic">
+         <obj_property name="ElementShortName">[25]</obj_property>
+         <obj_property name="ObjectShortName">absValNums_RegOut[25]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/alphaProf/absValNums_RegOut[24]" type="logic">
+         <obj_property name="ElementShortName">[24]</obj_property>
+         <obj_property name="ObjectShortName">absValNums_RegOut[24]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/alphaProf/absValNums_RegOut[23]" type="logic">
+         <obj_property name="ElementShortName">[23]</obj_property>
+         <obj_property name="ObjectShortName">absValNums_RegOut[23]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/alphaProf/absValNums_RegOut[22]" type="logic">
+         <obj_property name="ElementShortName">[22]</obj_property>
+         <obj_property name="ObjectShortName">absValNums_RegOut[22]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/alphaProf/absValNums_RegOut[21]" type="logic">
+         <obj_property name="ElementShortName">[21]</obj_property>
+         <obj_property name="ObjectShortName">absValNums_RegOut[21]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/alphaProf/absValNums_RegOut[20]" type="logic">
+         <obj_property name="ElementShortName">[20]</obj_property>
+         <obj_property name="ObjectShortName">absValNums_RegOut[20]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/alphaProf/absValNums_RegOut[19]" type="logic">
+         <obj_property name="ElementShortName">[19]</obj_property>
+         <obj_property name="ObjectShortName">absValNums_RegOut[19]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/alphaProf/absValNums_RegOut[18]" type="logic">
+         <obj_property name="ElementShortName">[18]</obj_property>
+         <obj_property name="ObjectShortName">absValNums_RegOut[18]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/alphaProf/absValNums_RegOut[17]" type="logic">
+         <obj_property name="ElementShortName">[17]</obj_property>
+         <obj_property name="ObjectShortName">absValNums_RegOut[17]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/alphaProf/absValNums_RegOut[16]" type="logic">
+         <obj_property name="ElementShortName">[16]</obj_property>
+         <obj_property name="ObjectShortName">absValNums_RegOut[16]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/alphaProf/absValNums_RegOut[15]" type="logic">
+         <obj_property name="ElementShortName">[15]</obj_property>
+         <obj_property name="ObjectShortName">absValNums_RegOut[15]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/alphaProf/absValNums_RegOut[14]" type="logic">
+         <obj_property name="ElementShortName">[14]</obj_property>
+         <obj_property name="ObjectShortName">absValNums_RegOut[14]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/alphaProf/absValNums_RegOut[13]" type="logic">
+         <obj_property name="ElementShortName">[13]</obj_property>
+         <obj_property name="ObjectShortName">absValNums_RegOut[13]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/alphaProf/absValNums_RegOut[12]" type="logic">
+         <obj_property name="ElementShortName">[12]</obj_property>
+         <obj_property name="ObjectShortName">absValNums_RegOut[12]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/alphaProf/absValNums_RegOut[11]" type="logic">
+         <obj_property name="ElementShortName">[11]</obj_property>
+         <obj_property name="ObjectShortName">absValNums_RegOut[11]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/alphaProf/absValNums_RegOut[10]" type="logic">
+         <obj_property name="ElementShortName">[10]</obj_property>
+         <obj_property name="ObjectShortName">absValNums_RegOut[10]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/alphaProf/absValNums_RegOut[9]" type="logic">
+         <obj_property name="ElementShortName">[9]</obj_property>
+         <obj_property name="ObjectShortName">absValNums_RegOut[9]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/alphaProf/absValNums_RegOut[8]" type="logic">
+         <obj_property name="ElementShortName">[8]</obj_property>
+         <obj_property name="ObjectShortName">absValNums_RegOut[8]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/alphaProf/absValNums_RegOut[7]" type="logic">
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">absValNums_RegOut[7]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/alphaProf/absValNums_RegOut[6]" type="logic">
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">absValNums_RegOut[6]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/alphaProf/absValNums_RegOut[5]" type="logic">
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">absValNums_RegOut[5]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/alphaProf/absValNums_RegOut[4]" type="logic">
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">absValNums_RegOut[4]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/alphaProf/absValNums_RegOut[3]" type="logic">
+         <obj_property name="ElementShortName">[3]</obj_property>
+         <obj_property name="ObjectShortName">absValNums_RegOut[3]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/alphaProf/absValNums_RegOut[2]" type="logic">
+         <obj_property name="ElementShortName">[2]</obj_property>
+         <obj_property name="ObjectShortName">absValNums_RegOut[2]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/alphaProf/absValNums_RegOut[1]" type="logic">
+         <obj_property name="ElementShortName">[1]</obj_property>
+         <obj_property name="ObjectShortName">absValNums_RegOut[1]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/alphaProf/absValNums_RegOut[0]" type="logic">
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">absValNums_RegOut[0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/alphaProf/absValDone_RegOut" type="logic">
+      <obj_property name="ElementShortName">absValDone_RegOut</obj_property>
+      <obj_property name="ObjectShortName">absValDone_RegOut</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/alphaProf/mergedFFTValid_RegOut" type="logic">
+      <obj_property name="ElementShortName">mergedFFTValid_RegOut</obj_property>
+      <obj_property name="ObjectShortName">mergedFFTValid_RegOut</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/alphaProf/Controller_Addr1" type="array">
+      <obj_property name="ElementShortName">Controller_Addr1[8:0]</obj_property>
+      <obj_property name="ObjectShortName">Controller_Addr1[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/alphaProf/Controller_Addr2" type="array">
+      <obj_property name="ElementShortName">Controller_Addr2[8:0]</obj_property>
+      <obj_property name="ObjectShortName">Controller_Addr2[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/alphaProf/alphaProfMaxOut" type="array">
+      <obj_property name="ElementShortName">alphaProfMaxOut[511:0]</obj_property>
+      <obj_property name="ObjectShortName">alphaProfMaxOut[511:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="vbus683" type="vbus">
+      <obj_property name="label">alphaProfMaxOut[31:0]</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/alphaProf/alphaProfMaxOut[31]" type="logic">
+         <obj_property name="ElementShortName">[31]</obj_property>
+         <obj_property name="ObjectShortName">alphaProfMaxOut[31]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/alphaProf/alphaProfMaxOut[30]" type="logic">
+         <obj_property name="ElementShortName">[30]</obj_property>
+         <obj_property name="ObjectShortName">alphaProfMaxOut[30]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/alphaProf/alphaProfMaxOut[29]" type="logic">
+         <obj_property name="ElementShortName">[29]</obj_property>
+         <obj_property name="ObjectShortName">alphaProfMaxOut[29]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/alphaProf/alphaProfMaxOut[28]" type="logic">
+         <obj_property name="ElementShortName">[28]</obj_property>
+         <obj_property name="ObjectShortName">alphaProfMaxOut[28]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/alphaProf/alphaProfMaxOut[27]" type="logic">
+         <obj_property name="ElementShortName">[27]</obj_property>
+         <obj_property name="ObjectShortName">alphaProfMaxOut[27]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/alphaProf/alphaProfMaxOut[26]" type="logic">
+         <obj_property name="ElementShortName">[26]</obj_property>
+         <obj_property name="ObjectShortName">alphaProfMaxOut[26]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/alphaProf/alphaProfMaxOut[25]" type="logic">
+         <obj_property name="ElementShortName">[25]</obj_property>
+         <obj_property name="ObjectShortName">alphaProfMaxOut[25]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/alphaProf/alphaProfMaxOut[24]" type="logic">
+         <obj_property name="ElementShortName">[24]</obj_property>
+         <obj_property name="ObjectShortName">alphaProfMaxOut[24]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/alphaProf/alphaProfMaxOut[23]" type="logic">
+         <obj_property name="ElementShortName">[23]</obj_property>
+         <obj_property name="ObjectShortName">alphaProfMaxOut[23]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/alphaProf/alphaProfMaxOut[22]" type="logic">
+         <obj_property name="ElementShortName">[22]</obj_property>
+         <obj_property name="ObjectShortName">alphaProfMaxOut[22]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/alphaProf/alphaProfMaxOut[21]" type="logic">
+         <obj_property name="ElementShortName">[21]</obj_property>
+         <obj_property name="ObjectShortName">alphaProfMaxOut[21]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/alphaProf/alphaProfMaxOut[20]" type="logic">
+         <obj_property name="ElementShortName">[20]</obj_property>
+         <obj_property name="ObjectShortName">alphaProfMaxOut[20]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/alphaProf/alphaProfMaxOut[19]" type="logic">
+         <obj_property name="ElementShortName">[19]</obj_property>
+         <obj_property name="ObjectShortName">alphaProfMaxOut[19]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/alphaProf/alphaProfMaxOut[18]" type="logic">
+         <obj_property name="ElementShortName">[18]</obj_property>
+         <obj_property name="ObjectShortName">alphaProfMaxOut[18]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/alphaProf/alphaProfMaxOut[17]" type="logic">
+         <obj_property name="ElementShortName">[17]</obj_property>
+         <obj_property name="ObjectShortName">alphaProfMaxOut[17]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/alphaProf/alphaProfMaxOut[16]" type="logic">
+         <obj_property name="ElementShortName">[16]</obj_property>
+         <obj_property name="ObjectShortName">alphaProfMaxOut[16]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/alphaProf/alphaProfMaxOut[15]" type="logic">
+         <obj_property name="ElementShortName">[15]</obj_property>
+         <obj_property name="ObjectShortName">alphaProfMaxOut[15]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/alphaProf/alphaProfMaxOut[14]" type="logic">
+         <obj_property name="ElementShortName">[14]</obj_property>
+         <obj_property name="ObjectShortName">alphaProfMaxOut[14]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/alphaProf/alphaProfMaxOut[13]" type="logic">
+         <obj_property name="ElementShortName">[13]</obj_property>
+         <obj_property name="ObjectShortName">alphaProfMaxOut[13]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/alphaProf/alphaProfMaxOut[12]" type="logic">
+         <obj_property name="ElementShortName">[12]</obj_property>
+         <obj_property name="ObjectShortName">alphaProfMaxOut[12]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/alphaProf/alphaProfMaxOut[11]" type="logic">
+         <obj_property name="ElementShortName">[11]</obj_property>
+         <obj_property name="ObjectShortName">alphaProfMaxOut[11]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/alphaProf/alphaProfMaxOut[10]" type="logic">
+         <obj_property name="ElementShortName">[10]</obj_property>
+         <obj_property name="ObjectShortName">alphaProfMaxOut[10]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/alphaProf/alphaProfMaxOut[9]" type="logic">
+         <obj_property name="ElementShortName">[9]</obj_property>
+         <obj_property name="ObjectShortName">alphaProfMaxOut[9]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/alphaProf/alphaProfMaxOut[8]" type="logic">
+         <obj_property name="ElementShortName">[8]</obj_property>
+         <obj_property name="ObjectShortName">alphaProfMaxOut[8]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/alphaProf/alphaProfMaxOut[7]" type="logic">
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">alphaProfMaxOut[7]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/alphaProf/alphaProfMaxOut[6]" type="logic">
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">alphaProfMaxOut[6]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/alphaProf/alphaProfMaxOut[5]" type="logic">
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">alphaProfMaxOut[5]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/alphaProf/alphaProfMaxOut[4]" type="logic">
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">alphaProfMaxOut[4]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/alphaProf/alphaProfMaxOut[3]" type="logic">
+         <obj_property name="ElementShortName">[3]</obj_property>
+         <obj_property name="ObjectShortName">alphaProfMaxOut[3]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/alphaProf/alphaProfMaxOut[2]" type="logic">
+         <obj_property name="ElementShortName">[2]</obj_property>
+         <obj_property name="ObjectShortName">alphaProfMaxOut[2]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/alphaProf/alphaProfMaxOut[1]" type="logic">
+         <obj_property name="ElementShortName">[1]</obj_property>
+         <obj_property name="ObjectShortName">alphaProfMaxOut[1]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/alphaProf/alphaProfMaxOut[0]" type="logic">
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">alphaProfMaxOut[0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/alphaProf/alphaProfBRAMOut1" type="array">
+      <obj_property name="ElementShortName">alphaProfBRAMOut1[255:0]</obj_property>
+      <obj_property name="ObjectShortName">alphaProfBRAMOut1[255:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/ConjProdAlphaProf_Top_tb/topModule/alphaProf/alphaProfBRAMOut2" type="array">
+      <obj_property name="ElementShortName">alphaProfBRAMOut2[255:0]</obj_property>
+      <obj_property name="ObjectShortName">alphaProfBRAMOut2[255:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>

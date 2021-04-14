@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="AlphaProf_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="AlphaProf_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1311478833333fs"></ZoomStartTime>
+      <ZoomEndTime time="1311552233334fs"></ZoomEndTime>
+      <Cursor1Time time="1311520000000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="31" />
+   <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/FFT_Result_In" type="array">
+      <obj_property name="ElementShortName">FFT_Result_In[2047:0]</obj_property>
+      <obj_property name="ObjectShortName">FFT_Result_In[2047:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/cycleCounter" type="array">
+      <obj_property name="ElementShortName">cycleCounter[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cycleCounter[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/FFT_DataValid" type="logic">
+      <obj_property name="ElementShortName">FFT_DataValid</obj_property>
+      <obj_property name="ObjectShortName">FFT_DataValid</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/EOF" type="logic">
+      <obj_property name="ElementShortName">EOF</obj_property>
+      <obj_property name="ObjectShortName">EOF</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/AlphaProfile_Done" type="logic">
+      <obj_property name="ElementShortName">AlphaProfile_Done</obj_property>
+      <obj_property name="ObjectShortName">AlphaProfile_Done</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/TopBRAM_DataInReindexed" type="array">
+      <obj_property name="ElementShortName">TopBRAM_DataInReindexed[0:7][31:0]</obj_property>
+      <obj_property name="ObjectShortName">TopBRAM_DataInReindexed[0:7][31:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/TopBRAM_DataInReindexed[0]" type="array">
+         <obj_property name="ElementShortName">[0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">TopBRAM_DataInReindexed[0][31:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">24</obj_property>
+         <obj_property name="radix_otherWidth">8</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/TopBRAM_DataInReindexed[1]" type="array">
+         <obj_property name="ElementShortName">[1][31:0]</obj_property>
+         <obj_property name="ObjectShortName">TopBRAM_DataInReindexed[1][31:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">24</obj_property>
+         <obj_property name="radix_otherWidth">8</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/TopBRAM_DataInReindexed[2]" type="array">
+         <obj_property name="ElementShortName">[2][31:0]</obj_property>
+         <obj_property name="ObjectShortName">TopBRAM_DataInReindexed[2][31:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">24</obj_property>
+         <obj_property name="radix_otherWidth">8</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/TopBRAM_DataInReindexed[3]" type="array">
+         <obj_property name="ElementShortName">[3][31:0]</obj_property>
+         <obj_property name="ObjectShortName">TopBRAM_DataInReindexed[3][31:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">24</obj_property>
+         <obj_property name="radix_otherWidth">8</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/TopBRAM_DataInReindexed[4]" type="array">
+         <obj_property name="ElementShortName">[4][31:0]</obj_property>
+         <obj_property name="ObjectShortName">TopBRAM_DataInReindexed[4][31:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">24</obj_property>
+         <obj_property name="radix_otherWidth">8</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/TopBRAM_DataInReindexed[5]" type="array">
+         <obj_property name="ElementShortName">[5][31:0]</obj_property>
+         <obj_property name="ObjectShortName">TopBRAM_DataInReindexed[5][31:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">24</obj_property>
+         <obj_property name="radix_otherWidth">8</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/TopBRAM_DataInReindexed[6]" type="array">
+         <obj_property name="ElementShortName">[6][31:0]</obj_property>
+         <obj_property name="ObjectShortName">TopBRAM_DataInReindexed[6][31:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">24</obj_property>
+         <obj_property name="radix_otherWidth">8</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/TopBRAM_DataInReindexed[7]" type="array">
+         <obj_property name="ElementShortName">[7][31:0]</obj_property>
+         <obj_property name="ObjectShortName">TopBRAM_DataInReindexed[7][31:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">24</obj_property>
+         <obj_property name="radix_otherWidth">8</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/BotBRAM_DataInReindexed" type="array">
+      <obj_property name="ElementShortName">BotBRAM_DataInReindexed[0:7][31:0]</obj_property>
+      <obj_property name="ObjectShortName">BotBRAM_DataInReindexed[0:7][31:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/BotBRAM_DataInReindexed[0]" type="array">
+         <obj_property name="ElementShortName">[0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">BotBRAM_DataInReindexed[0][31:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">24</obj_property>
+         <obj_property name="radix_otherWidth">8</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/BotBRAM_DataInReindexed[1]" type="array">
+         <obj_property name="ElementShortName">[1][31:0]</obj_property>
+         <obj_property name="ObjectShortName">BotBRAM_DataInReindexed[1][31:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">24</obj_property>
+         <obj_property name="radix_otherWidth">8</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/BotBRAM_DataInReindexed[2]" type="array">
+         <obj_property name="ElementShortName">[2][31:0]</obj_property>
+         <obj_property name="ObjectShortName">BotBRAM_DataInReindexed[2][31:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">24</obj_property>
+         <obj_property name="radix_otherWidth">8</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/BotBRAM_DataInReindexed[3]" type="array">
+         <obj_property name="ElementShortName">[3][31:0]</obj_property>
+         <obj_property name="ObjectShortName">BotBRAM_DataInReindexed[3][31:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">24</obj_property>
+         <obj_property name="radix_otherWidth">8</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/BotBRAM_DataInReindexed[4]" type="array">
+         <obj_property name="ElementShortName">[4][31:0]</obj_property>
+         <obj_property name="ObjectShortName">BotBRAM_DataInReindexed[4][31:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">24</obj_property>
+         <obj_property name="radix_otherWidth">8</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/BotBRAM_DataInReindexed[5]" type="array">
+         <obj_property name="ElementShortName">[5][31:0]</obj_property>
+         <obj_property name="ObjectShortName">BotBRAM_DataInReindexed[5][31:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">24</obj_property>
+         <obj_property name="radix_otherWidth">8</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/BotBRAM_DataInReindexed[6]" type="array">
+         <obj_property name="ElementShortName">[6][31:0]</obj_property>
+         <obj_property name="ObjectShortName">BotBRAM_DataInReindexed[6][31:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">24</obj_property>
+         <obj_property name="radix_otherWidth">8</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/BotBRAM_DataInReindexed[7]" type="array">
+         <obj_property name="ElementShortName">[7][31:0]</obj_property>
+         <obj_property name="ObjectShortName">BotBRAM_DataInReindexed[7][31:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">24</obj_property>
+         <obj_property name="radix_otherWidth">8</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/TopBRAM_CommutatedSamples" type="array">
+      <obj_property name="ElementShortName">TopBRAM_CommutatedSamples[0:7][31:0]</obj_property>
+      <obj_property name="ObjectShortName">TopBRAM_CommutatedSamples[0:7][31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/TopBRAM_CommutatedSamples[0]" type="array">
+         <obj_property name="ElementShortName">[0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">TopBRAM_CommutatedSamples[0][31:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">24</obj_property>
+         <obj_property name="radix_otherWidth">8</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/TopBRAM_CommutatedSamples[1]" type="array">
+         <obj_property name="ElementShortName">[1][31:0]</obj_property>
+         <obj_property name="ObjectShortName">TopBRAM_CommutatedSamples[1][31:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">24</obj_property>
+         <obj_property name="radix_otherWidth">8</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/TopBRAM_CommutatedSamples[2]" type="array">
+         <obj_property name="ElementShortName">[2][31:0]</obj_property>
+         <obj_property name="ObjectShortName">TopBRAM_CommutatedSamples[2][31:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">24</obj_property>
+         <obj_property name="radix_otherWidth">8</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/TopBRAM_CommutatedSamples[3]" type="array">
+         <obj_property name="ElementShortName">[3][31:0]</obj_property>
+         <obj_property name="ObjectShortName">TopBRAM_CommutatedSamples[3][31:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">24</obj_property>
+         <obj_property name="radix_otherWidth">8</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/TopBRAM_CommutatedSamples[4]" type="array">
+         <obj_property name="ElementShortName">[4][31:0]</obj_property>
+         <obj_property name="ObjectShortName">TopBRAM_CommutatedSamples[4][31:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">24</obj_property>
+         <obj_property name="radix_otherWidth">8</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/TopBRAM_CommutatedSamples[5]" type="array">
+         <obj_property name="ElementShortName">[5][31:0]</obj_property>
+         <obj_property name="ObjectShortName">TopBRAM_CommutatedSamples[5][31:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">24</obj_property>
+         <obj_property name="radix_otherWidth">8</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/TopBRAM_CommutatedSamples[6]" type="array">
+         <obj_property name="ElementShortName">[6][31:0]</obj_property>
+         <obj_property name="ObjectShortName">TopBRAM_CommutatedSamples[6][31:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">24</obj_property>
+         <obj_property name="radix_otherWidth">8</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/TopBRAM_CommutatedSamples[7]" type="array">
+         <obj_property name="ElementShortName">[7][31:0]</obj_property>
+         <obj_property name="ObjectShortName">TopBRAM_CommutatedSamples[7][31:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">24</obj_property>
+         <obj_property name="radix_otherWidth">8</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/BotBRAM_CommutatedSamples" type="array">
+      <obj_property name="ElementShortName">BotBRAM_CommutatedSamples[0:7][31:0]</obj_property>
+      <obj_property name="ObjectShortName">BotBRAM_CommutatedSamples[0:7][31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/BotBRAM_CommutatedSamples[0]" type="array">
+         <obj_property name="ElementShortName">[0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">BotBRAM_CommutatedSamples[0][31:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">24</obj_property>
+         <obj_property name="radix_otherWidth">8</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/BotBRAM_CommutatedSamples[1]" type="array">
+         <obj_property name="ElementShortName">[1][31:0]</obj_property>
+         <obj_property name="ObjectShortName">BotBRAM_CommutatedSamples[1][31:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">24</obj_property>
+         <obj_property name="radix_otherWidth">8</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/BotBRAM_CommutatedSamples[2]" type="array">
+         <obj_property name="ElementShortName">[2][31:0]</obj_property>
+         <obj_property name="ObjectShortName">BotBRAM_CommutatedSamples[2][31:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">24</obj_property>
+         <obj_property name="radix_otherWidth">8</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/BotBRAM_CommutatedSamples[3]" type="array">
+         <obj_property name="ElementShortName">[3][31:0]</obj_property>
+         <obj_property name="ObjectShortName">BotBRAM_CommutatedSamples[3][31:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">24</obj_property>
+         <obj_property name="radix_otherWidth">8</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/BotBRAM_CommutatedSamples[4]" type="array">
+         <obj_property name="ElementShortName">[4][31:0]</obj_property>
+         <obj_property name="ObjectShortName">BotBRAM_CommutatedSamples[4][31:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">24</obj_property>
+         <obj_property name="radix_otherWidth">8</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/BotBRAM_CommutatedSamples[5]" type="array">
+         <obj_property name="ElementShortName">[5][31:0]</obj_property>
+         <obj_property name="ObjectShortName">BotBRAM_CommutatedSamples[5][31:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">24</obj_property>
+         <obj_property name="radix_otherWidth">8</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/BotBRAM_CommutatedSamples[6]" type="array">
+         <obj_property name="ElementShortName">[6][31:0]</obj_property>
+         <obj_property name="ObjectShortName">BotBRAM_CommutatedSamples[6][31:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">24</obj_property>
+         <obj_property name="radix_otherWidth">8</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/BotBRAM_CommutatedSamples[7]" type="array">
+         <obj_property name="ElementShortName">[7][31:0]</obj_property>
+         <obj_property name="ObjectShortName">BotBRAM_CommutatedSamples[7][31:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">24</obj_property>
+         <obj_property name="radix_otherWidth">8</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/AlphaProf_EightSamplesValid" type="logic">
+      <obj_property name="ElementShortName">AlphaProf_EightSamplesValid</obj_property>
+      <obj_property name="ObjectShortName">AlphaProf_EightSamplesValid</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/writeController_datapath/LSB_iterEq256" type="logic">
+      <obj_property name="ElementShortName">LSB_iterEq256</obj_property>
+      <obj_property name="ObjectShortName">LSB_iterEq256</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/writeController_datapath/Addr1" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Addr1[8:0]</obj_property>
+      <obj_property name="ObjectShortName">Addr1[8:0]</obj_property>
+      <obj_property name="label">WrAddr1[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/writeController_datapath/Addr2" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Addr2[8:0]</obj_property>
+      <obj_property name="ObjectShortName">Addr2[8:0]</obj_property>
+      <obj_property name="label">WrAddr2[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/topAddrsAlphaProfBRAM/addr1" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">addr1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">addr1[7:0]</obj_property>
+      <obj_property name="label">TopBRAM_WrAddr1[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/bottomAddrsAlphaProfBRAM/addr1" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">addr1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">addr1[7:0]</obj_property>
+      <obj_property name="label">BotBRAM_WrAddr1[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/alphaProf_BRAM_PrevCycle_MuxOut1" type="array">
+      <obj_property name="ElementShortName">alphaProf_BRAM_PrevCycle_MuxOut1[255:0]</obj_property>
+      <obj_property name="ObjectShortName">alphaProf_BRAM_PrevCycle_MuxOut1[255:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/alphaProf_BRAM_PrevCycle_MuxOut2" type="array">
+      <obj_property name="ElementShortName">alphaProf_BRAM_PrevCycle_MuxOut2[255:0]</obj_property>
+      <obj_property name="ObjectShortName">alphaProf_BRAM_PrevCycle_MuxOut2[255:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="vbus88" type="vbus">
+      <obj_property name="label">TopBRAM_RdAddr</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/Controller_rdAddr2[8]" type="logic">
+         <obj_property name="ElementShortName">[8]</obj_property>
+         <obj_property name="ObjectShortName">Controller_rdAddr2[8]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/Controller_rdAddr2[7]" type="logic">
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">Controller_rdAddr2[7]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/Controller_rdAddr2[6]" type="logic">
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">Controller_rdAddr2[6]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/Controller_rdAddr2[5]" type="logic">
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">Controller_rdAddr2[5]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/Controller_rdAddr2[4]" type="logic">
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">Controller_rdAddr2[4]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/Controller_rdAddr2[3]" type="logic">
+         <obj_property name="ElementShortName">[3]</obj_property>
+         <obj_property name="ObjectShortName">Controller_rdAddr2[3]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/Controller_rdAddr2[2]" type="logic">
+         <obj_property name="ElementShortName">[2]</obj_property>
+         <obj_property name="ObjectShortName">Controller_rdAddr2[2]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/Controller_rdAddr2[1]" type="logic">
+         <obj_property name="ElementShortName">[1]</obj_property>
+         <obj_property name="ObjectShortName">Controller_rdAddr2[1]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="vbus106" type="vbus">
+      <obj_property name="label">BotBRAM_RdAddr</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/Controller_rdAddr1[8]" type="logic">
+         <obj_property name="ElementShortName">[8]</obj_property>
+         <obj_property name="ObjectShortName">Controller_rdAddr1[8]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/Controller_rdAddr1[7]" type="logic">
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">Controller_rdAddr1[7]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/Controller_rdAddr1[6]" type="logic">
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">Controller_rdAddr1[6]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/Controller_rdAddr1[5]" type="logic">
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">Controller_rdAddr1[5]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/Controller_rdAddr1[4]" type="logic">
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">Controller_rdAddr1[4]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/Controller_rdAddr1[3]" type="logic">
+         <obj_property name="ElementShortName">[3]</obj_property>
+         <obj_property name="ObjectShortName">Controller_rdAddr1[3]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/Controller_rdAddr1[2]" type="logic">
+         <obj_property name="ElementShortName">[2]</obj_property>
+         <obj_property name="ObjectShortName">Controller_rdAddr1[2]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/Controller_rdAddr1[1]" type="logic">
+         <obj_property name="ElementShortName">[1]</obj_property>
+         <obj_property name="ObjectShortName">Controller_rdAddr1[1]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/prevCycleDataBitTop" type="logic">
+      <obj_property name="ElementShortName">prevCycleDataBitTop</obj_property>
+      <obj_property name="ObjectShortName">prevCycleDataBitTop</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/prevCycleDataBitBot" type="logic">
+      <obj_property name="ElementShortName">prevCycleDataBitBot</obj_property>
+      <obj_property name="ObjectShortName">prevCycleDataBitBot</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/EightSamplesReady_RegOut" type="logic">
+      <obj_property name="ElementShortName">EightSamplesReady_RegOut</obj_property>
+      <obj_property name="ObjectShortName">EightSamplesReady_RegOut</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/AlphaProfileDone_RegOut" type="logic">
+      <obj_property name="ElementShortName">AlphaProfileDone_RegOut</obj_property>
+      <obj_property name="ObjectShortName">AlphaProfileDone_RegOut</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/isLastStage_RegOut" type="logic">
+      <obj_property name="ElementShortName">isLastStage_RegOut</obj_property>
+      <obj_property name="ObjectShortName">isLastStage_RegOut</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/EightSamplesReady" type="logic">
+      <obj_property name="ElementShortName">EightSamplesReady</obj_property>
+      <obj_property name="ObjectShortName">EightSamplesReady</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/AlphaProfileDone" type="logic">
+      <obj_property name="ElementShortName">AlphaProfileDone</obj_property>
+      <obj_property name="ObjectShortName">AlphaProfileDone</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/isLastStage" type="logic">
+      <obj_property name="ElementShortName">isLastStage</obj_property>
+      <obj_property name="ObjectShortName">isLastStage</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/AlphaProf_EightSamples" type="array">
+      <obj_property name="ElementShortName">AlphaProf_EightSamples[255:0]</obj_property>
+      <obj_property name="ObjectShortName">AlphaProf_EightSamples[255:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/AlphaProf_FinalEightSamples" type="array">
+      <obj_property name="ElementShortName">AlphaProf_FinalEightSamples[255:0]</obj_property>
+      <obj_property name="ObjectShortName">AlphaProf_FinalEightSamples[255:0]</obj_property>
+   </wvobject>
+</wave_config>

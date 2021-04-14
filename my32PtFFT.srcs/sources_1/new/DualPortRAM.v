@@ -42,17 +42,15 @@ module DualPortRAM(
 
     parameter addrSize = 5;
     parameter wordWidth = 32;
-    parameter filename = "testFile.txt";
+    parameter filename = "C:/Data/VivadoProjects/my32PtFFT/testFile";
 
     reg [wordWidth-1:0] myMemory [2**addrSize-1:0];
-    integer i;
+    //integer i;
     
     initial begin
-        /*
-        for (i = 0; i < 2**addrSize; i = i + 1) begin
-            myMemory[i] <= i;
-        end
-        */
+//        for (i = 0; i < 2**addrSize; i = i + 1) begin
+//            myMemory[i] <= i;
+//        end
         $readmemh(filename, myMemory);
     end
     

@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Webtalk v2015.4.2 (64-bit)
+# SW Build 1494164 on Fri Feb 26 04:18:56 MST 2016
+# IP Build 1491208 on Wed Feb 24 03:25:39 MST 2016
+# Start of session at: Sun Apr 17 21:10:02 2016
+# Process ID: 1060
+# Current directory: C:/Users/jmack2545.ENGR-RCL08G/Documents/FPGA/my32Pt_FFT/my32Pt_FFT_2014.1.sim/sim_1/synth/func
+# Command line: wbtcv.exe -mode batch -source C:/Users/jmack2545.ENGR-RCL08G/Documents/FPGA/my32Pt_FFT/my32Pt_FFT_2014.1.sim/sim_1/synth/func/xsim.dir/FloP_Complex_Mult_tb_func_synth/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/jmack2545.ENGR-RCL08G/Documents/FPGA/my32Pt_FFT/my32Pt_FFT_2014.1.sim/sim_1/synth/func/webtalk.log
+# Journal file: C:/Users/jmack2545.ENGR-RCL08G/Documents/FPGA/my32Pt_FFT/my32Pt_FFT_2014.1.sim/sim_1/synth/func\webtalk.jou
+#-----------------------------------------------------------
+Sourcing tcl script 'C:/Xilinx/Vivado/2015.4/scripts/init.tcl'
+source C:/Users/jmack2545.ENGR-RCL08G/Documents/FPGA/my32Pt_FFT/my32Pt_FFT_2014.1.sim/sim_1/synth/func/xsim.dir/FloP_Complex_Mult_tb_func_synth/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sun Apr 17 21:10:03 2016...

@@ -48,7 +48,7 @@ module FFT_32_Pt_tb();
     FFT_32_Pt_Datapath myFFT(.Re_x(Re_X), .Im_x(Im_X), .Re_Out(Re_Out), .Im_Out(Im_Out),
                     .clk(clk), .reset(reset), .done(done));
     */
-    FFT_32_Pt_TopControllerWithRAM myFFT(.clk(clk), .reset(reset));
+    FFT_32_Pt_TopControllerWithRAM myFFT(.clk(clk), .reset(reset), .Re_Out(Re_Out), .Im_Out(Im_Out));
     
     always begin
         clk <= 1'b0; #10;

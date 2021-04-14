@@ -1,0 +1,2257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="AlphaProf_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="AlphaProf_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="139200000001fs"></ZoomEndTime>
+      <Cursor1Time time="100000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="31" />
+   <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/FFT_Reduced_Result_In" type="array">
+      <obj_property name="ElementShortName">FFT_Reduced_Result_In[63:0]</obj_property>
+      <obj_property name="ObjectShortName">FFT_Reduced_Result_In[63:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/FFT_DataValid" type="logic">
+      <obj_property name="ElementShortName">FFT_DataValid</obj_property>
+      <obj_property name="ObjectShortName">FFT_DataValid</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/absValDone" type="logic">
+      <obj_property name="ElementShortName">absValDone</obj_property>
+      <obj_property name="ObjectShortName">absValDone</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/absValDone_RegOut" type="logic">
+      <obj_property name="ElementShortName">absValDone_RegOut</obj_property>
+      <obj_property name="ObjectShortName">absValDone_RegOut</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTValid_RegOut" type="logic">
+      <obj_property name="ElementShortName">mergedFFTValid_RegOut</obj_property>
+      <obj_property name="ObjectShortName">mergedFFTValid_RegOut</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/AlphaProfile_Done" type="logic">
+      <obj_property name="ElementShortName">AlphaProfile_Done</obj_property>
+      <obj_property name="ObjectShortName">AlphaProfile_Done</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/ReductionXOR_BRAM_Out" type="logic">
+      <obj_property name="ElementShortName">ReductionXOR_BRAM_Out</obj_property>
+      <obj_property name="ObjectShortName">ReductionXOR_BRAM_Out</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/Controller_Addr1" type="array">
+      <obj_property name="ElementShortName">Controller_Addr1[8:0]</obj_property>
+      <obj_property name="ObjectShortName">Controller_Addr1[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/Controller_Addr2" type="array">
+      <obj_property name="ElementShortName">Controller_Addr2[8:0]</obj_property>
+      <obj_property name="ObjectShortName">Controller_Addr2[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut" type="array">
+      <obj_property name="ElementShortName">mergedFFTSamples_RegOut[511:0]</obj_property>
+      <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[511:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="vbus1592" type="vbus">
+      <obj_property name="label">New Virtual Bus 15</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[511]" type="logic">
+         <obj_property name="ElementShortName">[511]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[511]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[510]" type="logic">
+         <obj_property name="ElementShortName">[510]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[510]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[509]" type="logic">
+         <obj_property name="ElementShortName">[509]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[509]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[508]" type="logic">
+         <obj_property name="ElementShortName">[508]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[508]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[507]" type="logic">
+         <obj_property name="ElementShortName">[507]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[507]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[506]" type="logic">
+         <obj_property name="ElementShortName">[506]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[506]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[505]" type="logic">
+         <obj_property name="ElementShortName">[505]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[505]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[504]" type="logic">
+         <obj_property name="ElementShortName">[504]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[504]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[503]" type="logic">
+         <obj_property name="ElementShortName">[503]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[503]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[502]" type="logic">
+         <obj_property name="ElementShortName">[502]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[502]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[501]" type="logic">
+         <obj_property name="ElementShortName">[501]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[501]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[500]" type="logic">
+         <obj_property name="ElementShortName">[500]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[500]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[499]" type="logic">
+         <obj_property name="ElementShortName">[499]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[499]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[498]" type="logic">
+         <obj_property name="ElementShortName">[498]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[498]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[497]" type="logic">
+         <obj_property name="ElementShortName">[497]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[497]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[496]" type="logic">
+         <obj_property name="ElementShortName">[496]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[496]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[495]" type="logic">
+         <obj_property name="ElementShortName">[495]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[495]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[494]" type="logic">
+         <obj_property name="ElementShortName">[494]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[494]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[493]" type="logic">
+         <obj_property name="ElementShortName">[493]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[493]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[492]" type="logic">
+         <obj_property name="ElementShortName">[492]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[492]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[491]" type="logic">
+         <obj_property name="ElementShortName">[491]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[491]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[490]" type="logic">
+         <obj_property name="ElementShortName">[490]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[490]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[489]" type="logic">
+         <obj_property name="ElementShortName">[489]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[489]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[488]" type="logic">
+         <obj_property name="ElementShortName">[488]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[488]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[487]" type="logic">
+         <obj_property name="ElementShortName">[487]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[487]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[486]" type="logic">
+         <obj_property name="ElementShortName">[486]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[486]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[485]" type="logic">
+         <obj_property name="ElementShortName">[485]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[485]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[484]" type="logic">
+         <obj_property name="ElementShortName">[484]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[484]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[483]" type="logic">
+         <obj_property name="ElementShortName">[483]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[483]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[482]" type="logic">
+         <obj_property name="ElementShortName">[482]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[482]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[481]" type="logic">
+         <obj_property name="ElementShortName">[481]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[481]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[480]" type="logic">
+         <obj_property name="ElementShortName">[480]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[480]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="vbus1559" type="vbus">
+      <obj_property name="label">New Virtual Bus 14</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[479]" type="logic">
+         <obj_property name="ElementShortName">[479]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[479]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[478]" type="logic">
+         <obj_property name="ElementShortName">[478]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[478]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[477]" type="logic">
+         <obj_property name="ElementShortName">[477]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[477]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[476]" type="logic">
+         <obj_property name="ElementShortName">[476]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[476]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[475]" type="logic">
+         <obj_property name="ElementShortName">[475]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[475]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[474]" type="logic">
+         <obj_property name="ElementShortName">[474]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[474]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[473]" type="logic">
+         <obj_property name="ElementShortName">[473]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[473]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[472]" type="logic">
+         <obj_property name="ElementShortName">[472]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[472]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[471]" type="logic">
+         <obj_property name="ElementShortName">[471]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[471]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[470]" type="logic">
+         <obj_property name="ElementShortName">[470]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[470]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[469]" type="logic">
+         <obj_property name="ElementShortName">[469]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[469]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[468]" type="logic">
+         <obj_property name="ElementShortName">[468]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[468]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[467]" type="logic">
+         <obj_property name="ElementShortName">[467]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[467]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[466]" type="logic">
+         <obj_property name="ElementShortName">[466]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[466]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[465]" type="logic">
+         <obj_property name="ElementShortName">[465]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[465]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[464]" type="logic">
+         <obj_property name="ElementShortName">[464]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[464]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[463]" type="logic">
+         <obj_property name="ElementShortName">[463]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[463]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[462]" type="logic">
+         <obj_property name="ElementShortName">[462]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[462]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[461]" type="logic">
+         <obj_property name="ElementShortName">[461]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[461]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[460]" type="logic">
+         <obj_property name="ElementShortName">[460]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[460]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[459]" type="logic">
+         <obj_property name="ElementShortName">[459]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[459]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[458]" type="logic">
+         <obj_property name="ElementShortName">[458]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[458]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[457]" type="logic">
+         <obj_property name="ElementShortName">[457]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[457]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[456]" type="logic">
+         <obj_property name="ElementShortName">[456]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[456]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[455]" type="logic">
+         <obj_property name="ElementShortName">[455]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[455]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[454]" type="logic">
+         <obj_property name="ElementShortName">[454]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[454]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[453]" type="logic">
+         <obj_property name="ElementShortName">[453]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[453]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[452]" type="logic">
+         <obj_property name="ElementShortName">[452]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[452]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[451]" type="logic">
+         <obj_property name="ElementShortName">[451]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[451]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[450]" type="logic">
+         <obj_property name="ElementShortName">[450]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[450]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[449]" type="logic">
+         <obj_property name="ElementShortName">[449]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[449]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[448]" type="logic">
+         <obj_property name="ElementShortName">[448]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[448]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="vbus1526" type="vbus">
+      <obj_property name="label">New Virtual Bus 13</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[447]" type="logic">
+         <obj_property name="ElementShortName">[447]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[447]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[446]" type="logic">
+         <obj_property name="ElementShortName">[446]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[446]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[445]" type="logic">
+         <obj_property name="ElementShortName">[445]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[445]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[444]" type="logic">
+         <obj_property name="ElementShortName">[444]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[444]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[443]" type="logic">
+         <obj_property name="ElementShortName">[443]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[443]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[442]" type="logic">
+         <obj_property name="ElementShortName">[442]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[442]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[441]" type="logic">
+         <obj_property name="ElementShortName">[441]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[441]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[440]" type="logic">
+         <obj_property name="ElementShortName">[440]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[440]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[439]" type="logic">
+         <obj_property name="ElementShortName">[439]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[439]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[438]" type="logic">
+         <obj_property name="ElementShortName">[438]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[438]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[437]" type="logic">
+         <obj_property name="ElementShortName">[437]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[437]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[436]" type="logic">
+         <obj_property name="ElementShortName">[436]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[436]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[435]" type="logic">
+         <obj_property name="ElementShortName">[435]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[435]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[434]" type="logic">
+         <obj_property name="ElementShortName">[434]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[434]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[433]" type="logic">
+         <obj_property name="ElementShortName">[433]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[433]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[432]" type="logic">
+         <obj_property name="ElementShortName">[432]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[432]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[431]" type="logic">
+         <obj_property name="ElementShortName">[431]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[431]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[430]" type="logic">
+         <obj_property name="ElementShortName">[430]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[430]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[429]" type="logic">
+         <obj_property name="ElementShortName">[429]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[429]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[428]" type="logic">
+         <obj_property name="ElementShortName">[428]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[428]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[427]" type="logic">
+         <obj_property name="ElementShortName">[427]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[427]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[426]" type="logic">
+         <obj_property name="ElementShortName">[426]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[426]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[425]" type="logic">
+         <obj_property name="ElementShortName">[425]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[425]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[424]" type="logic">
+         <obj_property name="ElementShortName">[424]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[424]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[423]" type="logic">
+         <obj_property name="ElementShortName">[423]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[423]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[422]" type="logic">
+         <obj_property name="ElementShortName">[422]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[422]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[421]" type="logic">
+         <obj_property name="ElementShortName">[421]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[421]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[420]" type="logic">
+         <obj_property name="ElementShortName">[420]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[420]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[419]" type="logic">
+         <obj_property name="ElementShortName">[419]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[419]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[418]" type="logic">
+         <obj_property name="ElementShortName">[418]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[418]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[417]" type="logic">
+         <obj_property name="ElementShortName">[417]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[417]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[416]" type="logic">
+         <obj_property name="ElementShortName">[416]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[416]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="vbus1493" type="vbus">
+      <obj_property name="label">New Virtual Bus 12</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[415]" type="logic">
+         <obj_property name="ElementShortName">[415]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[415]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[414]" type="logic">
+         <obj_property name="ElementShortName">[414]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[414]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[413]" type="logic">
+         <obj_property name="ElementShortName">[413]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[413]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[412]" type="logic">
+         <obj_property name="ElementShortName">[412]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[412]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[411]" type="logic">
+         <obj_property name="ElementShortName">[411]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[411]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[410]" type="logic">
+         <obj_property name="ElementShortName">[410]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[410]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[409]" type="logic">
+         <obj_property name="ElementShortName">[409]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[409]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[408]" type="logic">
+         <obj_property name="ElementShortName">[408]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[408]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[407]" type="logic">
+         <obj_property name="ElementShortName">[407]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[407]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[406]" type="logic">
+         <obj_property name="ElementShortName">[406]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[406]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[405]" type="logic">
+         <obj_property name="ElementShortName">[405]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[405]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[404]" type="logic">
+         <obj_property name="ElementShortName">[404]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[404]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[403]" type="logic">
+         <obj_property name="ElementShortName">[403]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[403]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[402]" type="logic">
+         <obj_property name="ElementShortName">[402]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[402]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[401]" type="logic">
+         <obj_property name="ElementShortName">[401]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[401]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[400]" type="logic">
+         <obj_property name="ElementShortName">[400]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[400]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[399]" type="logic">
+         <obj_property name="ElementShortName">[399]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[399]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[398]" type="logic">
+         <obj_property name="ElementShortName">[398]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[398]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[397]" type="logic">
+         <obj_property name="ElementShortName">[397]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[397]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[396]" type="logic">
+         <obj_property name="ElementShortName">[396]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[396]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[395]" type="logic">
+         <obj_property name="ElementShortName">[395]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[395]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[394]" type="logic">
+         <obj_property name="ElementShortName">[394]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[394]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[393]" type="logic">
+         <obj_property name="ElementShortName">[393]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[393]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[392]" type="logic">
+         <obj_property name="ElementShortName">[392]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[392]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[391]" type="logic">
+         <obj_property name="ElementShortName">[391]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[391]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[390]" type="logic">
+         <obj_property name="ElementShortName">[390]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[390]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[389]" type="logic">
+         <obj_property name="ElementShortName">[389]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[389]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[388]" type="logic">
+         <obj_property name="ElementShortName">[388]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[388]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[387]" type="logic">
+         <obj_property name="ElementShortName">[387]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[387]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[386]" type="logic">
+         <obj_property name="ElementShortName">[386]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[386]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[385]" type="logic">
+         <obj_property name="ElementShortName">[385]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[385]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[384]" type="logic">
+         <obj_property name="ElementShortName">[384]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[384]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="vbus1460" type="vbus">
+      <obj_property name="label">New Virtual Bus 11</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[383]" type="logic">
+         <obj_property name="ElementShortName">[383]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[383]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[382]" type="logic">
+         <obj_property name="ElementShortName">[382]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[382]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[381]" type="logic">
+         <obj_property name="ElementShortName">[381]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[381]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[380]" type="logic">
+         <obj_property name="ElementShortName">[380]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[380]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[379]" type="logic">
+         <obj_property name="ElementShortName">[379]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[379]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[378]" type="logic">
+         <obj_property name="ElementShortName">[378]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[378]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[377]" type="logic">
+         <obj_property name="ElementShortName">[377]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[377]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[376]" type="logic">
+         <obj_property name="ElementShortName">[376]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[376]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[375]" type="logic">
+         <obj_property name="ElementShortName">[375]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[375]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[374]" type="logic">
+         <obj_property name="ElementShortName">[374]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[374]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[373]" type="logic">
+         <obj_property name="ElementShortName">[373]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[373]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[372]" type="logic">
+         <obj_property name="ElementShortName">[372]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[372]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[371]" type="logic">
+         <obj_property name="ElementShortName">[371]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[371]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[370]" type="logic">
+         <obj_property name="ElementShortName">[370]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[370]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[369]" type="logic">
+         <obj_property name="ElementShortName">[369]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[369]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[368]" type="logic">
+         <obj_property name="ElementShortName">[368]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[368]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[367]" type="logic">
+         <obj_property name="ElementShortName">[367]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[367]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[366]" type="logic">
+         <obj_property name="ElementShortName">[366]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[366]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[365]" type="logic">
+         <obj_property name="ElementShortName">[365]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[365]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[364]" type="logic">
+         <obj_property name="ElementShortName">[364]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[364]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[363]" type="logic">
+         <obj_property name="ElementShortName">[363]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[363]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[362]" type="logic">
+         <obj_property name="ElementShortName">[362]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[362]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[361]" type="logic">
+         <obj_property name="ElementShortName">[361]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[361]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[360]" type="logic">
+         <obj_property name="ElementShortName">[360]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[360]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[359]" type="logic">
+         <obj_property name="ElementShortName">[359]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[359]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[358]" type="logic">
+         <obj_property name="ElementShortName">[358]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[358]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[357]" type="logic">
+         <obj_property name="ElementShortName">[357]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[357]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[356]" type="logic">
+         <obj_property name="ElementShortName">[356]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[356]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[355]" type="logic">
+         <obj_property name="ElementShortName">[355]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[355]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[354]" type="logic">
+         <obj_property name="ElementShortName">[354]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[354]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[353]" type="logic">
+         <obj_property name="ElementShortName">[353]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[353]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[352]" type="logic">
+         <obj_property name="ElementShortName">[352]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[352]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="vbus1427" type="vbus">
+      <obj_property name="label">New Virtual Bus 10</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[351]" type="logic">
+         <obj_property name="ElementShortName">[351]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[351]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[350]" type="logic">
+         <obj_property name="ElementShortName">[350]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[350]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[349]" type="logic">
+         <obj_property name="ElementShortName">[349]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[349]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[348]" type="logic">
+         <obj_property name="ElementShortName">[348]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[348]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[347]" type="logic">
+         <obj_property name="ElementShortName">[347]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[347]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[346]" type="logic">
+         <obj_property name="ElementShortName">[346]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[346]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[345]" type="logic">
+         <obj_property name="ElementShortName">[345]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[345]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[344]" type="logic">
+         <obj_property name="ElementShortName">[344]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[344]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[343]" type="logic">
+         <obj_property name="ElementShortName">[343]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[343]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[342]" type="logic">
+         <obj_property name="ElementShortName">[342]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[342]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[341]" type="logic">
+         <obj_property name="ElementShortName">[341]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[341]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[340]" type="logic">
+         <obj_property name="ElementShortName">[340]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[340]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[339]" type="logic">
+         <obj_property name="ElementShortName">[339]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[339]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[338]" type="logic">
+         <obj_property name="ElementShortName">[338]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[338]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[337]" type="logic">
+         <obj_property name="ElementShortName">[337]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[337]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[336]" type="logic">
+         <obj_property name="ElementShortName">[336]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[336]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[335]" type="logic">
+         <obj_property name="ElementShortName">[335]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[335]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[334]" type="logic">
+         <obj_property name="ElementShortName">[334]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[334]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[333]" type="logic">
+         <obj_property name="ElementShortName">[333]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[333]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[332]" type="logic">
+         <obj_property name="ElementShortName">[332]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[332]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[331]" type="logic">
+         <obj_property name="ElementShortName">[331]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[331]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[330]" type="logic">
+         <obj_property name="ElementShortName">[330]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[330]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[329]" type="logic">
+         <obj_property name="ElementShortName">[329]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[329]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[328]" type="logic">
+         <obj_property name="ElementShortName">[328]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[328]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[327]" type="logic">
+         <obj_property name="ElementShortName">[327]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[327]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[326]" type="logic">
+         <obj_property name="ElementShortName">[326]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[326]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[325]" type="logic">
+         <obj_property name="ElementShortName">[325]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[325]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[324]" type="logic">
+         <obj_property name="ElementShortName">[324]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[324]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[323]" type="logic">
+         <obj_property name="ElementShortName">[323]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[323]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[322]" type="logic">
+         <obj_property name="ElementShortName">[322]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[322]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[321]" type="logic">
+         <obj_property name="ElementShortName">[321]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[321]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[320]" type="logic">
+         <obj_property name="ElementShortName">[320]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[320]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="vbus1394" type="vbus">
+      <obj_property name="label">New Virtual Bus 9</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[319]" type="logic">
+         <obj_property name="ElementShortName">[319]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[319]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[318]" type="logic">
+         <obj_property name="ElementShortName">[318]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[318]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[317]" type="logic">
+         <obj_property name="ElementShortName">[317]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[317]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[316]" type="logic">
+         <obj_property name="ElementShortName">[316]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[316]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[315]" type="logic">
+         <obj_property name="ElementShortName">[315]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[315]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[314]" type="logic">
+         <obj_property name="ElementShortName">[314]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[314]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[313]" type="logic">
+         <obj_property name="ElementShortName">[313]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[313]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[312]" type="logic">
+         <obj_property name="ElementShortName">[312]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[312]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[311]" type="logic">
+         <obj_property name="ElementShortName">[311]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[311]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[310]" type="logic">
+         <obj_property name="ElementShortName">[310]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[310]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[309]" type="logic">
+         <obj_property name="ElementShortName">[309]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[309]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[308]" type="logic">
+         <obj_property name="ElementShortName">[308]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[308]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[307]" type="logic">
+         <obj_property name="ElementShortName">[307]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[307]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[306]" type="logic">
+         <obj_property name="ElementShortName">[306]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[306]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[305]" type="logic">
+         <obj_property name="ElementShortName">[305]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[305]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[304]" type="logic">
+         <obj_property name="ElementShortName">[304]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[304]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[303]" type="logic">
+         <obj_property name="ElementShortName">[303]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[303]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[302]" type="logic">
+         <obj_property name="ElementShortName">[302]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[302]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[301]" type="logic">
+         <obj_property name="ElementShortName">[301]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[301]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[300]" type="logic">
+         <obj_property name="ElementShortName">[300]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[300]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[299]" type="logic">
+         <obj_property name="ElementShortName">[299]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[299]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[298]" type="logic">
+         <obj_property name="ElementShortName">[298]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[298]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[297]" type="logic">
+         <obj_property name="ElementShortName">[297]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[297]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[296]" type="logic">
+         <obj_property name="ElementShortName">[296]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[296]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[295]" type="logic">
+         <obj_property name="ElementShortName">[295]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[295]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[294]" type="logic">
+         <obj_property name="ElementShortName">[294]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[294]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[293]" type="logic">
+         <obj_property name="ElementShortName">[293]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[293]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[292]" type="logic">
+         <obj_property name="ElementShortName">[292]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[292]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[291]" type="logic">
+         <obj_property name="ElementShortName">[291]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[291]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[290]" type="logic">
+         <obj_property name="ElementShortName">[290]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[290]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[289]" type="logic">
+         <obj_property name="ElementShortName">[289]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[289]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[288]" type="logic">
+         <obj_property name="ElementShortName">[288]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[288]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="vbus1361" type="vbus">
+      <obj_property name="label">New Virtual Bus 8</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[287]" type="logic">
+         <obj_property name="ElementShortName">[287]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[287]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[286]" type="logic">
+         <obj_property name="ElementShortName">[286]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[286]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[285]" type="logic">
+         <obj_property name="ElementShortName">[285]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[285]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[284]" type="logic">
+         <obj_property name="ElementShortName">[284]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[284]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[283]" type="logic">
+         <obj_property name="ElementShortName">[283]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[283]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[282]" type="logic">
+         <obj_property name="ElementShortName">[282]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[282]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[281]" type="logic">
+         <obj_property name="ElementShortName">[281]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[281]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[280]" type="logic">
+         <obj_property name="ElementShortName">[280]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[280]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[279]" type="logic">
+         <obj_property name="ElementShortName">[279]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[279]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[278]" type="logic">
+         <obj_property name="ElementShortName">[278]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[278]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[277]" type="logic">
+         <obj_property name="ElementShortName">[277]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[277]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[276]" type="logic">
+         <obj_property name="ElementShortName">[276]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[276]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[275]" type="logic">
+         <obj_property name="ElementShortName">[275]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[275]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[274]" type="logic">
+         <obj_property name="ElementShortName">[274]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[274]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[273]" type="logic">
+         <obj_property name="ElementShortName">[273]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[273]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[272]" type="logic">
+         <obj_property name="ElementShortName">[272]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[272]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[271]" type="logic">
+         <obj_property name="ElementShortName">[271]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[271]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[270]" type="logic">
+         <obj_property name="ElementShortName">[270]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[270]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[269]" type="logic">
+         <obj_property name="ElementShortName">[269]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[269]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[268]" type="logic">
+         <obj_property name="ElementShortName">[268]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[268]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[267]" type="logic">
+         <obj_property name="ElementShortName">[267]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[267]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[266]" type="logic">
+         <obj_property name="ElementShortName">[266]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[266]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[265]" type="logic">
+         <obj_property name="ElementShortName">[265]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[265]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[264]" type="logic">
+         <obj_property name="ElementShortName">[264]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[264]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[263]" type="logic">
+         <obj_property name="ElementShortName">[263]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[263]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[262]" type="logic">
+         <obj_property name="ElementShortName">[262]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[262]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[261]" type="logic">
+         <obj_property name="ElementShortName">[261]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[261]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[260]" type="logic">
+         <obj_property name="ElementShortName">[260]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[260]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[259]" type="logic">
+         <obj_property name="ElementShortName">[259]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[259]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[258]" type="logic">
+         <obj_property name="ElementShortName">[258]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[258]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[257]" type="logic">
+         <obj_property name="ElementShortName">[257]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[257]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[256]" type="logic">
+         <obj_property name="ElementShortName">[256]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[256]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="vbus1328" type="vbus">
+      <obj_property name="label">New Virtual Bus 7</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[255]" type="logic">
+         <obj_property name="ElementShortName">[255]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[255]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[254]" type="logic">
+         <obj_property name="ElementShortName">[254]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[254]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[253]" type="logic">
+         <obj_property name="ElementShortName">[253]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[253]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[252]" type="logic">
+         <obj_property name="ElementShortName">[252]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[252]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[251]" type="logic">
+         <obj_property name="ElementShortName">[251]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[251]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[250]" type="logic">
+         <obj_property name="ElementShortName">[250]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[250]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[249]" type="logic">
+         <obj_property name="ElementShortName">[249]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[249]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[248]" type="logic">
+         <obj_property name="ElementShortName">[248]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[248]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[247]" type="logic">
+         <obj_property name="ElementShortName">[247]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[247]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[246]" type="logic">
+         <obj_property name="ElementShortName">[246]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[246]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[245]" type="logic">
+         <obj_property name="ElementShortName">[245]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[245]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[244]" type="logic">
+         <obj_property name="ElementShortName">[244]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[244]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[243]" type="logic">
+         <obj_property name="ElementShortName">[243]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[243]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[242]" type="logic">
+         <obj_property name="ElementShortName">[242]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[242]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[241]" type="logic">
+         <obj_property name="ElementShortName">[241]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[241]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[240]" type="logic">
+         <obj_property name="ElementShortName">[240]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[240]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[239]" type="logic">
+         <obj_property name="ElementShortName">[239]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[239]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[238]" type="logic">
+         <obj_property name="ElementShortName">[238]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[238]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[237]" type="logic">
+         <obj_property name="ElementShortName">[237]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[237]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[236]" type="logic">
+         <obj_property name="ElementShortName">[236]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[236]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[235]" type="logic">
+         <obj_property name="ElementShortName">[235]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[235]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[234]" type="logic">
+         <obj_property name="ElementShortName">[234]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[234]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[233]" type="logic">
+         <obj_property name="ElementShortName">[233]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[233]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[232]" type="logic">
+         <obj_property name="ElementShortName">[232]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[232]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[231]" type="logic">
+         <obj_property name="ElementShortName">[231]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[231]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[230]" type="logic">
+         <obj_property name="ElementShortName">[230]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[230]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[229]" type="logic">
+         <obj_property name="ElementShortName">[229]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[229]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[228]" type="logic">
+         <obj_property name="ElementShortName">[228]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[228]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[227]" type="logic">
+         <obj_property name="ElementShortName">[227]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[227]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[226]" type="logic">
+         <obj_property name="ElementShortName">[226]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[226]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[225]" type="logic">
+         <obj_property name="ElementShortName">[225]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[225]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[224]" type="logic">
+         <obj_property name="ElementShortName">[224]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[224]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="vbus1295" type="vbus">
+      <obj_property name="label">New Virtual Bus 6</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[223]" type="logic">
+         <obj_property name="ElementShortName">[223]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[223]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[222]" type="logic">
+         <obj_property name="ElementShortName">[222]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[222]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[221]" type="logic">
+         <obj_property name="ElementShortName">[221]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[221]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[220]" type="logic">
+         <obj_property name="ElementShortName">[220]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[220]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[219]" type="logic">
+         <obj_property name="ElementShortName">[219]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[219]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[218]" type="logic">
+         <obj_property name="ElementShortName">[218]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[218]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[217]" type="logic">
+         <obj_property name="ElementShortName">[217]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[217]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[216]" type="logic">
+         <obj_property name="ElementShortName">[216]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[216]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[215]" type="logic">
+         <obj_property name="ElementShortName">[215]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[215]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[214]" type="logic">
+         <obj_property name="ElementShortName">[214]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[214]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[213]" type="logic">
+         <obj_property name="ElementShortName">[213]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[213]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[212]" type="logic">
+         <obj_property name="ElementShortName">[212]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[212]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[211]" type="logic">
+         <obj_property name="ElementShortName">[211]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[211]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[210]" type="logic">
+         <obj_property name="ElementShortName">[210]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[210]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[209]" type="logic">
+         <obj_property name="ElementShortName">[209]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[209]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[208]" type="logic">
+         <obj_property name="ElementShortName">[208]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[208]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[207]" type="logic">
+         <obj_property name="ElementShortName">[207]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[207]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[206]" type="logic">
+         <obj_property name="ElementShortName">[206]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[206]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[205]" type="logic">
+         <obj_property name="ElementShortName">[205]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[205]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[204]" type="logic">
+         <obj_property name="ElementShortName">[204]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[204]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[203]" type="logic">
+         <obj_property name="ElementShortName">[203]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[203]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[202]" type="logic">
+         <obj_property name="ElementShortName">[202]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[202]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[201]" type="logic">
+         <obj_property name="ElementShortName">[201]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[201]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[200]" type="logic">
+         <obj_property name="ElementShortName">[200]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[200]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[199]" type="logic">
+         <obj_property name="ElementShortName">[199]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[199]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[198]" type="logic">
+         <obj_property name="ElementShortName">[198]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[198]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[197]" type="logic">
+         <obj_property name="ElementShortName">[197]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[197]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[196]" type="logic">
+         <obj_property name="ElementShortName">[196]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[196]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[195]" type="logic">
+         <obj_property name="ElementShortName">[195]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[195]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[194]" type="logic">
+         <obj_property name="ElementShortName">[194]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[194]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[193]" type="logic">
+         <obj_property name="ElementShortName">[193]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[193]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[192]" type="logic">
+         <obj_property name="ElementShortName">[192]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[192]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="vbus1262" type="vbus">
+      <obj_property name="label">New Virtual Bus 5</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[191]" type="logic">
+         <obj_property name="ElementShortName">[191]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[191]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[190]" type="logic">
+         <obj_property name="ElementShortName">[190]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[190]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[189]" type="logic">
+         <obj_property name="ElementShortName">[189]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[189]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[188]" type="logic">
+         <obj_property name="ElementShortName">[188]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[188]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[187]" type="logic">
+         <obj_property name="ElementShortName">[187]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[187]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[186]" type="logic">
+         <obj_property name="ElementShortName">[186]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[186]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[185]" type="logic">
+         <obj_property name="ElementShortName">[185]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[185]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[184]" type="logic">
+         <obj_property name="ElementShortName">[184]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[184]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[183]" type="logic">
+         <obj_property name="ElementShortName">[183]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[183]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[182]" type="logic">
+         <obj_property name="ElementShortName">[182]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[182]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[181]" type="logic">
+         <obj_property name="ElementShortName">[181]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[181]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[180]" type="logic">
+         <obj_property name="ElementShortName">[180]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[180]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[179]" type="logic">
+         <obj_property name="ElementShortName">[179]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[179]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[178]" type="logic">
+         <obj_property name="ElementShortName">[178]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[178]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[177]" type="logic">
+         <obj_property name="ElementShortName">[177]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[177]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[176]" type="logic">
+         <obj_property name="ElementShortName">[176]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[176]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[175]" type="logic">
+         <obj_property name="ElementShortName">[175]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[175]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[174]" type="logic">
+         <obj_property name="ElementShortName">[174]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[174]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[173]" type="logic">
+         <obj_property name="ElementShortName">[173]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[173]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[172]" type="logic">
+         <obj_property name="ElementShortName">[172]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[172]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[171]" type="logic">
+         <obj_property name="ElementShortName">[171]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[171]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[170]" type="logic">
+         <obj_property name="ElementShortName">[170]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[170]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[169]" type="logic">
+         <obj_property name="ElementShortName">[169]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[169]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[168]" type="logic">
+         <obj_property name="ElementShortName">[168]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[168]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[167]" type="logic">
+         <obj_property name="ElementShortName">[167]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[167]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[166]" type="logic">
+         <obj_property name="ElementShortName">[166]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[166]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[165]" type="logic">
+         <obj_property name="ElementShortName">[165]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[165]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[164]" type="logic">
+         <obj_property name="ElementShortName">[164]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[164]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[163]" type="logic">
+         <obj_property name="ElementShortName">[163]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[163]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[162]" type="logic">
+         <obj_property name="ElementShortName">[162]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[162]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[161]" type="logic">
+         <obj_property name="ElementShortName">[161]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[161]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[160]" type="logic">
+         <obj_property name="ElementShortName">[160]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[160]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="vbus1229" type="vbus">
+      <obj_property name="label">New Virtual Bus 4</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[159]" type="logic">
+         <obj_property name="ElementShortName">[159]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[159]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[158]" type="logic">
+         <obj_property name="ElementShortName">[158]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[158]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[157]" type="logic">
+         <obj_property name="ElementShortName">[157]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[157]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[156]" type="logic">
+         <obj_property name="ElementShortName">[156]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[156]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[155]" type="logic">
+         <obj_property name="ElementShortName">[155]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[155]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[154]" type="logic">
+         <obj_property name="ElementShortName">[154]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[154]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[153]" type="logic">
+         <obj_property name="ElementShortName">[153]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[153]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[152]" type="logic">
+         <obj_property name="ElementShortName">[152]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[152]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[151]" type="logic">
+         <obj_property name="ElementShortName">[151]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[151]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[150]" type="logic">
+         <obj_property name="ElementShortName">[150]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[150]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[149]" type="logic">
+         <obj_property name="ElementShortName">[149]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[149]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[148]" type="logic">
+         <obj_property name="ElementShortName">[148]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[148]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[147]" type="logic">
+         <obj_property name="ElementShortName">[147]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[147]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[146]" type="logic">
+         <obj_property name="ElementShortName">[146]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[146]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[145]" type="logic">
+         <obj_property name="ElementShortName">[145]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[145]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[144]" type="logic">
+         <obj_property name="ElementShortName">[144]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[144]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[143]" type="logic">
+         <obj_property name="ElementShortName">[143]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[143]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[142]" type="logic">
+         <obj_property name="ElementShortName">[142]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[142]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[141]" type="logic">
+         <obj_property name="ElementShortName">[141]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[141]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[140]" type="logic">
+         <obj_property name="ElementShortName">[140]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[140]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[139]" type="logic">
+         <obj_property name="ElementShortName">[139]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[139]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[138]" type="logic">
+         <obj_property name="ElementShortName">[138]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[138]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[137]" type="logic">
+         <obj_property name="ElementShortName">[137]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[137]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[136]" type="logic">
+         <obj_property name="ElementShortName">[136]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[136]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[135]" type="logic">
+         <obj_property name="ElementShortName">[135]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[135]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[134]" type="logic">
+         <obj_property name="ElementShortName">[134]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[134]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[133]" type="logic">
+         <obj_property name="ElementShortName">[133]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[133]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[132]" type="logic">
+         <obj_property name="ElementShortName">[132]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[132]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[131]" type="logic">
+         <obj_property name="ElementShortName">[131]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[131]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[130]" type="logic">
+         <obj_property name="ElementShortName">[130]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[130]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[129]" type="logic">
+         <obj_property name="ElementShortName">[129]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[129]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[128]" type="logic">
+         <obj_property name="ElementShortName">[128]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[128]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="vbus1196" type="vbus">
+      <obj_property name="label">New Virtual Bus 3</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[127]" type="logic">
+         <obj_property name="ElementShortName">[127]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[127]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[126]" type="logic">
+         <obj_property name="ElementShortName">[126]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[126]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[125]" type="logic">
+         <obj_property name="ElementShortName">[125]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[125]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[124]" type="logic">
+         <obj_property name="ElementShortName">[124]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[124]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[123]" type="logic">
+         <obj_property name="ElementShortName">[123]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[123]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[122]" type="logic">
+         <obj_property name="ElementShortName">[122]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[122]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[121]" type="logic">
+         <obj_property name="ElementShortName">[121]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[121]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[120]" type="logic">
+         <obj_property name="ElementShortName">[120]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[120]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[119]" type="logic">
+         <obj_property name="ElementShortName">[119]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[119]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[118]" type="logic">
+         <obj_property name="ElementShortName">[118]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[118]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[117]" type="logic">
+         <obj_property name="ElementShortName">[117]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[117]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[116]" type="logic">
+         <obj_property name="ElementShortName">[116]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[116]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[115]" type="logic">
+         <obj_property name="ElementShortName">[115]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[115]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[114]" type="logic">
+         <obj_property name="ElementShortName">[114]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[114]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[113]" type="logic">
+         <obj_property name="ElementShortName">[113]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[113]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[112]" type="logic">
+         <obj_property name="ElementShortName">[112]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[112]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[111]" type="logic">
+         <obj_property name="ElementShortName">[111]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[111]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[110]" type="logic">
+         <obj_property name="ElementShortName">[110]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[110]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[109]" type="logic">
+         <obj_property name="ElementShortName">[109]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[109]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[108]" type="logic">
+         <obj_property name="ElementShortName">[108]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[108]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[107]" type="logic">
+         <obj_property name="ElementShortName">[107]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[107]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[106]" type="logic">
+         <obj_property name="ElementShortName">[106]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[106]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[105]" type="logic">
+         <obj_property name="ElementShortName">[105]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[105]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[104]" type="logic">
+         <obj_property name="ElementShortName">[104]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[104]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[103]" type="logic">
+         <obj_property name="ElementShortName">[103]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[103]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[102]" type="logic">
+         <obj_property name="ElementShortName">[102]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[102]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[101]" type="logic">
+         <obj_property name="ElementShortName">[101]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[101]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[100]" type="logic">
+         <obj_property name="ElementShortName">[100]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[100]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[99]" type="logic">
+         <obj_property name="ElementShortName">[99]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[99]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[98]" type="logic">
+         <obj_property name="ElementShortName">[98]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[98]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[97]" type="logic">
+         <obj_property name="ElementShortName">[97]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[97]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[96]" type="logic">
+         <obj_property name="ElementShortName">[96]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[96]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="vbus1163" type="vbus">
+      <obj_property name="label">New Virtual Bus 2</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[95]" type="logic">
+         <obj_property name="ElementShortName">[95]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[95]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[94]" type="logic">
+         <obj_property name="ElementShortName">[94]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[94]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[93]" type="logic">
+         <obj_property name="ElementShortName">[93]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[93]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[92]" type="logic">
+         <obj_property name="ElementShortName">[92]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[92]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[91]" type="logic">
+         <obj_property name="ElementShortName">[91]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[91]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[90]" type="logic">
+         <obj_property name="ElementShortName">[90]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[90]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[89]" type="logic">
+         <obj_property name="ElementShortName">[89]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[89]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[88]" type="logic">
+         <obj_property name="ElementShortName">[88]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[88]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[87]" type="logic">
+         <obj_property name="ElementShortName">[87]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[87]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[86]" type="logic">
+         <obj_property name="ElementShortName">[86]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[86]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[85]" type="logic">
+         <obj_property name="ElementShortName">[85]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[85]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[84]" type="logic">
+         <obj_property name="ElementShortName">[84]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[84]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[83]" type="logic">
+         <obj_property name="ElementShortName">[83]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[83]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[82]" type="logic">
+         <obj_property name="ElementShortName">[82]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[82]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[81]" type="logic">
+         <obj_property name="ElementShortName">[81]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[81]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[80]" type="logic">
+         <obj_property name="ElementShortName">[80]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[80]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[79]" type="logic">
+         <obj_property name="ElementShortName">[79]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[79]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[78]" type="logic">
+         <obj_property name="ElementShortName">[78]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[78]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[77]" type="logic">
+         <obj_property name="ElementShortName">[77]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[77]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[76]" type="logic">
+         <obj_property name="ElementShortName">[76]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[76]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[75]" type="logic">
+         <obj_property name="ElementShortName">[75]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[75]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[74]" type="logic">
+         <obj_property name="ElementShortName">[74]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[74]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[73]" type="logic">
+         <obj_property name="ElementShortName">[73]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[73]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[72]" type="logic">
+         <obj_property name="ElementShortName">[72]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[72]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[71]" type="logic">
+         <obj_property name="ElementShortName">[71]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[71]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[70]" type="logic">
+         <obj_property name="ElementShortName">[70]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[70]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[69]" type="logic">
+         <obj_property name="ElementShortName">[69]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[69]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[68]" type="logic">
+         <obj_property name="ElementShortName">[68]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[68]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[67]" type="logic">
+         <obj_property name="ElementShortName">[67]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[67]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[66]" type="logic">
+         <obj_property name="ElementShortName">[66]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[66]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[65]" type="logic">
+         <obj_property name="ElementShortName">[65]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[65]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[64]" type="logic">
+         <obj_property name="ElementShortName">[64]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[64]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="vbus1130" type="vbus">
+      <obj_property name="label">New Virtual Bus 1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[63]" type="logic">
+         <obj_property name="ElementShortName">[63]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[63]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[62]" type="logic">
+         <obj_property name="ElementShortName">[62]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[62]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[61]" type="logic">
+         <obj_property name="ElementShortName">[61]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[61]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[60]" type="logic">
+         <obj_property name="ElementShortName">[60]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[60]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[59]" type="logic">
+         <obj_property name="ElementShortName">[59]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[59]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[58]" type="logic">
+         <obj_property name="ElementShortName">[58]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[58]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[57]" type="logic">
+         <obj_property name="ElementShortName">[57]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[57]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[56]" type="logic">
+         <obj_property name="ElementShortName">[56]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[56]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[55]" type="logic">
+         <obj_property name="ElementShortName">[55]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[55]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[54]" type="logic">
+         <obj_property name="ElementShortName">[54]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[54]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[53]" type="logic">
+         <obj_property name="ElementShortName">[53]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[53]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[52]" type="logic">
+         <obj_property name="ElementShortName">[52]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[52]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[51]" type="logic">
+         <obj_property name="ElementShortName">[51]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[51]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[50]" type="logic">
+         <obj_property name="ElementShortName">[50]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[50]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[49]" type="logic">
+         <obj_property name="ElementShortName">[49]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[49]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[48]" type="logic">
+         <obj_property name="ElementShortName">[48]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[48]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[47]" type="logic">
+         <obj_property name="ElementShortName">[47]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[47]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[46]" type="logic">
+         <obj_property name="ElementShortName">[46]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[46]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[45]" type="logic">
+         <obj_property name="ElementShortName">[45]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[45]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[44]" type="logic">
+         <obj_property name="ElementShortName">[44]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[44]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[43]" type="logic">
+         <obj_property name="ElementShortName">[43]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[43]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[42]" type="logic">
+         <obj_property name="ElementShortName">[42]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[42]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[41]" type="logic">
+         <obj_property name="ElementShortName">[41]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[41]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[40]" type="logic">
+         <obj_property name="ElementShortName">[40]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[40]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[39]" type="logic">
+         <obj_property name="ElementShortName">[39]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[39]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[38]" type="logic">
+         <obj_property name="ElementShortName">[38]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[38]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[37]" type="logic">
+         <obj_property name="ElementShortName">[37]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[37]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[36]" type="logic">
+         <obj_property name="ElementShortName">[36]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[36]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[35]" type="logic">
+         <obj_property name="ElementShortName">[35]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[35]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[34]" type="logic">
+         <obj_property name="ElementShortName">[34]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[34]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[33]" type="logic">
+         <obj_property name="ElementShortName">[33]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[33]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[32]" type="logic">
+         <obj_property name="ElementShortName">[32]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[32]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="vbus1097" type="vbus">
+      <obj_property name="label">New Virtual Bus</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[31]" type="logic">
+         <obj_property name="ElementShortName">[31]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[31]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[30]" type="logic">
+         <obj_property name="ElementShortName">[30]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[30]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[29]" type="logic">
+         <obj_property name="ElementShortName">[29]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[29]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[28]" type="logic">
+         <obj_property name="ElementShortName">[28]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[28]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[27]" type="logic">
+         <obj_property name="ElementShortName">[27]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[27]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[26]" type="logic">
+         <obj_property name="ElementShortName">[26]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[26]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[25]" type="logic">
+         <obj_property name="ElementShortName">[25]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[25]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[24]" type="logic">
+         <obj_property name="ElementShortName">[24]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[24]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[23]" type="logic">
+         <obj_property name="ElementShortName">[23]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[23]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[22]" type="logic">
+         <obj_property name="ElementShortName">[22]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[22]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[21]" type="logic">
+         <obj_property name="ElementShortName">[21]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[21]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[20]" type="logic">
+         <obj_property name="ElementShortName">[20]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[20]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[19]" type="logic">
+         <obj_property name="ElementShortName">[19]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[19]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[18]" type="logic">
+         <obj_property name="ElementShortName">[18]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[18]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[17]" type="logic">
+         <obj_property name="ElementShortName">[17]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[17]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[16]" type="logic">
+         <obj_property name="ElementShortName">[16]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[16]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[15]" type="logic">
+         <obj_property name="ElementShortName">[15]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[15]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[14]" type="logic">
+         <obj_property name="ElementShortName">[14]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[14]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[13]" type="logic">
+         <obj_property name="ElementShortName">[13]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[13]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[12]" type="logic">
+         <obj_property name="ElementShortName">[12]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[12]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[11]" type="logic">
+         <obj_property name="ElementShortName">[11]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[11]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[10]" type="logic">
+         <obj_property name="ElementShortName">[10]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[10]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[9]" type="logic">
+         <obj_property name="ElementShortName">[9]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[9]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[8]" type="logic">
+         <obj_property name="ElementShortName">[8]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[8]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[7]" type="logic">
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[7]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[6]" type="logic">
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[6]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[5]" type="logic">
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[5]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[4]" type="logic">
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[4]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[3]" type="logic">
+         <obj_property name="ElementShortName">[3]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[3]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[2]" type="logic">
+         <obj_property name="ElementShortName">[2]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[2]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[1]" type="logic">
+         <obj_property name="ElementShortName">[1]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[1]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/mergedFFTSamples_RegOut[0]" type="logic">
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">mergedFFTSamples_RegOut[0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/alphaProfBRAMOut1" type="array">
+      <obj_property name="ElementShortName">alphaProfBRAMOut1[255:0]</obj_property>
+      <obj_property name="ObjectShortName">alphaProfBRAMOut1[255:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/alphaProfBRAMOut2" type="array">
+      <obj_property name="ElementShortName">alphaProfBRAMOut2[255:0]</obj_property>
+      <obj_property name="ObjectShortName">alphaProfBRAMOut2[255:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/AlphaProf_tb/myProf/alphaProfMaxOut" type="array">
+      <obj_property name="ElementShortName">alphaProfMaxOut[511:0]</obj_property>
+      <obj_property name="ObjectShortName">alphaProfMaxOut[511:0]</obj_property>
+   </wvobject>
+</wave_config>

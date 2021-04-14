@@ -1,0 +1,232 @@
+`timescale 1ns / 1ps
+
+module SCD_AlphaProf_Top_tb();
+
+`include "CLOG2_vh.vh"
+
+//`define PostImplSim 1
+
+localparam numLanes = 8;
+localparam WindowingFuncFilename = "C:/Users/jmack2545.ENGR-RCL08G/Documents/FPGA/my32Pt_FFT/Windowing_DownConv_ROM_Files/hamming_rom_file.txt";
+localparam DownConvFilenames = "C:/Users/jmack2545.ENGR-RCL08G/Documents/FPGA/my32Pt_FFT/Windowing_DownConv_ROM_Files/downconv_rom_k0.txtC:/Users/jmack2545.ENGR-RCL08G/Documents/FPGA/my32Pt_FFT/Windowing_DownConv_ROM_Files/downconv_rom_k1.txtC:/Users/jmack2545.ENGR-RCL08G/Documents/FPGA/my32Pt_FFT/Windowing_DownConv_ROM_Files/downconv_rom_k2.txtC:/Users/jmack2545.ENGR-RCL08G/Documents/FPGA/my32Pt_FFT/Windowing_DownConv_ROM_Files/downconv_rom_k3.txt";
+localparam DownConvFilenameLength = 105;
+
+//Don't actually change these, they're just meant to connect with terms from the paper
+//Decides Initial FFT Pts & Windowing/DownConv ROM sizes
+localparam Np = 256;
+//Decides ConjProd FFT Pts
+localparam P = 32;
+
+localparam ReImWidth = 32;
+localparam CmplxWidth = 2*ReImWidth;
+//More intuitive way of recognizing what Np influences
+localparam numWords = Np;
+
+//The size of the FFT used in the ConjProd Iterative FFT section
+localparam FFT_Pts = 32;
+
+//Assuming the data is coming in the form {(Re, Im), (Re, Im), (Re, Im), ...}
+//Complex Sample 0 is at the MSB (leftmost) and proceeds forward through Sample 1, 2, ...
+reg [numLanes*CmplxWidth - 1 : 0] signalData = {{numLanes*CmplxWidth}{1'b0}};
+reg dataValid = 1'b0;
+reg clk_P = 1'b0;
+reg reset = 1'b0;
+
+wire clk_N;
+wire ConjProd_Done;
+wire AlphaProf_Done;
+wire AlphaProf_EightSamplesValid;
+//wire [FFT_Pts/4*ReImWidth - 1 : 0] alphaProfBRAMOut1Output, alphaProfBRAMOut2Output;
+wire [numLanes*CmplxWidth - 1 : 0] commonDataBus;
+
+assign commonDataBus = (dataValid == 1'b1) ? signalData : {{numLanes*CmplxWidth}{1'bz}};
+
+SCD_AlphaProf_Top #(.numLanes(numLanes), .WindowingFuncFilename(WindowingFuncFilename), .DownConvFilenames(DownConvFilenames), .DownConvFilenameLength(DownConvFilenameLength))
+    theFullDesign(
+        .commonDataBus(commonDataBus), .dataValid(dataValid), .clk_P(clk_P), .clk_N(clk_N), .reset(reset), 
+        .ConjProd_Done(ConjProd_Done), .AlphaProf_Done(AlphaProf_Done), .AlphaProf_EightSamplesValid(AlphaProf_EightSamplesValid)
+    );
+
+localparam inputFilenames = {"C:/Users/jmack2545.ENGR-RCL08G/Documents/MATLAB/Josh/FullSCD_Testcases/OFDM/OFDM_SCD_Testcase_2_20_17_0.txt",
+                             "C:/Users/jmack2545.ENGR-RCL08G/Documents/MATLAB/Josh/FullSCD_Testcases/OFDM/OFDM_SCD_Testcase_2_20_17_1.txt",
+                             "C:/Users/jmack2545.ENGR-RCL08G/Documents/MATLAB/Josh/FullSCD_Testcases/OFDM/OFDM_SCD_Testcase_2_20_17_2.txt",
+                             "C:/Users/jmack2545.ENGR-RCL08G/Documents/MATLAB/Josh/FullSCD_Testcases/OFDM/OFDM_SCD_Testcase_2_20_17_3.txt",
+                             "C:/Users/jmack2545.ENGR-RCL08G/Documents/MATLAB/Josh/FullSCD_Testcases/OFDM/OFDM_SCD_Testcase_2_20_17_4.txt",
+                             "C:/Users/jmack2545.ENGR-RCL08G/Documents/MATLAB/Josh/FullSCD_Testcases/OFDM/OFDM_SCD_Testcase_2_20_17_5.txt",
+                             "C:/Users/jmack2545.ENGR-RCL08G/Documents/MATLAB/Josh/FullSCD_Testcases/OFDM/OFDM_SCD_Testcase_2_20_17_6.txt",
+                             "C:/Users/jmack2545.ENGR-RCL08G/Documents/MATLAB/Josh/FullSCD_Testcases/OFDM/OFDM_SCD_Testcase_2_20_17_7.txt"};
+localparam inputFilenameLength = 107;
+integer fileHandles [0:numLanes-1];
+integer i = 0, j = 0;
+reg EOF = 0;
+
+localparam postDownConvFilename = "C:/Users/jmack2545.ENGR-RCL08G/Documents/MATLAB/Josh/FullSCD_Results/OFDM/OFDM_SCD_PostDownConv_NewAlphaProfPipeline.txt";
+integer postDownConvHandle = 0;
+
+localparam conjProdFFTFilename = "C:/Users/jmack2545.ENGR-RCL08G/Documents/MATLAB/Josh/FullSCD_Results/OFDM/OFDM_SCD_ConjProdFFTs_NewAlphaProfPipeline.txt";
+integer conjProdFFTsHandle = 0;
+
+localparam alphaProfFilename = "C:/Users/jmack2545.ENGR-RCL08G/Documents/MATLAB/Josh/FullSCD_Results/OFDM/OFDM_SCD_AlphaProf_NewAlphaProfPipeline.txt";
+integer alphaProfHandle = 0;
+
+localparam alphaProfFilename_databusMethod = "C:/Users/jmack2545.ENGR-RCL08G/Documents/MATLAB/Josh/FullSCD_Results/OFDM/OFDM_SCD_AlphaProf_PostImpl.txt";
+integer alphaProfHandle_databusMethod = 0;
+
+integer cycleCounter = 0;
+
+assign clk_N = ~clk_P;
+always begin
+    #5; clk_P <= 1'b1;
+    #5; clk_P <= 1'b0;
+    cycleCounter = cycleCounter + 1;
+end
+
+//Handles feeding data into the system
+initial begin
+    for (i = 0; i < numLanes; i = i + 1) begin
+        fileHandles[i] = $fopen(inputFilenames[(numLanes-i)*8*inputFilenameLength - 1 -: 8*inputFilenameLength], "r");
+        if (fileHandles[i] == 0) begin
+            $error("Failed to open file %d", i);
+            $finish;
+        end
+        else begin
+            $display("Opened file %d for reading", i);
+        end
+    end
+    
+    `ifdef PostImplSim
+        //Wait for the Global Set/Reset (GSR) to release before beginning computation
+        //Looks like it's 100nS, so wait that long before doing anything
+        #100;
+    `endif
+    
+    @(posedge clk_P);
+    //There are 8 lanes and 32*256 "points" to compute, so 32*256/8 = 1024 cycles in all should do it.
+    for (i = 0; i < 1024; i = i + 1) begin
+        for (j = 0; j < numLanes; j = j + 1) begin
+            EOF = $fscanf(fileHandles[j], "%b\n", signalData[(numLanes-j)*CmplxWidth - 1 -: CmplxWidth]);
+        end
+        dataValid <= 1'b1;
+        @(posedge clk_P);
+    end
+    dataValid <= 1'b0;
+    for (j = 0; j < numLanes; j = j + 1) begin
+        $fclose(fileHandles[j]);
+    end
+    @(posedge clk_P);
+end
+
+//These sections only work with behavioral simulations because of how they use the object-type indexing "theFullDesign.downConv_dataValidOut" type operations
+//After implementation, basically all of those nets are either renamed, merged with other nets, or removed entirely, so that doesn't work
+`ifndef PostImplSim
+    //Handles writing the post pre-processing pieces to a file for analysis
+    initial begin
+        postDownConvHandle = $fopen(postDownConvFilename, "w");
+        if (postDownConvHandle == 0) begin
+            $error("Failed to open post down conv output file for writing");
+            $finish;
+        end
+        else begin
+            $display("Opened post down conv output file for writing");
+        end
+        
+        //Wait for data to become available
+        wait(theFullDesign.downConv_dataValidOut);
+        //Needs to latch into a register or something
+        @(posedge clk_P);
+        //Begin writing the data to our output file
+        while (theFullDesign.downConv_dataValidOut) begin
+            //It's numLanes=8 samples crammed next to each other -- I believe in the form "Re0Im0Re1Im1..."
+            $fwrite(postDownConvHandle, "%b\n", theFullDesign.downConvData);
+            //And wait for the next clock cycle
+            @(posedge clk_P);
+        end
+        
+        $display("Finished writing down converted data to output file!");
+        $fclose(postDownConvHandle);
+    end
+    
+    //Handles writing all of the conjugate product FFTs to a file for analysis
+    initial begin
+        conjProdFFTsHandle = $fopen(conjProdFFTFilename, "w");
+        if (conjProdFFTsHandle == 0) begin
+            $error("Failed to open conj prod FFTs output file for writing");
+            $finish;
+        end
+        $display("Opened conj prod FFTs output file for writing");
+        
+        //Wait for the signal
+        wait(theFullDesign.alphaProfiler.ConjProd_DataValid_to_AlphaProfile == 1);
+        //NOW!
+        $display("Beginning to write ConjProdFFTs!");
+        @(negedge clk_P);
+        while(theFullDesign.alphaProfiler.ConjProd_DataValid_to_AlphaProfile == 1) begin
+            $fwrite(conjProdFFTsHandle, "%b\n", theFullDesign.alphaProfiler.ConjProd_FFT_to_AlphaProfile);
+            @(negedge clk_P);
+        end
+        //We did it
+        $display("Finished writing conjugate product FFTs to output file");
+        $fclose(conjProdFFTsHandle);
+    end
+    
+    //Handles waiting for the alpha profile to finish and do the whole "write the results to a file" thing
+    initial begin
+        alphaProfHandle = $fopen(alphaProfFilename, "w");
+        if (alphaProfHandle == 0) begin
+            $error("Failed to open alpha profile output file for writing");
+            $finish;
+        end
+        else begin
+            $display("Opened alpha profile output file for writing");
+        end
+        
+        //Wait for the computation to be complete       
+        wait(AlphaProf_Done);
+        repeat(3) @(posedge clk_P);
+        @(negedge clk_P);
+        
+        for (i = 0; i < 256; i = i + 1) begin
+            $fwrite(alphaProfHandle, "%b\n", theFullDesign.alphaProfiler.alphaProf.topAddrsAlphaProfBRAM.myRAM[i]);
+            $fwrite(alphaProfHandle, "%b\n", theFullDesign.alphaProfiler.alphaProf.bottomAddrsAlphaProfBRAM.myRAM[i]);
+        end
+        //Be done with it
+        $display("Finished writing alpha profile to output file");
+        $fclose(alphaProfHandle);
+        $finish;
+    end
+`endif
+
+//Handles the new and improved(TM) version of writing the alpha profile results to a file. This one should be compatible with post-implementation simulations!
+initial begin
+    alphaProfHandle_databusMethod = $fopen(alphaProfFilename_databusMethod, "w");
+    if (alphaProfHandle_databusMethod == 0) begin
+        $error("Failed to open databus method alpha profile output file for writing");
+        $finish;
+    end
+    else begin
+        $display("Opened databus method alpha profile output file for writing");
+    end
+    
+    while (1 == 1) begin
+        @(negedge clk_P);
+        if (AlphaProf_EightSamplesValid == 1'b1) begin
+            //Write the upper half of the data bus to the file
+            $fwrite(alphaProfHandle_databusMethod, "%b\n", commonDataBus[FFT_Pts/2*ReImWidth - 1 -: FFT_Pts/4*ReImWidth]);
+        end
+        if (AlphaProf_Done == 1'b1) begin
+            //Write the lower half of the data bus to the file
+            $fwrite(alphaProfHandle_databusMethod, "%b\n", commonDataBus[FFT_Pts/4*ReImWidth - 1 -: FFT_Pts/4*ReImWidth]);
+            //Also, if this happens, we're done
+            $display("Finished writing databus alpha profile to output file");
+            $fclose(alphaProfHandle_databusMethod);
+            //Since Verilog has no break command, just sit in an infinite loop while the other alphaProfHandle piece writes the comparison data to a file
+            //It will handle $finish-ing the simulation for us
+            while (1 == 1) begin
+                @(negedge clk_P);
+            end
+        end
+        $fflush(alphaProfHandle_databusMethod);
+    end
+end
+
+endmodule

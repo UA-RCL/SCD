@@ -1,0 +1,2443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="SCD_AlphaProf_Top_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="SCD_AlphaProf_Top_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="139200000002fs"></ZoomEndTime>
+      <Cursor1Time time="0fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="25" />
+   <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/clk_P" type="logic">
+      <obj_property name="ElementShortName">clk_P</obj_property>
+      <obj_property name="ObjectShortName">clk_P</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/clk_N" type="logic">
+      <obj_property name="ElementShortName">clk_N</obj_property>
+      <obj_property name="ObjectShortName">clk_N</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/cycleCounter" type="array">
+      <obj_property name="ElementShortName">cycleCounter[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cycleCounter[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/commonDataBus" type="array">
+      <obj_property name="ElementShortName">commonDataBus[511:0]</obj_property>
+      <obj_property name="ObjectShortName">commonDataBus[511:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/fileHandles" type="array">
+      <obj_property name="ElementShortName">fileHandles[0:7][31:0]</obj_property>
+      <obj_property name="ObjectShortName">fileHandles[0:7][31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/j" type="array">
+      <obj_property name="ElementShortName">j[31:0]</obj_property>
+      <obj_property name="ObjectShortName">j[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/EOF" type="logic">
+      <obj_property name="ElementShortName">EOF</obj_property>
+      <obj_property name="ObjectShortName">EOF</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/signalData" type="array">
+      <obj_property name="ElementShortName">signalData[511:0]</obj_property>
+      <obj_property name="ObjectShortName">signalData[511:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/dataValid" type="logic">
+      <obj_property name="ElementShortName">dataValid</obj_property>
+      <obj_property name="ObjectShortName">dataValid</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/w_fft_dc/\windowingBlock[0].ReMult /dataValid_out" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">dataValid_out</obj_property>
+      <obj_property name="ObjectShortName">dataValid_out</obj_property>
+      <obj_property name="label">windowingDataValid_Out</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/w_fft_dc/FFTsBlock[0].my256PtFFT/m_axis_data_tvalid" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">m_axis_data_tvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axis_data_tvalid</obj_property>
+      <obj_property name="label">FFT_256_dataValid_Out</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/w_fft_dc/\DownConvBlock[0].genblk1.DownConvMult_0 /dataValid_out" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">dataValid_out</obj_property>
+      <obj_property name="ObjectShortName">dataValid_out</obj_property>
+      <obj_property name="label">downConv_dataValid_Out</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/ConjProd_Done" type="logic">
+      <obj_property name="ElementShortName">ConjProd_Done</obj_property>
+      <obj_property name="ObjectShortName">ConjProd_Done</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/ConjProdDataValid" type="logic">
+      <obj_property name="ElementShortName">ConjProdDataValid</obj_property>
+      <obj_property name="ObjectShortName">ConjProdDataValid</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/AlphaProf_Done" type="logic">
+      <obj_property name="ElementShortName">AlphaProf_Done</obj_property>
+      <obj_property name="ObjectShortName">AlphaProf_Done</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/AlphaProf_EightSamplesValid" type="logic">
+      <obj_property name="ElementShortName">AlphaProf_EightSamplesValid</obj_property>
+      <obj_property name="ObjectShortName">AlphaProf_EightSamplesValid</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/dataIn1" type="array">
+      <obj_property name="ElementShortName">dataIn1[511:0]</obj_property>
+      <obj_property name="ObjectShortName">dataIn1[511:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/wrAddr1" type="array">
+      <obj_property name="ElementShortName">wrAddr1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">wrAddr1[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/writeEns1" type="array">
+      <obj_property name="ElementShortName">writeEns1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">writeEns1[3:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="group39" type="group">
+      <obj_property name="label">ConjProd_Mem0</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[0].myRAM_IP/wea" type="array">
+         <obj_property name="ElementShortName">wea[0:0]</obj_property>
+         <obj_property name="ObjectShortName">wea[0:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[0].myRAM_IP/addra" type="array">
+         <obj_property name="ElementShortName">addra[7:0]</obj_property>
+         <obj_property name="ObjectShortName">addra[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[0].myRAM_IP/dina" type="array">
+         <obj_property name="ElementShortName">dina[511:0]</obj_property>
+         <obj_property name="ObjectShortName">dina[511:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[0].myRAM_IP/douta" type="array">
+         <obj_property name="ElementShortName">douta[511:0]</obj_property>
+         <obj_property name="ObjectShortName">douta[511:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[0].myRAM_IP/web" type="array">
+         <obj_property name="ElementShortName">web[0:0]</obj_property>
+         <obj_property name="ObjectShortName">web[0:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[0].myRAM_IP/addrb" type="array">
+         <obj_property name="ElementShortName">addrb[7:0]</obj_property>
+         <obj_property name="ObjectShortName">addrb[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[0].myRAM_IP/dinb" type="array">
+         <obj_property name="ElementShortName">dinb[511:0]</obj_property>
+         <obj_property name="ObjectShortName">dinb[511:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[0].myRAM_IP/doutb" type="array">
+         <obj_property name="ElementShortName">doutb[511:0]</obj_property>
+         <obj_property name="ObjectShortName">doutb[511:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group46" type="group">
+      <obj_property name="label">ConjProd_Mem1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[1].myRAM_IP/wea" type="array">
+         <obj_property name="ElementShortName">wea[0:0]</obj_property>
+         <obj_property name="ObjectShortName">wea[0:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[1].myRAM_IP/addra" type="array">
+         <obj_property name="ElementShortName">addra[7:0]</obj_property>
+         <obj_property name="ObjectShortName">addra[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[1].myRAM_IP/dina" type="array">
+         <obj_property name="ElementShortName">dina[511:0]</obj_property>
+         <obj_property name="ObjectShortName">dina[511:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[1].myRAM_IP/douta" type="array">
+         <obj_property name="ElementShortName">douta[511:0]</obj_property>
+         <obj_property name="ObjectShortName">douta[511:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[1].myRAM_IP/web" type="array">
+         <obj_property name="ElementShortName">web[0:0]</obj_property>
+         <obj_property name="ObjectShortName">web[0:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[1].myRAM_IP/addrb" type="array">
+         <obj_property name="ElementShortName">addrb[7:0]</obj_property>
+         <obj_property name="ObjectShortName">addrb[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[1].myRAM_IP/dinb" type="array">
+         <obj_property name="ElementShortName">dinb[511:0]</obj_property>
+         <obj_property name="ObjectShortName">dinb[511:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[1].myRAM_IP/doutb" type="array">
+         <obj_property name="ElementShortName">doutb[511:0]</obj_property>
+         <obj_property name="ObjectShortName">doutb[511:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group55" type="group">
+      <obj_property name="label">ConjProd_Mem2</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/wea" type="array">
+         <obj_property name="ElementShortName">wea[0:0]</obj_property>
+         <obj_property name="ObjectShortName">wea[0:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/addra" type="array">
+         <obj_property name="ElementShortName">addra[7:0]</obj_property>
+         <obj_property name="ObjectShortName">addra[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina" type="array">
+         <obj_property name="ElementShortName">dina[511:0]</obj_property>
+         <obj_property name="ObjectShortName">dina[511:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="vbus596" type="vbus">
+         <obj_property name="label">dina_0_re</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">24</obj_property>
+         <obj_property name="radix_otherWidth">8</obj_property>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[511]" type="logic">
+            <obj_property name="ElementShortName">[511]</obj_property>
+            <obj_property name="ObjectShortName">dina[511]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[510]" type="logic">
+            <obj_property name="ElementShortName">[510]</obj_property>
+            <obj_property name="ObjectShortName">dina[510]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[509]" type="logic">
+            <obj_property name="ElementShortName">[509]</obj_property>
+            <obj_property name="ObjectShortName">dina[509]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[508]" type="logic">
+            <obj_property name="ElementShortName">[508]</obj_property>
+            <obj_property name="ObjectShortName">dina[508]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[507]" type="logic">
+            <obj_property name="ElementShortName">[507]</obj_property>
+            <obj_property name="ObjectShortName">dina[507]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[506]" type="logic">
+            <obj_property name="ElementShortName">[506]</obj_property>
+            <obj_property name="ObjectShortName">dina[506]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[505]" type="logic">
+            <obj_property name="ElementShortName">[505]</obj_property>
+            <obj_property name="ObjectShortName">dina[505]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[504]" type="logic">
+            <obj_property name="ElementShortName">[504]</obj_property>
+            <obj_property name="ObjectShortName">dina[504]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[503]" type="logic">
+            <obj_property name="ElementShortName">[503]</obj_property>
+            <obj_property name="ObjectShortName">dina[503]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[502]" type="logic">
+            <obj_property name="ElementShortName">[502]</obj_property>
+            <obj_property name="ObjectShortName">dina[502]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[501]" type="logic">
+            <obj_property name="ElementShortName">[501]</obj_property>
+            <obj_property name="ObjectShortName">dina[501]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[500]" type="logic">
+            <obj_property name="ElementShortName">[500]</obj_property>
+            <obj_property name="ObjectShortName">dina[500]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[499]" type="logic">
+            <obj_property name="ElementShortName">[499]</obj_property>
+            <obj_property name="ObjectShortName">dina[499]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[498]" type="logic">
+            <obj_property name="ElementShortName">[498]</obj_property>
+            <obj_property name="ObjectShortName">dina[498]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[497]" type="logic">
+            <obj_property name="ElementShortName">[497]</obj_property>
+            <obj_property name="ObjectShortName">dina[497]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[496]" type="logic">
+            <obj_property name="ElementShortName">[496]</obj_property>
+            <obj_property name="ObjectShortName">dina[496]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[495]" type="logic">
+            <obj_property name="ElementShortName">[495]</obj_property>
+            <obj_property name="ObjectShortName">dina[495]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[494]" type="logic">
+            <obj_property name="ElementShortName">[494]</obj_property>
+            <obj_property name="ObjectShortName">dina[494]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[493]" type="logic">
+            <obj_property name="ElementShortName">[493]</obj_property>
+            <obj_property name="ObjectShortName">dina[493]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[492]" type="logic">
+            <obj_property name="ElementShortName">[492]</obj_property>
+            <obj_property name="ObjectShortName">dina[492]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[491]" type="logic">
+            <obj_property name="ElementShortName">[491]</obj_property>
+            <obj_property name="ObjectShortName">dina[491]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[490]" type="logic">
+            <obj_property name="ElementShortName">[490]</obj_property>
+            <obj_property name="ObjectShortName">dina[490]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[489]" type="logic">
+            <obj_property name="ElementShortName">[489]</obj_property>
+            <obj_property name="ObjectShortName">dina[489]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[488]" type="logic">
+            <obj_property name="ElementShortName">[488]</obj_property>
+            <obj_property name="ObjectShortName">dina[488]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[487]" type="logic">
+            <obj_property name="ElementShortName">[487]</obj_property>
+            <obj_property name="ObjectShortName">dina[487]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[486]" type="logic">
+            <obj_property name="ElementShortName">[486]</obj_property>
+            <obj_property name="ObjectShortName">dina[486]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[485]" type="logic">
+            <obj_property name="ElementShortName">[485]</obj_property>
+            <obj_property name="ObjectShortName">dina[485]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[484]" type="logic">
+            <obj_property name="ElementShortName">[484]</obj_property>
+            <obj_property name="ObjectShortName">dina[484]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[483]" type="logic">
+            <obj_property name="ElementShortName">[483]</obj_property>
+            <obj_property name="ObjectShortName">dina[483]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[482]" type="logic">
+            <obj_property name="ElementShortName">[482]</obj_property>
+            <obj_property name="ObjectShortName">dina[482]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[481]" type="logic">
+            <obj_property name="ElementShortName">[481]</obj_property>
+            <obj_property name="ObjectShortName">dina[481]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[480]" type="logic">
+            <obj_property name="ElementShortName">[480]</obj_property>
+            <obj_property name="ObjectShortName">dina[480]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="vbus629" type="vbus">
+         <obj_property name="label">dina_0_im</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">24</obj_property>
+         <obj_property name="radix_otherWidth">8</obj_property>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[479]" type="logic">
+            <obj_property name="ElementShortName">[479]</obj_property>
+            <obj_property name="ObjectShortName">dina[479]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[478]" type="logic">
+            <obj_property name="ElementShortName">[478]</obj_property>
+            <obj_property name="ObjectShortName">dina[478]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[477]" type="logic">
+            <obj_property name="ElementShortName">[477]</obj_property>
+            <obj_property name="ObjectShortName">dina[477]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[476]" type="logic">
+            <obj_property name="ElementShortName">[476]</obj_property>
+            <obj_property name="ObjectShortName">dina[476]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[475]" type="logic">
+            <obj_property name="ElementShortName">[475]</obj_property>
+            <obj_property name="ObjectShortName">dina[475]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[474]" type="logic">
+            <obj_property name="ElementShortName">[474]</obj_property>
+            <obj_property name="ObjectShortName">dina[474]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[473]" type="logic">
+            <obj_property name="ElementShortName">[473]</obj_property>
+            <obj_property name="ObjectShortName">dina[473]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[472]" type="logic">
+            <obj_property name="ElementShortName">[472]</obj_property>
+            <obj_property name="ObjectShortName">dina[472]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[471]" type="logic">
+            <obj_property name="ElementShortName">[471]</obj_property>
+            <obj_property name="ObjectShortName">dina[471]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[470]" type="logic">
+            <obj_property name="ElementShortName">[470]</obj_property>
+            <obj_property name="ObjectShortName">dina[470]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[469]" type="logic">
+            <obj_property name="ElementShortName">[469]</obj_property>
+            <obj_property name="ObjectShortName">dina[469]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[468]" type="logic">
+            <obj_property name="ElementShortName">[468]</obj_property>
+            <obj_property name="ObjectShortName">dina[468]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[467]" type="logic">
+            <obj_property name="ElementShortName">[467]</obj_property>
+            <obj_property name="ObjectShortName">dina[467]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[466]" type="logic">
+            <obj_property name="ElementShortName">[466]</obj_property>
+            <obj_property name="ObjectShortName">dina[466]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[465]" type="logic">
+            <obj_property name="ElementShortName">[465]</obj_property>
+            <obj_property name="ObjectShortName">dina[465]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[464]" type="logic">
+            <obj_property name="ElementShortName">[464]</obj_property>
+            <obj_property name="ObjectShortName">dina[464]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[463]" type="logic">
+            <obj_property name="ElementShortName">[463]</obj_property>
+            <obj_property name="ObjectShortName">dina[463]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[462]" type="logic">
+            <obj_property name="ElementShortName">[462]</obj_property>
+            <obj_property name="ObjectShortName">dina[462]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[461]" type="logic">
+            <obj_property name="ElementShortName">[461]</obj_property>
+            <obj_property name="ObjectShortName">dina[461]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[460]" type="logic">
+            <obj_property name="ElementShortName">[460]</obj_property>
+            <obj_property name="ObjectShortName">dina[460]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[459]" type="logic">
+            <obj_property name="ElementShortName">[459]</obj_property>
+            <obj_property name="ObjectShortName">dina[459]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[458]" type="logic">
+            <obj_property name="ElementShortName">[458]</obj_property>
+            <obj_property name="ObjectShortName">dina[458]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[457]" type="logic">
+            <obj_property name="ElementShortName">[457]</obj_property>
+            <obj_property name="ObjectShortName">dina[457]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[456]" type="logic">
+            <obj_property name="ElementShortName">[456]</obj_property>
+            <obj_property name="ObjectShortName">dina[456]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[455]" type="logic">
+            <obj_property name="ElementShortName">[455]</obj_property>
+            <obj_property name="ObjectShortName">dina[455]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[454]" type="logic">
+            <obj_property name="ElementShortName">[454]</obj_property>
+            <obj_property name="ObjectShortName">dina[454]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[453]" type="logic">
+            <obj_property name="ElementShortName">[453]</obj_property>
+            <obj_property name="ObjectShortName">dina[453]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[452]" type="logic">
+            <obj_property name="ElementShortName">[452]</obj_property>
+            <obj_property name="ObjectShortName">dina[452]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[451]" type="logic">
+            <obj_property name="ElementShortName">[451]</obj_property>
+            <obj_property name="ObjectShortName">dina[451]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[450]" type="logic">
+            <obj_property name="ElementShortName">[450]</obj_property>
+            <obj_property name="ObjectShortName">dina[450]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[449]" type="logic">
+            <obj_property name="ElementShortName">[449]</obj_property>
+            <obj_property name="ObjectShortName">dina[449]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[448]" type="logic">
+            <obj_property name="ElementShortName">[448]</obj_property>
+            <obj_property name="ObjectShortName">dina[448]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="vbus662" type="vbus">
+         <obj_property name="label">dina_1_re</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">24</obj_property>
+         <obj_property name="radix_otherWidth">8</obj_property>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[447]" type="logic">
+            <obj_property name="ElementShortName">[447]</obj_property>
+            <obj_property name="ObjectShortName">dina[447]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[446]" type="logic">
+            <obj_property name="ElementShortName">[446]</obj_property>
+            <obj_property name="ObjectShortName">dina[446]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[445]" type="logic">
+            <obj_property name="ElementShortName">[445]</obj_property>
+            <obj_property name="ObjectShortName">dina[445]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[444]" type="logic">
+            <obj_property name="ElementShortName">[444]</obj_property>
+            <obj_property name="ObjectShortName">dina[444]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[443]" type="logic">
+            <obj_property name="ElementShortName">[443]</obj_property>
+            <obj_property name="ObjectShortName">dina[443]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[442]" type="logic">
+            <obj_property name="ElementShortName">[442]</obj_property>
+            <obj_property name="ObjectShortName">dina[442]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[441]" type="logic">
+            <obj_property name="ElementShortName">[441]</obj_property>
+            <obj_property name="ObjectShortName">dina[441]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[440]" type="logic">
+            <obj_property name="ElementShortName">[440]</obj_property>
+            <obj_property name="ObjectShortName">dina[440]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[439]" type="logic">
+            <obj_property name="ElementShortName">[439]</obj_property>
+            <obj_property name="ObjectShortName">dina[439]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[438]" type="logic">
+            <obj_property name="ElementShortName">[438]</obj_property>
+            <obj_property name="ObjectShortName">dina[438]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[437]" type="logic">
+            <obj_property name="ElementShortName">[437]</obj_property>
+            <obj_property name="ObjectShortName">dina[437]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[436]" type="logic">
+            <obj_property name="ElementShortName">[436]</obj_property>
+            <obj_property name="ObjectShortName">dina[436]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[435]" type="logic">
+            <obj_property name="ElementShortName">[435]</obj_property>
+            <obj_property name="ObjectShortName">dina[435]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[434]" type="logic">
+            <obj_property name="ElementShortName">[434]</obj_property>
+            <obj_property name="ObjectShortName">dina[434]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[433]" type="logic">
+            <obj_property name="ElementShortName">[433]</obj_property>
+            <obj_property name="ObjectShortName">dina[433]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[432]" type="logic">
+            <obj_property name="ElementShortName">[432]</obj_property>
+            <obj_property name="ObjectShortName">dina[432]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[431]" type="logic">
+            <obj_property name="ElementShortName">[431]</obj_property>
+            <obj_property name="ObjectShortName">dina[431]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[430]" type="logic">
+            <obj_property name="ElementShortName">[430]</obj_property>
+            <obj_property name="ObjectShortName">dina[430]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[429]" type="logic">
+            <obj_property name="ElementShortName">[429]</obj_property>
+            <obj_property name="ObjectShortName">dina[429]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[428]" type="logic">
+            <obj_property name="ElementShortName">[428]</obj_property>
+            <obj_property name="ObjectShortName">dina[428]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[427]" type="logic">
+            <obj_property name="ElementShortName">[427]</obj_property>
+            <obj_property name="ObjectShortName">dina[427]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[426]" type="logic">
+            <obj_property name="ElementShortName">[426]</obj_property>
+            <obj_property name="ObjectShortName">dina[426]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[425]" type="logic">
+            <obj_property name="ElementShortName">[425]</obj_property>
+            <obj_property name="ObjectShortName">dina[425]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[424]" type="logic">
+            <obj_property name="ElementShortName">[424]</obj_property>
+            <obj_property name="ObjectShortName">dina[424]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[423]" type="logic">
+            <obj_property name="ElementShortName">[423]</obj_property>
+            <obj_property name="ObjectShortName">dina[423]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[422]" type="logic">
+            <obj_property name="ElementShortName">[422]</obj_property>
+            <obj_property name="ObjectShortName">dina[422]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[421]" type="logic">
+            <obj_property name="ElementShortName">[421]</obj_property>
+            <obj_property name="ObjectShortName">dina[421]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[420]" type="logic">
+            <obj_property name="ElementShortName">[420]</obj_property>
+            <obj_property name="ObjectShortName">dina[420]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[419]" type="logic">
+            <obj_property name="ElementShortName">[419]</obj_property>
+            <obj_property name="ObjectShortName">dina[419]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[418]" type="logic">
+            <obj_property name="ElementShortName">[418]</obj_property>
+            <obj_property name="ObjectShortName">dina[418]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[417]" type="logic">
+            <obj_property name="ElementShortName">[417]</obj_property>
+            <obj_property name="ObjectShortName">dina[417]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[416]" type="logic">
+            <obj_property name="ElementShortName">[416]</obj_property>
+            <obj_property name="ObjectShortName">dina[416]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="vbus695" type="vbus">
+         <obj_property name="label">dina_1_im</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">24</obj_property>
+         <obj_property name="radix_otherWidth">8</obj_property>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[415]" type="logic">
+            <obj_property name="ElementShortName">[415]</obj_property>
+            <obj_property name="ObjectShortName">dina[415]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[414]" type="logic">
+            <obj_property name="ElementShortName">[414]</obj_property>
+            <obj_property name="ObjectShortName">dina[414]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[413]" type="logic">
+            <obj_property name="ElementShortName">[413]</obj_property>
+            <obj_property name="ObjectShortName">dina[413]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[412]" type="logic">
+            <obj_property name="ElementShortName">[412]</obj_property>
+            <obj_property name="ObjectShortName">dina[412]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[411]" type="logic">
+            <obj_property name="ElementShortName">[411]</obj_property>
+            <obj_property name="ObjectShortName">dina[411]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[410]" type="logic">
+            <obj_property name="ElementShortName">[410]</obj_property>
+            <obj_property name="ObjectShortName">dina[410]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[409]" type="logic">
+            <obj_property name="ElementShortName">[409]</obj_property>
+            <obj_property name="ObjectShortName">dina[409]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[408]" type="logic">
+            <obj_property name="ElementShortName">[408]</obj_property>
+            <obj_property name="ObjectShortName">dina[408]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[407]" type="logic">
+            <obj_property name="ElementShortName">[407]</obj_property>
+            <obj_property name="ObjectShortName">dina[407]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[406]" type="logic">
+            <obj_property name="ElementShortName">[406]</obj_property>
+            <obj_property name="ObjectShortName">dina[406]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[405]" type="logic">
+            <obj_property name="ElementShortName">[405]</obj_property>
+            <obj_property name="ObjectShortName">dina[405]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[404]" type="logic">
+            <obj_property name="ElementShortName">[404]</obj_property>
+            <obj_property name="ObjectShortName">dina[404]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[403]" type="logic">
+            <obj_property name="ElementShortName">[403]</obj_property>
+            <obj_property name="ObjectShortName">dina[403]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[402]" type="logic">
+            <obj_property name="ElementShortName">[402]</obj_property>
+            <obj_property name="ObjectShortName">dina[402]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[401]" type="logic">
+            <obj_property name="ElementShortName">[401]</obj_property>
+            <obj_property name="ObjectShortName">dina[401]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[400]" type="logic">
+            <obj_property name="ElementShortName">[400]</obj_property>
+            <obj_property name="ObjectShortName">dina[400]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[399]" type="logic">
+            <obj_property name="ElementShortName">[399]</obj_property>
+            <obj_property name="ObjectShortName">dina[399]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[398]" type="logic">
+            <obj_property name="ElementShortName">[398]</obj_property>
+            <obj_property name="ObjectShortName">dina[398]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[397]" type="logic">
+            <obj_property name="ElementShortName">[397]</obj_property>
+            <obj_property name="ObjectShortName">dina[397]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[396]" type="logic">
+            <obj_property name="ElementShortName">[396]</obj_property>
+            <obj_property name="ObjectShortName">dina[396]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[395]" type="logic">
+            <obj_property name="ElementShortName">[395]</obj_property>
+            <obj_property name="ObjectShortName">dina[395]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[394]" type="logic">
+            <obj_property name="ElementShortName">[394]</obj_property>
+            <obj_property name="ObjectShortName">dina[394]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[393]" type="logic">
+            <obj_property name="ElementShortName">[393]</obj_property>
+            <obj_property name="ObjectShortName">dina[393]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[392]" type="logic">
+            <obj_property name="ElementShortName">[392]</obj_property>
+            <obj_property name="ObjectShortName">dina[392]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[391]" type="logic">
+            <obj_property name="ElementShortName">[391]</obj_property>
+            <obj_property name="ObjectShortName">dina[391]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[390]" type="logic">
+            <obj_property name="ElementShortName">[390]</obj_property>
+            <obj_property name="ObjectShortName">dina[390]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[389]" type="logic">
+            <obj_property name="ElementShortName">[389]</obj_property>
+            <obj_property name="ObjectShortName">dina[389]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[388]" type="logic">
+            <obj_property name="ElementShortName">[388]</obj_property>
+            <obj_property name="ObjectShortName">dina[388]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[387]" type="logic">
+            <obj_property name="ElementShortName">[387]</obj_property>
+            <obj_property name="ObjectShortName">dina[387]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[386]" type="logic">
+            <obj_property name="ElementShortName">[386]</obj_property>
+            <obj_property name="ObjectShortName">dina[386]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[385]" type="logic">
+            <obj_property name="ElementShortName">[385]</obj_property>
+            <obj_property name="ObjectShortName">dina[385]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[384]" type="logic">
+            <obj_property name="ElementShortName">[384]</obj_property>
+            <obj_property name="ObjectShortName">dina[384]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="vbus728" type="vbus">
+         <obj_property name="label">dina_2_re</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">24</obj_property>
+         <obj_property name="radix_otherWidth">8</obj_property>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[383]" type="logic">
+            <obj_property name="ElementShortName">[383]</obj_property>
+            <obj_property name="ObjectShortName">dina[383]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[382]" type="logic">
+            <obj_property name="ElementShortName">[382]</obj_property>
+            <obj_property name="ObjectShortName">dina[382]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[381]" type="logic">
+            <obj_property name="ElementShortName">[381]</obj_property>
+            <obj_property name="ObjectShortName">dina[381]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[380]" type="logic">
+            <obj_property name="ElementShortName">[380]</obj_property>
+            <obj_property name="ObjectShortName">dina[380]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[379]" type="logic">
+            <obj_property name="ElementShortName">[379]</obj_property>
+            <obj_property name="ObjectShortName">dina[379]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[378]" type="logic">
+            <obj_property name="ElementShortName">[378]</obj_property>
+            <obj_property name="ObjectShortName">dina[378]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[377]" type="logic">
+            <obj_property name="ElementShortName">[377]</obj_property>
+            <obj_property name="ObjectShortName">dina[377]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[376]" type="logic">
+            <obj_property name="ElementShortName">[376]</obj_property>
+            <obj_property name="ObjectShortName">dina[376]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[375]" type="logic">
+            <obj_property name="ElementShortName">[375]</obj_property>
+            <obj_property name="ObjectShortName">dina[375]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[374]" type="logic">
+            <obj_property name="ElementShortName">[374]</obj_property>
+            <obj_property name="ObjectShortName">dina[374]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[373]" type="logic">
+            <obj_property name="ElementShortName">[373]</obj_property>
+            <obj_property name="ObjectShortName">dina[373]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[372]" type="logic">
+            <obj_property name="ElementShortName">[372]</obj_property>
+            <obj_property name="ObjectShortName">dina[372]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[371]" type="logic">
+            <obj_property name="ElementShortName">[371]</obj_property>
+            <obj_property name="ObjectShortName">dina[371]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[370]" type="logic">
+            <obj_property name="ElementShortName">[370]</obj_property>
+            <obj_property name="ObjectShortName">dina[370]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[369]" type="logic">
+            <obj_property name="ElementShortName">[369]</obj_property>
+            <obj_property name="ObjectShortName">dina[369]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[368]" type="logic">
+            <obj_property name="ElementShortName">[368]</obj_property>
+            <obj_property name="ObjectShortName">dina[368]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[367]" type="logic">
+            <obj_property name="ElementShortName">[367]</obj_property>
+            <obj_property name="ObjectShortName">dina[367]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[366]" type="logic">
+            <obj_property name="ElementShortName">[366]</obj_property>
+            <obj_property name="ObjectShortName">dina[366]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[365]" type="logic">
+            <obj_property name="ElementShortName">[365]</obj_property>
+            <obj_property name="ObjectShortName">dina[365]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[364]" type="logic">
+            <obj_property name="ElementShortName">[364]</obj_property>
+            <obj_property name="ObjectShortName">dina[364]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[363]" type="logic">
+            <obj_property name="ElementShortName">[363]</obj_property>
+            <obj_property name="ObjectShortName">dina[363]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[362]" type="logic">
+            <obj_property name="ElementShortName">[362]</obj_property>
+            <obj_property name="ObjectShortName">dina[362]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[361]" type="logic">
+            <obj_property name="ElementShortName">[361]</obj_property>
+            <obj_property name="ObjectShortName">dina[361]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[360]" type="logic">
+            <obj_property name="ElementShortName">[360]</obj_property>
+            <obj_property name="ObjectShortName">dina[360]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[359]" type="logic">
+            <obj_property name="ElementShortName">[359]</obj_property>
+            <obj_property name="ObjectShortName">dina[359]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[358]" type="logic">
+            <obj_property name="ElementShortName">[358]</obj_property>
+            <obj_property name="ObjectShortName">dina[358]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[357]" type="logic">
+            <obj_property name="ElementShortName">[357]</obj_property>
+            <obj_property name="ObjectShortName">dina[357]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[356]" type="logic">
+            <obj_property name="ElementShortName">[356]</obj_property>
+            <obj_property name="ObjectShortName">dina[356]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[355]" type="logic">
+            <obj_property name="ElementShortName">[355]</obj_property>
+            <obj_property name="ObjectShortName">dina[355]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[354]" type="logic">
+            <obj_property name="ElementShortName">[354]</obj_property>
+            <obj_property name="ObjectShortName">dina[354]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[353]" type="logic">
+            <obj_property name="ElementShortName">[353]</obj_property>
+            <obj_property name="ObjectShortName">dina[353]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[352]" type="logic">
+            <obj_property name="ElementShortName">[352]</obj_property>
+            <obj_property name="ObjectShortName">dina[352]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="vbus761" type="vbus">
+         <obj_property name="label">dina_2_im</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">24</obj_property>
+         <obj_property name="radix_otherWidth">8</obj_property>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[351]" type="logic">
+            <obj_property name="ElementShortName">[351]</obj_property>
+            <obj_property name="ObjectShortName">dina[351]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[350]" type="logic">
+            <obj_property name="ElementShortName">[350]</obj_property>
+            <obj_property name="ObjectShortName">dina[350]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[349]" type="logic">
+            <obj_property name="ElementShortName">[349]</obj_property>
+            <obj_property name="ObjectShortName">dina[349]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[348]" type="logic">
+            <obj_property name="ElementShortName">[348]</obj_property>
+            <obj_property name="ObjectShortName">dina[348]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[347]" type="logic">
+            <obj_property name="ElementShortName">[347]</obj_property>
+            <obj_property name="ObjectShortName">dina[347]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[346]" type="logic">
+            <obj_property name="ElementShortName">[346]</obj_property>
+            <obj_property name="ObjectShortName">dina[346]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[345]" type="logic">
+            <obj_property name="ElementShortName">[345]</obj_property>
+            <obj_property name="ObjectShortName">dina[345]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[344]" type="logic">
+            <obj_property name="ElementShortName">[344]</obj_property>
+            <obj_property name="ObjectShortName">dina[344]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[343]" type="logic">
+            <obj_property name="ElementShortName">[343]</obj_property>
+            <obj_property name="ObjectShortName">dina[343]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[342]" type="logic">
+            <obj_property name="ElementShortName">[342]</obj_property>
+            <obj_property name="ObjectShortName">dina[342]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[341]" type="logic">
+            <obj_property name="ElementShortName">[341]</obj_property>
+            <obj_property name="ObjectShortName">dina[341]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[340]" type="logic">
+            <obj_property name="ElementShortName">[340]</obj_property>
+            <obj_property name="ObjectShortName">dina[340]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[339]" type="logic">
+            <obj_property name="ElementShortName">[339]</obj_property>
+            <obj_property name="ObjectShortName">dina[339]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[338]" type="logic">
+            <obj_property name="ElementShortName">[338]</obj_property>
+            <obj_property name="ObjectShortName">dina[338]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[337]" type="logic">
+            <obj_property name="ElementShortName">[337]</obj_property>
+            <obj_property name="ObjectShortName">dina[337]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[336]" type="logic">
+            <obj_property name="ElementShortName">[336]</obj_property>
+            <obj_property name="ObjectShortName">dina[336]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[335]" type="logic">
+            <obj_property name="ElementShortName">[335]</obj_property>
+            <obj_property name="ObjectShortName">dina[335]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[334]" type="logic">
+            <obj_property name="ElementShortName">[334]</obj_property>
+            <obj_property name="ObjectShortName">dina[334]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[333]" type="logic">
+            <obj_property name="ElementShortName">[333]</obj_property>
+            <obj_property name="ObjectShortName">dina[333]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[332]" type="logic">
+            <obj_property name="ElementShortName">[332]</obj_property>
+            <obj_property name="ObjectShortName">dina[332]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[331]" type="logic">
+            <obj_property name="ElementShortName">[331]</obj_property>
+            <obj_property name="ObjectShortName">dina[331]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[330]" type="logic">
+            <obj_property name="ElementShortName">[330]</obj_property>
+            <obj_property name="ObjectShortName">dina[330]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[329]" type="logic">
+            <obj_property name="ElementShortName">[329]</obj_property>
+            <obj_property name="ObjectShortName">dina[329]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[328]" type="logic">
+            <obj_property name="ElementShortName">[328]</obj_property>
+            <obj_property name="ObjectShortName">dina[328]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[327]" type="logic">
+            <obj_property name="ElementShortName">[327]</obj_property>
+            <obj_property name="ObjectShortName">dina[327]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[326]" type="logic">
+            <obj_property name="ElementShortName">[326]</obj_property>
+            <obj_property name="ObjectShortName">dina[326]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[325]" type="logic">
+            <obj_property name="ElementShortName">[325]</obj_property>
+            <obj_property name="ObjectShortName">dina[325]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[324]" type="logic">
+            <obj_property name="ElementShortName">[324]</obj_property>
+            <obj_property name="ObjectShortName">dina[324]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[323]" type="logic">
+            <obj_property name="ElementShortName">[323]</obj_property>
+            <obj_property name="ObjectShortName">dina[323]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[322]" type="logic">
+            <obj_property name="ElementShortName">[322]</obj_property>
+            <obj_property name="ObjectShortName">dina[322]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[321]" type="logic">
+            <obj_property name="ElementShortName">[321]</obj_property>
+            <obj_property name="ObjectShortName">dina[321]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[320]" type="logic">
+            <obj_property name="ElementShortName">[320]</obj_property>
+            <obj_property name="ObjectShortName">dina[320]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="vbus794" type="vbus">
+         <obj_property name="label">dina_3_re</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">24</obj_property>
+         <obj_property name="radix_otherWidth">8</obj_property>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[319]" type="logic">
+            <obj_property name="ElementShortName">[319]</obj_property>
+            <obj_property name="ObjectShortName">dina[319]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[318]" type="logic">
+            <obj_property name="ElementShortName">[318]</obj_property>
+            <obj_property name="ObjectShortName">dina[318]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[317]" type="logic">
+            <obj_property name="ElementShortName">[317]</obj_property>
+            <obj_property name="ObjectShortName">dina[317]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[316]" type="logic">
+            <obj_property name="ElementShortName">[316]</obj_property>
+            <obj_property name="ObjectShortName">dina[316]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[315]" type="logic">
+            <obj_property name="ElementShortName">[315]</obj_property>
+            <obj_property name="ObjectShortName">dina[315]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[314]" type="logic">
+            <obj_property name="ElementShortName">[314]</obj_property>
+            <obj_property name="ObjectShortName">dina[314]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[313]" type="logic">
+            <obj_property name="ElementShortName">[313]</obj_property>
+            <obj_property name="ObjectShortName">dina[313]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[312]" type="logic">
+            <obj_property name="ElementShortName">[312]</obj_property>
+            <obj_property name="ObjectShortName">dina[312]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[311]" type="logic">
+            <obj_property name="ElementShortName">[311]</obj_property>
+            <obj_property name="ObjectShortName">dina[311]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[310]" type="logic">
+            <obj_property name="ElementShortName">[310]</obj_property>
+            <obj_property name="ObjectShortName">dina[310]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[309]" type="logic">
+            <obj_property name="ElementShortName">[309]</obj_property>
+            <obj_property name="ObjectShortName">dina[309]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[308]" type="logic">
+            <obj_property name="ElementShortName">[308]</obj_property>
+            <obj_property name="ObjectShortName">dina[308]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[307]" type="logic">
+            <obj_property name="ElementShortName">[307]</obj_property>
+            <obj_property name="ObjectShortName">dina[307]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[306]" type="logic">
+            <obj_property name="ElementShortName">[306]</obj_property>
+            <obj_property name="ObjectShortName">dina[306]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[305]" type="logic">
+            <obj_property name="ElementShortName">[305]</obj_property>
+            <obj_property name="ObjectShortName">dina[305]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[304]" type="logic">
+            <obj_property name="ElementShortName">[304]</obj_property>
+            <obj_property name="ObjectShortName">dina[304]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[303]" type="logic">
+            <obj_property name="ElementShortName">[303]</obj_property>
+            <obj_property name="ObjectShortName">dina[303]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[302]" type="logic">
+            <obj_property name="ElementShortName">[302]</obj_property>
+            <obj_property name="ObjectShortName">dina[302]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[301]" type="logic">
+            <obj_property name="ElementShortName">[301]</obj_property>
+            <obj_property name="ObjectShortName">dina[301]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[300]" type="logic">
+            <obj_property name="ElementShortName">[300]</obj_property>
+            <obj_property name="ObjectShortName">dina[300]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[299]" type="logic">
+            <obj_property name="ElementShortName">[299]</obj_property>
+            <obj_property name="ObjectShortName">dina[299]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[298]" type="logic">
+            <obj_property name="ElementShortName">[298]</obj_property>
+            <obj_property name="ObjectShortName">dina[298]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[297]" type="logic">
+            <obj_property name="ElementShortName">[297]</obj_property>
+            <obj_property name="ObjectShortName">dina[297]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[296]" type="logic">
+            <obj_property name="ElementShortName">[296]</obj_property>
+            <obj_property name="ObjectShortName">dina[296]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[295]" type="logic">
+            <obj_property name="ElementShortName">[295]</obj_property>
+            <obj_property name="ObjectShortName">dina[295]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[294]" type="logic">
+            <obj_property name="ElementShortName">[294]</obj_property>
+            <obj_property name="ObjectShortName">dina[294]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[293]" type="logic">
+            <obj_property name="ElementShortName">[293]</obj_property>
+            <obj_property name="ObjectShortName">dina[293]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[292]" type="logic">
+            <obj_property name="ElementShortName">[292]</obj_property>
+            <obj_property name="ObjectShortName">dina[292]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[291]" type="logic">
+            <obj_property name="ElementShortName">[291]</obj_property>
+            <obj_property name="ObjectShortName">dina[291]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[290]" type="logic">
+            <obj_property name="ElementShortName">[290]</obj_property>
+            <obj_property name="ObjectShortName">dina[290]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[289]" type="logic">
+            <obj_property name="ElementShortName">[289]</obj_property>
+            <obj_property name="ObjectShortName">dina[289]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[288]" type="logic">
+            <obj_property name="ElementShortName">[288]</obj_property>
+            <obj_property name="ObjectShortName">dina[288]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="vbus827" type="vbus">
+         <obj_property name="label">dina_3_im</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">24</obj_property>
+         <obj_property name="radix_otherWidth">8</obj_property>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[287]" type="logic">
+            <obj_property name="ElementShortName">[287]</obj_property>
+            <obj_property name="ObjectShortName">dina[287]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[286]" type="logic">
+            <obj_property name="ElementShortName">[286]</obj_property>
+            <obj_property name="ObjectShortName">dina[286]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[285]" type="logic">
+            <obj_property name="ElementShortName">[285]</obj_property>
+            <obj_property name="ObjectShortName">dina[285]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[284]" type="logic">
+            <obj_property name="ElementShortName">[284]</obj_property>
+            <obj_property name="ObjectShortName">dina[284]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[283]" type="logic">
+            <obj_property name="ElementShortName">[283]</obj_property>
+            <obj_property name="ObjectShortName">dina[283]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[282]" type="logic">
+            <obj_property name="ElementShortName">[282]</obj_property>
+            <obj_property name="ObjectShortName">dina[282]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[281]" type="logic">
+            <obj_property name="ElementShortName">[281]</obj_property>
+            <obj_property name="ObjectShortName">dina[281]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[280]" type="logic">
+            <obj_property name="ElementShortName">[280]</obj_property>
+            <obj_property name="ObjectShortName">dina[280]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[279]" type="logic">
+            <obj_property name="ElementShortName">[279]</obj_property>
+            <obj_property name="ObjectShortName">dina[279]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[278]" type="logic">
+            <obj_property name="ElementShortName">[278]</obj_property>
+            <obj_property name="ObjectShortName">dina[278]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[277]" type="logic">
+            <obj_property name="ElementShortName">[277]</obj_property>
+            <obj_property name="ObjectShortName">dina[277]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[276]" type="logic">
+            <obj_property name="ElementShortName">[276]</obj_property>
+            <obj_property name="ObjectShortName">dina[276]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[275]" type="logic">
+            <obj_property name="ElementShortName">[275]</obj_property>
+            <obj_property name="ObjectShortName">dina[275]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[274]" type="logic">
+            <obj_property name="ElementShortName">[274]</obj_property>
+            <obj_property name="ObjectShortName">dina[274]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[273]" type="logic">
+            <obj_property name="ElementShortName">[273]</obj_property>
+            <obj_property name="ObjectShortName">dina[273]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[272]" type="logic">
+            <obj_property name="ElementShortName">[272]</obj_property>
+            <obj_property name="ObjectShortName">dina[272]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[271]" type="logic">
+            <obj_property name="ElementShortName">[271]</obj_property>
+            <obj_property name="ObjectShortName">dina[271]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[270]" type="logic">
+            <obj_property name="ElementShortName">[270]</obj_property>
+            <obj_property name="ObjectShortName">dina[270]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[269]" type="logic">
+            <obj_property name="ElementShortName">[269]</obj_property>
+            <obj_property name="ObjectShortName">dina[269]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[268]" type="logic">
+            <obj_property name="ElementShortName">[268]</obj_property>
+            <obj_property name="ObjectShortName">dina[268]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[267]" type="logic">
+            <obj_property name="ElementShortName">[267]</obj_property>
+            <obj_property name="ObjectShortName">dina[267]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[266]" type="logic">
+            <obj_property name="ElementShortName">[266]</obj_property>
+            <obj_property name="ObjectShortName">dina[266]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[265]" type="logic">
+            <obj_property name="ElementShortName">[265]</obj_property>
+            <obj_property name="ObjectShortName">dina[265]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[264]" type="logic">
+            <obj_property name="ElementShortName">[264]</obj_property>
+            <obj_property name="ObjectShortName">dina[264]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[263]" type="logic">
+            <obj_property name="ElementShortName">[263]</obj_property>
+            <obj_property name="ObjectShortName">dina[263]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[262]" type="logic">
+            <obj_property name="ElementShortName">[262]</obj_property>
+            <obj_property name="ObjectShortName">dina[262]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[261]" type="logic">
+            <obj_property name="ElementShortName">[261]</obj_property>
+            <obj_property name="ObjectShortName">dina[261]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[260]" type="logic">
+            <obj_property name="ElementShortName">[260]</obj_property>
+            <obj_property name="ObjectShortName">dina[260]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[259]" type="logic">
+            <obj_property name="ElementShortName">[259]</obj_property>
+            <obj_property name="ObjectShortName">dina[259]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[258]" type="logic">
+            <obj_property name="ElementShortName">[258]</obj_property>
+            <obj_property name="ObjectShortName">dina[258]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[257]" type="logic">
+            <obj_property name="ElementShortName">[257]</obj_property>
+            <obj_property name="ObjectShortName">dina[257]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[256]" type="logic">
+            <obj_property name="ElementShortName">[256]</obj_property>
+            <obj_property name="ObjectShortName">dina[256]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="vbus860" type="vbus">
+         <obj_property name="label">dina_4_re</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">24</obj_property>
+         <obj_property name="radix_otherWidth">8</obj_property>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[255]" type="logic">
+            <obj_property name="ElementShortName">[255]</obj_property>
+            <obj_property name="ObjectShortName">dina[255]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[254]" type="logic">
+            <obj_property name="ElementShortName">[254]</obj_property>
+            <obj_property name="ObjectShortName">dina[254]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[253]" type="logic">
+            <obj_property name="ElementShortName">[253]</obj_property>
+            <obj_property name="ObjectShortName">dina[253]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[252]" type="logic">
+            <obj_property name="ElementShortName">[252]</obj_property>
+            <obj_property name="ObjectShortName">dina[252]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[251]" type="logic">
+            <obj_property name="ElementShortName">[251]</obj_property>
+            <obj_property name="ObjectShortName">dina[251]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[250]" type="logic">
+            <obj_property name="ElementShortName">[250]</obj_property>
+            <obj_property name="ObjectShortName">dina[250]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[249]" type="logic">
+            <obj_property name="ElementShortName">[249]</obj_property>
+            <obj_property name="ObjectShortName">dina[249]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[248]" type="logic">
+            <obj_property name="ElementShortName">[248]</obj_property>
+            <obj_property name="ObjectShortName">dina[248]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[247]" type="logic">
+            <obj_property name="ElementShortName">[247]</obj_property>
+            <obj_property name="ObjectShortName">dina[247]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[246]" type="logic">
+            <obj_property name="ElementShortName">[246]</obj_property>
+            <obj_property name="ObjectShortName">dina[246]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[245]" type="logic">
+            <obj_property name="ElementShortName">[245]</obj_property>
+            <obj_property name="ObjectShortName">dina[245]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[244]" type="logic">
+            <obj_property name="ElementShortName">[244]</obj_property>
+            <obj_property name="ObjectShortName">dina[244]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[243]" type="logic">
+            <obj_property name="ElementShortName">[243]</obj_property>
+            <obj_property name="ObjectShortName">dina[243]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[242]" type="logic">
+            <obj_property name="ElementShortName">[242]</obj_property>
+            <obj_property name="ObjectShortName">dina[242]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[241]" type="logic">
+            <obj_property name="ElementShortName">[241]</obj_property>
+            <obj_property name="ObjectShortName">dina[241]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[240]" type="logic">
+            <obj_property name="ElementShortName">[240]</obj_property>
+            <obj_property name="ObjectShortName">dina[240]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[239]" type="logic">
+            <obj_property name="ElementShortName">[239]</obj_property>
+            <obj_property name="ObjectShortName">dina[239]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[238]" type="logic">
+            <obj_property name="ElementShortName">[238]</obj_property>
+            <obj_property name="ObjectShortName">dina[238]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[237]" type="logic">
+            <obj_property name="ElementShortName">[237]</obj_property>
+            <obj_property name="ObjectShortName">dina[237]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[236]" type="logic">
+            <obj_property name="ElementShortName">[236]</obj_property>
+            <obj_property name="ObjectShortName">dina[236]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[235]" type="logic">
+            <obj_property name="ElementShortName">[235]</obj_property>
+            <obj_property name="ObjectShortName">dina[235]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[234]" type="logic">
+            <obj_property name="ElementShortName">[234]</obj_property>
+            <obj_property name="ObjectShortName">dina[234]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[233]" type="logic">
+            <obj_property name="ElementShortName">[233]</obj_property>
+            <obj_property name="ObjectShortName">dina[233]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[232]" type="logic">
+            <obj_property name="ElementShortName">[232]</obj_property>
+            <obj_property name="ObjectShortName">dina[232]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[231]" type="logic">
+            <obj_property name="ElementShortName">[231]</obj_property>
+            <obj_property name="ObjectShortName">dina[231]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[230]" type="logic">
+            <obj_property name="ElementShortName">[230]</obj_property>
+            <obj_property name="ObjectShortName">dina[230]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[229]" type="logic">
+            <obj_property name="ElementShortName">[229]</obj_property>
+            <obj_property name="ObjectShortName">dina[229]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[228]" type="logic">
+            <obj_property name="ElementShortName">[228]</obj_property>
+            <obj_property name="ObjectShortName">dina[228]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[227]" type="logic">
+            <obj_property name="ElementShortName">[227]</obj_property>
+            <obj_property name="ObjectShortName">dina[227]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[226]" type="logic">
+            <obj_property name="ElementShortName">[226]</obj_property>
+            <obj_property name="ObjectShortName">dina[226]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[225]" type="logic">
+            <obj_property name="ElementShortName">[225]</obj_property>
+            <obj_property name="ObjectShortName">dina[225]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[224]" type="logic">
+            <obj_property name="ElementShortName">[224]</obj_property>
+            <obj_property name="ObjectShortName">dina[224]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="vbus893" type="vbus">
+         <obj_property name="label">dina_4_im</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">24</obj_property>
+         <obj_property name="radix_otherWidth">8</obj_property>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[223]" type="logic">
+            <obj_property name="ElementShortName">[223]</obj_property>
+            <obj_property name="ObjectShortName">dina[223]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[222]" type="logic">
+            <obj_property name="ElementShortName">[222]</obj_property>
+            <obj_property name="ObjectShortName">dina[222]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[221]" type="logic">
+            <obj_property name="ElementShortName">[221]</obj_property>
+            <obj_property name="ObjectShortName">dina[221]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[220]" type="logic">
+            <obj_property name="ElementShortName">[220]</obj_property>
+            <obj_property name="ObjectShortName">dina[220]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[219]" type="logic">
+            <obj_property name="ElementShortName">[219]</obj_property>
+            <obj_property name="ObjectShortName">dina[219]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[218]" type="logic">
+            <obj_property name="ElementShortName">[218]</obj_property>
+            <obj_property name="ObjectShortName">dina[218]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[217]" type="logic">
+            <obj_property name="ElementShortName">[217]</obj_property>
+            <obj_property name="ObjectShortName">dina[217]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[216]" type="logic">
+            <obj_property name="ElementShortName">[216]</obj_property>
+            <obj_property name="ObjectShortName">dina[216]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[215]" type="logic">
+            <obj_property name="ElementShortName">[215]</obj_property>
+            <obj_property name="ObjectShortName">dina[215]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[214]" type="logic">
+            <obj_property name="ElementShortName">[214]</obj_property>
+            <obj_property name="ObjectShortName">dina[214]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[213]" type="logic">
+            <obj_property name="ElementShortName">[213]</obj_property>
+            <obj_property name="ObjectShortName">dina[213]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[212]" type="logic">
+            <obj_property name="ElementShortName">[212]</obj_property>
+            <obj_property name="ObjectShortName">dina[212]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[211]" type="logic">
+            <obj_property name="ElementShortName">[211]</obj_property>
+            <obj_property name="ObjectShortName">dina[211]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[210]" type="logic">
+            <obj_property name="ElementShortName">[210]</obj_property>
+            <obj_property name="ObjectShortName">dina[210]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[209]" type="logic">
+            <obj_property name="ElementShortName">[209]</obj_property>
+            <obj_property name="ObjectShortName">dina[209]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[208]" type="logic">
+            <obj_property name="ElementShortName">[208]</obj_property>
+            <obj_property name="ObjectShortName">dina[208]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[207]" type="logic">
+            <obj_property name="ElementShortName">[207]</obj_property>
+            <obj_property name="ObjectShortName">dina[207]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[206]" type="logic">
+            <obj_property name="ElementShortName">[206]</obj_property>
+            <obj_property name="ObjectShortName">dina[206]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[205]" type="logic">
+            <obj_property name="ElementShortName">[205]</obj_property>
+            <obj_property name="ObjectShortName">dina[205]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[204]" type="logic">
+            <obj_property name="ElementShortName">[204]</obj_property>
+            <obj_property name="ObjectShortName">dina[204]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[203]" type="logic">
+            <obj_property name="ElementShortName">[203]</obj_property>
+            <obj_property name="ObjectShortName">dina[203]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[202]" type="logic">
+            <obj_property name="ElementShortName">[202]</obj_property>
+            <obj_property name="ObjectShortName">dina[202]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[201]" type="logic">
+            <obj_property name="ElementShortName">[201]</obj_property>
+            <obj_property name="ObjectShortName">dina[201]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[200]" type="logic">
+            <obj_property name="ElementShortName">[200]</obj_property>
+            <obj_property name="ObjectShortName">dina[200]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[199]" type="logic">
+            <obj_property name="ElementShortName">[199]</obj_property>
+            <obj_property name="ObjectShortName">dina[199]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[198]" type="logic">
+            <obj_property name="ElementShortName">[198]</obj_property>
+            <obj_property name="ObjectShortName">dina[198]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[197]" type="logic">
+            <obj_property name="ElementShortName">[197]</obj_property>
+            <obj_property name="ObjectShortName">dina[197]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[196]" type="logic">
+            <obj_property name="ElementShortName">[196]</obj_property>
+            <obj_property name="ObjectShortName">dina[196]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[195]" type="logic">
+            <obj_property name="ElementShortName">[195]</obj_property>
+            <obj_property name="ObjectShortName">dina[195]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[194]" type="logic">
+            <obj_property name="ElementShortName">[194]</obj_property>
+            <obj_property name="ObjectShortName">dina[194]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[193]" type="logic">
+            <obj_property name="ElementShortName">[193]</obj_property>
+            <obj_property name="ObjectShortName">dina[193]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[192]" type="logic">
+            <obj_property name="ElementShortName">[192]</obj_property>
+            <obj_property name="ObjectShortName">dina[192]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="vbus926" type="vbus">
+         <obj_property name="label">dina_5_re</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">24</obj_property>
+         <obj_property name="radix_otherWidth">8</obj_property>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[191]" type="logic">
+            <obj_property name="ElementShortName">[191]</obj_property>
+            <obj_property name="ObjectShortName">dina[191]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[190]" type="logic">
+            <obj_property name="ElementShortName">[190]</obj_property>
+            <obj_property name="ObjectShortName">dina[190]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[189]" type="logic">
+            <obj_property name="ElementShortName">[189]</obj_property>
+            <obj_property name="ObjectShortName">dina[189]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[188]" type="logic">
+            <obj_property name="ElementShortName">[188]</obj_property>
+            <obj_property name="ObjectShortName">dina[188]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[187]" type="logic">
+            <obj_property name="ElementShortName">[187]</obj_property>
+            <obj_property name="ObjectShortName">dina[187]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[186]" type="logic">
+            <obj_property name="ElementShortName">[186]</obj_property>
+            <obj_property name="ObjectShortName">dina[186]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[185]" type="logic">
+            <obj_property name="ElementShortName">[185]</obj_property>
+            <obj_property name="ObjectShortName">dina[185]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[184]" type="logic">
+            <obj_property name="ElementShortName">[184]</obj_property>
+            <obj_property name="ObjectShortName">dina[184]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[183]" type="logic">
+            <obj_property name="ElementShortName">[183]</obj_property>
+            <obj_property name="ObjectShortName">dina[183]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[182]" type="logic">
+            <obj_property name="ElementShortName">[182]</obj_property>
+            <obj_property name="ObjectShortName">dina[182]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[181]" type="logic">
+            <obj_property name="ElementShortName">[181]</obj_property>
+            <obj_property name="ObjectShortName">dina[181]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[180]" type="logic">
+            <obj_property name="ElementShortName">[180]</obj_property>
+            <obj_property name="ObjectShortName">dina[180]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[179]" type="logic">
+            <obj_property name="ElementShortName">[179]</obj_property>
+            <obj_property name="ObjectShortName">dina[179]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[178]" type="logic">
+            <obj_property name="ElementShortName">[178]</obj_property>
+            <obj_property name="ObjectShortName">dina[178]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[177]" type="logic">
+            <obj_property name="ElementShortName">[177]</obj_property>
+            <obj_property name="ObjectShortName">dina[177]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[176]" type="logic">
+            <obj_property name="ElementShortName">[176]</obj_property>
+            <obj_property name="ObjectShortName">dina[176]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[175]" type="logic">
+            <obj_property name="ElementShortName">[175]</obj_property>
+            <obj_property name="ObjectShortName">dina[175]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[174]" type="logic">
+            <obj_property name="ElementShortName">[174]</obj_property>
+            <obj_property name="ObjectShortName">dina[174]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[173]" type="logic">
+            <obj_property name="ElementShortName">[173]</obj_property>
+            <obj_property name="ObjectShortName">dina[173]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[172]" type="logic">
+            <obj_property name="ElementShortName">[172]</obj_property>
+            <obj_property name="ObjectShortName">dina[172]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[171]" type="logic">
+            <obj_property name="ElementShortName">[171]</obj_property>
+            <obj_property name="ObjectShortName">dina[171]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[170]" type="logic">
+            <obj_property name="ElementShortName">[170]</obj_property>
+            <obj_property name="ObjectShortName">dina[170]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[169]" type="logic">
+            <obj_property name="ElementShortName">[169]</obj_property>
+            <obj_property name="ObjectShortName">dina[169]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[168]" type="logic">
+            <obj_property name="ElementShortName">[168]</obj_property>
+            <obj_property name="ObjectShortName">dina[168]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[167]" type="logic">
+            <obj_property name="ElementShortName">[167]</obj_property>
+            <obj_property name="ObjectShortName">dina[167]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[166]" type="logic">
+            <obj_property name="ElementShortName">[166]</obj_property>
+            <obj_property name="ObjectShortName">dina[166]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[165]" type="logic">
+            <obj_property name="ElementShortName">[165]</obj_property>
+            <obj_property name="ObjectShortName">dina[165]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[164]" type="logic">
+            <obj_property name="ElementShortName">[164]</obj_property>
+            <obj_property name="ObjectShortName">dina[164]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[163]" type="logic">
+            <obj_property name="ElementShortName">[163]</obj_property>
+            <obj_property name="ObjectShortName">dina[163]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[162]" type="logic">
+            <obj_property name="ElementShortName">[162]</obj_property>
+            <obj_property name="ObjectShortName">dina[162]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[161]" type="logic">
+            <obj_property name="ElementShortName">[161]</obj_property>
+            <obj_property name="ObjectShortName">dina[161]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[160]" type="logic">
+            <obj_property name="ElementShortName">[160]</obj_property>
+            <obj_property name="ObjectShortName">dina[160]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="vbus959" type="vbus">
+         <obj_property name="label">dina_5_im</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">24</obj_property>
+         <obj_property name="radix_otherWidth">8</obj_property>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[159]" type="logic">
+            <obj_property name="ElementShortName">[159]</obj_property>
+            <obj_property name="ObjectShortName">dina[159]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[158]" type="logic">
+            <obj_property name="ElementShortName">[158]</obj_property>
+            <obj_property name="ObjectShortName">dina[158]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[157]" type="logic">
+            <obj_property name="ElementShortName">[157]</obj_property>
+            <obj_property name="ObjectShortName">dina[157]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[156]" type="logic">
+            <obj_property name="ElementShortName">[156]</obj_property>
+            <obj_property name="ObjectShortName">dina[156]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[155]" type="logic">
+            <obj_property name="ElementShortName">[155]</obj_property>
+            <obj_property name="ObjectShortName">dina[155]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[154]" type="logic">
+            <obj_property name="ElementShortName">[154]</obj_property>
+            <obj_property name="ObjectShortName">dina[154]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[153]" type="logic">
+            <obj_property name="ElementShortName">[153]</obj_property>
+            <obj_property name="ObjectShortName">dina[153]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[152]" type="logic">
+            <obj_property name="ElementShortName">[152]</obj_property>
+            <obj_property name="ObjectShortName">dina[152]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[151]" type="logic">
+            <obj_property name="ElementShortName">[151]</obj_property>
+            <obj_property name="ObjectShortName">dina[151]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[150]" type="logic">
+            <obj_property name="ElementShortName">[150]</obj_property>
+            <obj_property name="ObjectShortName">dina[150]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[149]" type="logic">
+            <obj_property name="ElementShortName">[149]</obj_property>
+            <obj_property name="ObjectShortName">dina[149]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[148]" type="logic">
+            <obj_property name="ElementShortName">[148]</obj_property>
+            <obj_property name="ObjectShortName">dina[148]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[147]" type="logic">
+            <obj_property name="ElementShortName">[147]</obj_property>
+            <obj_property name="ObjectShortName">dina[147]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[146]" type="logic">
+            <obj_property name="ElementShortName">[146]</obj_property>
+            <obj_property name="ObjectShortName">dina[146]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[145]" type="logic">
+            <obj_property name="ElementShortName">[145]</obj_property>
+            <obj_property name="ObjectShortName">dina[145]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[144]" type="logic">
+            <obj_property name="ElementShortName">[144]</obj_property>
+            <obj_property name="ObjectShortName">dina[144]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[143]" type="logic">
+            <obj_property name="ElementShortName">[143]</obj_property>
+            <obj_property name="ObjectShortName">dina[143]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[142]" type="logic">
+            <obj_property name="ElementShortName">[142]</obj_property>
+            <obj_property name="ObjectShortName">dina[142]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[141]" type="logic">
+            <obj_property name="ElementShortName">[141]</obj_property>
+            <obj_property name="ObjectShortName">dina[141]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[140]" type="logic">
+            <obj_property name="ElementShortName">[140]</obj_property>
+            <obj_property name="ObjectShortName">dina[140]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[139]" type="logic">
+            <obj_property name="ElementShortName">[139]</obj_property>
+            <obj_property name="ObjectShortName">dina[139]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[138]" type="logic">
+            <obj_property name="ElementShortName">[138]</obj_property>
+            <obj_property name="ObjectShortName">dina[138]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[137]" type="logic">
+            <obj_property name="ElementShortName">[137]</obj_property>
+            <obj_property name="ObjectShortName">dina[137]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[136]" type="logic">
+            <obj_property name="ElementShortName">[136]</obj_property>
+            <obj_property name="ObjectShortName">dina[136]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[135]" type="logic">
+            <obj_property name="ElementShortName">[135]</obj_property>
+            <obj_property name="ObjectShortName">dina[135]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[134]" type="logic">
+            <obj_property name="ElementShortName">[134]</obj_property>
+            <obj_property name="ObjectShortName">dina[134]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[133]" type="logic">
+            <obj_property name="ElementShortName">[133]</obj_property>
+            <obj_property name="ObjectShortName">dina[133]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[132]" type="logic">
+            <obj_property name="ElementShortName">[132]</obj_property>
+            <obj_property name="ObjectShortName">dina[132]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[131]" type="logic">
+            <obj_property name="ElementShortName">[131]</obj_property>
+            <obj_property name="ObjectShortName">dina[131]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[130]" type="logic">
+            <obj_property name="ElementShortName">[130]</obj_property>
+            <obj_property name="ObjectShortName">dina[130]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[129]" type="logic">
+            <obj_property name="ElementShortName">[129]</obj_property>
+            <obj_property name="ObjectShortName">dina[129]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[128]" type="logic">
+            <obj_property name="ElementShortName">[128]</obj_property>
+            <obj_property name="ObjectShortName">dina[128]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="vbus992" type="vbus">
+         <obj_property name="label">dina_6_re</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">24</obj_property>
+         <obj_property name="radix_otherWidth">8</obj_property>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[127]" type="logic">
+            <obj_property name="ElementShortName">[127]</obj_property>
+            <obj_property name="ObjectShortName">dina[127]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[126]" type="logic">
+            <obj_property name="ElementShortName">[126]</obj_property>
+            <obj_property name="ObjectShortName">dina[126]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[125]" type="logic">
+            <obj_property name="ElementShortName">[125]</obj_property>
+            <obj_property name="ObjectShortName">dina[125]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[124]" type="logic">
+            <obj_property name="ElementShortName">[124]</obj_property>
+            <obj_property name="ObjectShortName">dina[124]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[123]" type="logic">
+            <obj_property name="ElementShortName">[123]</obj_property>
+            <obj_property name="ObjectShortName">dina[123]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[122]" type="logic">
+            <obj_property name="ElementShortName">[122]</obj_property>
+            <obj_property name="ObjectShortName">dina[122]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[121]" type="logic">
+            <obj_property name="ElementShortName">[121]</obj_property>
+            <obj_property name="ObjectShortName">dina[121]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[120]" type="logic">
+            <obj_property name="ElementShortName">[120]</obj_property>
+            <obj_property name="ObjectShortName">dina[120]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[119]" type="logic">
+            <obj_property name="ElementShortName">[119]</obj_property>
+            <obj_property name="ObjectShortName">dina[119]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[118]" type="logic">
+            <obj_property name="ElementShortName">[118]</obj_property>
+            <obj_property name="ObjectShortName">dina[118]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[117]" type="logic">
+            <obj_property name="ElementShortName">[117]</obj_property>
+            <obj_property name="ObjectShortName">dina[117]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[116]" type="logic">
+            <obj_property name="ElementShortName">[116]</obj_property>
+            <obj_property name="ObjectShortName">dina[116]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[115]" type="logic">
+            <obj_property name="ElementShortName">[115]</obj_property>
+            <obj_property name="ObjectShortName">dina[115]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[114]" type="logic">
+            <obj_property name="ElementShortName">[114]</obj_property>
+            <obj_property name="ObjectShortName">dina[114]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[113]" type="logic">
+            <obj_property name="ElementShortName">[113]</obj_property>
+            <obj_property name="ObjectShortName">dina[113]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[112]" type="logic">
+            <obj_property name="ElementShortName">[112]</obj_property>
+            <obj_property name="ObjectShortName">dina[112]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[111]" type="logic">
+            <obj_property name="ElementShortName">[111]</obj_property>
+            <obj_property name="ObjectShortName">dina[111]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[110]" type="logic">
+            <obj_property name="ElementShortName">[110]</obj_property>
+            <obj_property name="ObjectShortName">dina[110]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[109]" type="logic">
+            <obj_property name="ElementShortName">[109]</obj_property>
+            <obj_property name="ObjectShortName">dina[109]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[108]" type="logic">
+            <obj_property name="ElementShortName">[108]</obj_property>
+            <obj_property name="ObjectShortName">dina[108]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[107]" type="logic">
+            <obj_property name="ElementShortName">[107]</obj_property>
+            <obj_property name="ObjectShortName">dina[107]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[106]" type="logic">
+            <obj_property name="ElementShortName">[106]</obj_property>
+            <obj_property name="ObjectShortName">dina[106]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[105]" type="logic">
+            <obj_property name="ElementShortName">[105]</obj_property>
+            <obj_property name="ObjectShortName">dina[105]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[104]" type="logic">
+            <obj_property name="ElementShortName">[104]</obj_property>
+            <obj_property name="ObjectShortName">dina[104]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[103]" type="logic">
+            <obj_property name="ElementShortName">[103]</obj_property>
+            <obj_property name="ObjectShortName">dina[103]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[102]" type="logic">
+            <obj_property name="ElementShortName">[102]</obj_property>
+            <obj_property name="ObjectShortName">dina[102]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[101]" type="logic">
+            <obj_property name="ElementShortName">[101]</obj_property>
+            <obj_property name="ObjectShortName">dina[101]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[100]" type="logic">
+            <obj_property name="ElementShortName">[100]</obj_property>
+            <obj_property name="ObjectShortName">dina[100]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[99]" type="logic">
+            <obj_property name="ElementShortName">[99]</obj_property>
+            <obj_property name="ObjectShortName">dina[99]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[98]" type="logic">
+            <obj_property name="ElementShortName">[98]</obj_property>
+            <obj_property name="ObjectShortName">dina[98]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[97]" type="logic">
+            <obj_property name="ElementShortName">[97]</obj_property>
+            <obj_property name="ObjectShortName">dina[97]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[96]" type="logic">
+            <obj_property name="ElementShortName">[96]</obj_property>
+            <obj_property name="ObjectShortName">dina[96]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="vbus1025" type="vbus">
+         <obj_property name="label">dina_6_im</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">24</obj_property>
+         <obj_property name="radix_otherWidth">8</obj_property>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[95]" type="logic">
+            <obj_property name="ElementShortName">[95]</obj_property>
+            <obj_property name="ObjectShortName">dina[95]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[94]" type="logic">
+            <obj_property name="ElementShortName">[94]</obj_property>
+            <obj_property name="ObjectShortName">dina[94]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[93]" type="logic">
+            <obj_property name="ElementShortName">[93]</obj_property>
+            <obj_property name="ObjectShortName">dina[93]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[92]" type="logic">
+            <obj_property name="ElementShortName">[92]</obj_property>
+            <obj_property name="ObjectShortName">dina[92]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[91]" type="logic">
+            <obj_property name="ElementShortName">[91]</obj_property>
+            <obj_property name="ObjectShortName">dina[91]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[90]" type="logic">
+            <obj_property name="ElementShortName">[90]</obj_property>
+            <obj_property name="ObjectShortName">dina[90]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[89]" type="logic">
+            <obj_property name="ElementShortName">[89]</obj_property>
+            <obj_property name="ObjectShortName">dina[89]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[88]" type="logic">
+            <obj_property name="ElementShortName">[88]</obj_property>
+            <obj_property name="ObjectShortName">dina[88]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[87]" type="logic">
+            <obj_property name="ElementShortName">[87]</obj_property>
+            <obj_property name="ObjectShortName">dina[87]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[86]" type="logic">
+            <obj_property name="ElementShortName">[86]</obj_property>
+            <obj_property name="ObjectShortName">dina[86]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[85]" type="logic">
+            <obj_property name="ElementShortName">[85]</obj_property>
+            <obj_property name="ObjectShortName">dina[85]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[84]" type="logic">
+            <obj_property name="ElementShortName">[84]</obj_property>
+            <obj_property name="ObjectShortName">dina[84]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[83]" type="logic">
+            <obj_property name="ElementShortName">[83]</obj_property>
+            <obj_property name="ObjectShortName">dina[83]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[82]" type="logic">
+            <obj_property name="ElementShortName">[82]</obj_property>
+            <obj_property name="ObjectShortName">dina[82]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[81]" type="logic">
+            <obj_property name="ElementShortName">[81]</obj_property>
+            <obj_property name="ObjectShortName">dina[81]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[80]" type="logic">
+            <obj_property name="ElementShortName">[80]</obj_property>
+            <obj_property name="ObjectShortName">dina[80]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[79]" type="logic">
+            <obj_property name="ElementShortName">[79]</obj_property>
+            <obj_property name="ObjectShortName">dina[79]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[78]" type="logic">
+            <obj_property name="ElementShortName">[78]</obj_property>
+            <obj_property name="ObjectShortName">dina[78]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[77]" type="logic">
+            <obj_property name="ElementShortName">[77]</obj_property>
+            <obj_property name="ObjectShortName">dina[77]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[76]" type="logic">
+            <obj_property name="ElementShortName">[76]</obj_property>
+            <obj_property name="ObjectShortName">dina[76]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[75]" type="logic">
+            <obj_property name="ElementShortName">[75]</obj_property>
+            <obj_property name="ObjectShortName">dina[75]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[74]" type="logic">
+            <obj_property name="ElementShortName">[74]</obj_property>
+            <obj_property name="ObjectShortName">dina[74]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[73]" type="logic">
+            <obj_property name="ElementShortName">[73]</obj_property>
+            <obj_property name="ObjectShortName">dina[73]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[72]" type="logic">
+            <obj_property name="ElementShortName">[72]</obj_property>
+            <obj_property name="ObjectShortName">dina[72]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[71]" type="logic">
+            <obj_property name="ElementShortName">[71]</obj_property>
+            <obj_property name="ObjectShortName">dina[71]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[70]" type="logic">
+            <obj_property name="ElementShortName">[70]</obj_property>
+            <obj_property name="ObjectShortName">dina[70]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[69]" type="logic">
+            <obj_property name="ElementShortName">[69]</obj_property>
+            <obj_property name="ObjectShortName">dina[69]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[68]" type="logic">
+            <obj_property name="ElementShortName">[68]</obj_property>
+            <obj_property name="ObjectShortName">dina[68]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[67]" type="logic">
+            <obj_property name="ElementShortName">[67]</obj_property>
+            <obj_property name="ObjectShortName">dina[67]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[66]" type="logic">
+            <obj_property name="ElementShortName">[66]</obj_property>
+            <obj_property name="ObjectShortName">dina[66]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[65]" type="logic">
+            <obj_property name="ElementShortName">[65]</obj_property>
+            <obj_property name="ObjectShortName">dina[65]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[64]" type="logic">
+            <obj_property name="ElementShortName">[64]</obj_property>
+            <obj_property name="ObjectShortName">dina[64]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="vbus1058" type="vbus">
+         <obj_property name="label">dina_7_re</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">24</obj_property>
+         <obj_property name="radix_otherWidth">8</obj_property>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[63]" type="logic">
+            <obj_property name="ElementShortName">[63]</obj_property>
+            <obj_property name="ObjectShortName">dina[63]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[62]" type="logic">
+            <obj_property name="ElementShortName">[62]</obj_property>
+            <obj_property name="ObjectShortName">dina[62]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[61]" type="logic">
+            <obj_property name="ElementShortName">[61]</obj_property>
+            <obj_property name="ObjectShortName">dina[61]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[60]" type="logic">
+            <obj_property name="ElementShortName">[60]</obj_property>
+            <obj_property name="ObjectShortName">dina[60]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[59]" type="logic">
+            <obj_property name="ElementShortName">[59]</obj_property>
+            <obj_property name="ObjectShortName">dina[59]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[58]" type="logic">
+            <obj_property name="ElementShortName">[58]</obj_property>
+            <obj_property name="ObjectShortName">dina[58]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[57]" type="logic">
+            <obj_property name="ElementShortName">[57]</obj_property>
+            <obj_property name="ObjectShortName">dina[57]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[56]" type="logic">
+            <obj_property name="ElementShortName">[56]</obj_property>
+            <obj_property name="ObjectShortName">dina[56]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[55]" type="logic">
+            <obj_property name="ElementShortName">[55]</obj_property>
+            <obj_property name="ObjectShortName">dina[55]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[54]" type="logic">
+            <obj_property name="ElementShortName">[54]</obj_property>
+            <obj_property name="ObjectShortName">dina[54]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[53]" type="logic">
+            <obj_property name="ElementShortName">[53]</obj_property>
+            <obj_property name="ObjectShortName">dina[53]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[52]" type="logic">
+            <obj_property name="ElementShortName">[52]</obj_property>
+            <obj_property name="ObjectShortName">dina[52]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[51]" type="logic">
+            <obj_property name="ElementShortName">[51]</obj_property>
+            <obj_property name="ObjectShortName">dina[51]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[50]" type="logic">
+            <obj_property name="ElementShortName">[50]</obj_property>
+            <obj_property name="ObjectShortName">dina[50]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[49]" type="logic">
+            <obj_property name="ElementShortName">[49]</obj_property>
+            <obj_property name="ObjectShortName">dina[49]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[48]" type="logic">
+            <obj_property name="ElementShortName">[48]</obj_property>
+            <obj_property name="ObjectShortName">dina[48]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[47]" type="logic">
+            <obj_property name="ElementShortName">[47]</obj_property>
+            <obj_property name="ObjectShortName">dina[47]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[46]" type="logic">
+            <obj_property name="ElementShortName">[46]</obj_property>
+            <obj_property name="ObjectShortName">dina[46]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[45]" type="logic">
+            <obj_property name="ElementShortName">[45]</obj_property>
+            <obj_property name="ObjectShortName">dina[45]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[44]" type="logic">
+            <obj_property name="ElementShortName">[44]</obj_property>
+            <obj_property name="ObjectShortName">dina[44]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[43]" type="logic">
+            <obj_property name="ElementShortName">[43]</obj_property>
+            <obj_property name="ObjectShortName">dina[43]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[42]" type="logic">
+            <obj_property name="ElementShortName">[42]</obj_property>
+            <obj_property name="ObjectShortName">dina[42]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[41]" type="logic">
+            <obj_property name="ElementShortName">[41]</obj_property>
+            <obj_property name="ObjectShortName">dina[41]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[40]" type="logic">
+            <obj_property name="ElementShortName">[40]</obj_property>
+            <obj_property name="ObjectShortName">dina[40]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[39]" type="logic">
+            <obj_property name="ElementShortName">[39]</obj_property>
+            <obj_property name="ObjectShortName">dina[39]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[38]" type="logic">
+            <obj_property name="ElementShortName">[38]</obj_property>
+            <obj_property name="ObjectShortName">dina[38]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[37]" type="logic">
+            <obj_property name="ElementShortName">[37]</obj_property>
+            <obj_property name="ObjectShortName">dina[37]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[36]" type="logic">
+            <obj_property name="ElementShortName">[36]</obj_property>
+            <obj_property name="ObjectShortName">dina[36]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[35]" type="logic">
+            <obj_property name="ElementShortName">[35]</obj_property>
+            <obj_property name="ObjectShortName">dina[35]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[34]" type="logic">
+            <obj_property name="ElementShortName">[34]</obj_property>
+            <obj_property name="ObjectShortName">dina[34]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[33]" type="logic">
+            <obj_property name="ElementShortName">[33]</obj_property>
+            <obj_property name="ObjectShortName">dina[33]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[32]" type="logic">
+            <obj_property name="ElementShortName">[32]</obj_property>
+            <obj_property name="ObjectShortName">dina[32]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="vbus1091" type="vbus">
+         <obj_property name="label">dina_7_im</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">24</obj_property>
+         <obj_property name="radix_otherWidth">8</obj_property>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[31]" type="logic">
+            <obj_property name="ElementShortName">[31]</obj_property>
+            <obj_property name="ObjectShortName">dina[31]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[30]" type="logic">
+            <obj_property name="ElementShortName">[30]</obj_property>
+            <obj_property name="ObjectShortName">dina[30]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[29]" type="logic">
+            <obj_property name="ElementShortName">[29]</obj_property>
+            <obj_property name="ObjectShortName">dina[29]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[28]" type="logic">
+            <obj_property name="ElementShortName">[28]</obj_property>
+            <obj_property name="ObjectShortName">dina[28]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[27]" type="logic">
+            <obj_property name="ElementShortName">[27]</obj_property>
+            <obj_property name="ObjectShortName">dina[27]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[26]" type="logic">
+            <obj_property name="ElementShortName">[26]</obj_property>
+            <obj_property name="ObjectShortName">dina[26]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[25]" type="logic">
+            <obj_property name="ElementShortName">[25]</obj_property>
+            <obj_property name="ObjectShortName">dina[25]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[24]" type="logic">
+            <obj_property name="ElementShortName">[24]</obj_property>
+            <obj_property name="ObjectShortName">dina[24]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[23]" type="logic">
+            <obj_property name="ElementShortName">[23]</obj_property>
+            <obj_property name="ObjectShortName">dina[23]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[22]" type="logic">
+            <obj_property name="ElementShortName">[22]</obj_property>
+            <obj_property name="ObjectShortName">dina[22]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[21]" type="logic">
+            <obj_property name="ElementShortName">[21]</obj_property>
+            <obj_property name="ObjectShortName">dina[21]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[20]" type="logic">
+            <obj_property name="ElementShortName">[20]</obj_property>
+            <obj_property name="ObjectShortName">dina[20]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[19]" type="logic">
+            <obj_property name="ElementShortName">[19]</obj_property>
+            <obj_property name="ObjectShortName">dina[19]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[18]" type="logic">
+            <obj_property name="ElementShortName">[18]</obj_property>
+            <obj_property name="ObjectShortName">dina[18]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[17]" type="logic">
+            <obj_property name="ElementShortName">[17]</obj_property>
+            <obj_property name="ObjectShortName">dina[17]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[16]" type="logic">
+            <obj_property name="ElementShortName">[16]</obj_property>
+            <obj_property name="ObjectShortName">dina[16]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[15]" type="logic">
+            <obj_property name="ElementShortName">[15]</obj_property>
+            <obj_property name="ObjectShortName">dina[15]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[14]" type="logic">
+            <obj_property name="ElementShortName">[14]</obj_property>
+            <obj_property name="ObjectShortName">dina[14]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[13]" type="logic">
+            <obj_property name="ElementShortName">[13]</obj_property>
+            <obj_property name="ObjectShortName">dina[13]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[12]" type="logic">
+            <obj_property name="ElementShortName">[12]</obj_property>
+            <obj_property name="ObjectShortName">dina[12]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[11]" type="logic">
+            <obj_property name="ElementShortName">[11]</obj_property>
+            <obj_property name="ObjectShortName">dina[11]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[10]" type="logic">
+            <obj_property name="ElementShortName">[10]</obj_property>
+            <obj_property name="ObjectShortName">dina[10]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[9]" type="logic">
+            <obj_property name="ElementShortName">[9]</obj_property>
+            <obj_property name="ObjectShortName">dina[9]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[8]" type="logic">
+            <obj_property name="ElementShortName">[8]</obj_property>
+            <obj_property name="ObjectShortName">dina[8]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[7]" type="logic">
+            <obj_property name="ElementShortName">[7]</obj_property>
+            <obj_property name="ObjectShortName">dina[7]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[6]" type="logic">
+            <obj_property name="ElementShortName">[6]</obj_property>
+            <obj_property name="ObjectShortName">dina[6]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[5]" type="logic">
+            <obj_property name="ElementShortName">[5]</obj_property>
+            <obj_property name="ObjectShortName">dina[5]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[4]" type="logic">
+            <obj_property name="ElementShortName">[4]</obj_property>
+            <obj_property name="ObjectShortName">dina[4]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[3]" type="logic">
+            <obj_property name="ElementShortName">[3]</obj_property>
+            <obj_property name="ObjectShortName">dina[3]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[2]" type="logic">
+            <obj_property name="ElementShortName">[2]</obj_property>
+            <obj_property name="ObjectShortName">dina[2]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[1]" type="logic">
+            <obj_property name="ElementShortName">[1]</obj_property>
+            <obj_property name="ObjectShortName">dina[1]</obj_property>
+         </wvobject>
+         <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dina[0]" type="logic">
+            <obj_property name="ElementShortName">[0]</obj_property>
+            <obj_property name="ObjectShortName">dina[0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/douta" type="array">
+         <obj_property name="ElementShortName">douta[511:0]</obj_property>
+         <obj_property name="ObjectShortName">douta[511:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/web" type="array">
+         <obj_property name="ElementShortName">web[0:0]</obj_property>
+         <obj_property name="ObjectShortName">web[0:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/addrb" type="array">
+         <obj_property name="ElementShortName">addrb[7:0]</obj_property>
+         <obj_property name="ObjectShortName">addrb[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/dinb" type="array">
+         <obj_property name="ElementShortName">dinb[511:0]</obj_property>
+         <obj_property name="ObjectShortName">dinb[511:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[2].myRAM_IP/doutb" type="array">
+         <obj_property name="ElementShortName">doutb[511:0]</obj_property>
+         <obj_property name="ObjectShortName">doutb[511:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group64" type="group">
+      <obj_property name="label">ConjProd_Mem3</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[3].myRAM_IP/wea" type="array">
+         <obj_property name="ElementShortName">wea[0:0]</obj_property>
+         <obj_property name="ObjectShortName">wea[0:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[3].myRAM_IP/addra" type="array">
+         <obj_property name="ElementShortName">addra[7:0]</obj_property>
+         <obj_property name="ObjectShortName">addra[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[3].myRAM_IP/dina" type="array">
+         <obj_property name="ElementShortName">dina[511:0]</obj_property>
+         <obj_property name="ObjectShortName">dina[511:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[3].myRAM_IP/douta" type="array">
+         <obj_property name="ElementShortName">douta[511:0]</obj_property>
+         <obj_property name="ObjectShortName">douta[511:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[3].myRAM_IP/web" type="array">
+         <obj_property name="ElementShortName">web[0:0]</obj_property>
+         <obj_property name="ObjectShortName">web[0:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[3].myRAM_IP/addrb" type="array">
+         <obj_property name="ElementShortName">addrb[7:0]</obj_property>
+         <obj_property name="ObjectShortName">addrb[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[3].myRAM_IP/dinb" type="array">
+         <obj_property name="ElementShortName">dinb[511:0]</obj_property>
+         <obj_property name="ObjectShortName">dinb[511:0]</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/SCD_AlphaProf_Top_tb/theFullDesign/alphaProfiler/conjProdFFT/generateLoop[3].myRAM_IP/doutb" type="array">
+         <obj_property name="ElementShortName">doutb[511:0]</obj_property>
+         <obj_property name="ObjectShortName">doutb[511:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

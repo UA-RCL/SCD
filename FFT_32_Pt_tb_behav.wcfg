@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="FFT_32_Pt_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="FFT_32_Pt_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="10000000002fs"></ZoomEndTime>
+      <Cursor1Time time="0fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="75" />
+   <wvobject db_ref_id="1" fp_name="/FFT_32_Pt_tb/Re_X" type="array">
+      <obj_property name="ElementShortName">Re_X[1023:0]</obj_property>
+      <obj_property name="ObjectShortName">Re_X[1023:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/FFT_32_Pt_tb/Im_X" type="array">
+      <obj_property name="ElementShortName">Im_X[1023:0]</obj_property>
+      <obj_property name="ObjectShortName">Im_X[1023:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/FFT_32_Pt_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/FFT_32_Pt_tb/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/FFT_32_Pt_tb/myFFT/myFFT/done" type="logic">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/FFT_32_Pt_tb/Re_Out" type="array">
+      <obj_property name="ElementShortName">Re_Out[1023:0]</obj_property>
+      <obj_property name="ObjectShortName">Re_Out[1023:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/FFT_32_Pt_tb/Im_Out" type="array">
+      <obj_property name="ElementShortName">Im_Out[1023:0]</obj_property>
+      <obj_property name="ObjectShortName">Im_Out[1023:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/FFT_32_Pt_tb/Re_Out0" type="array">
+      <obj_property name="ElementShortName">Re_Out0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Re_Out0[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/FFT_32_Pt_tb/Re_Out1" type="array">
+      <obj_property name="ElementShortName">Re_Out1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Re_Out1[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/FFT_32_Pt_tb/Re_Out2" type="array">
+      <obj_property name="ElementShortName">Re_Out2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Re_Out2[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/FFT_32_Pt_tb/Re_Out3" type="array">
+      <obj_property name="ElementShortName">Re_Out3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Re_Out3[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/FFT_32_Pt_tb/Re_Out4" type="array">
+      <obj_property name="ElementShortName">Re_Out4[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Re_Out4[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/FFT_32_Pt_tb/Re_Out5" type="array">
+      <obj_property name="ElementShortName">Re_Out5[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Re_Out5[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/FFT_32_Pt_tb/Re_Out6" type="array">
+      <obj_property name="ElementShortName">Re_Out6[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Re_Out6[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/FFT_32_Pt_tb/Re_Out7" type="array">
+      <obj_property name="ElementShortName">Re_Out7[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Re_Out7[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/FFT_32_Pt_tb/Re_Out8" type="array">
+      <obj_property name="ElementShortName">Re_Out8[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Re_Out8[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/FFT_32_Pt_tb/Re_Out9" type="array">
+      <obj_property name="ElementShortName">Re_Out9[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Re_Out9[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/FFT_32_Pt_tb/Re_Out10" type="array">
+      <obj_property name="ElementShortName">Re_Out10[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Re_Out10[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/FFT_32_Pt_tb/Re_Out11" type="array">
+      <obj_property name="ElementShortName">Re_Out11[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Re_Out11[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/FFT_32_Pt_tb/Re_Out12" type="array">
+      <obj_property name="ElementShortName">Re_Out12[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Re_Out12[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/FFT_32_Pt_tb/Re_Out13" type="array">
+      <obj_property name="ElementShortName">Re_Out13[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Re_Out13[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/FFT_32_Pt_tb/Re_Out14" type="array">
+      <obj_property name="ElementShortName">Re_Out14[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Re_Out14[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/FFT_32_Pt_tb/Re_Out15" type="array">
+      <obj_property name="ElementShortName">Re_Out15[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Re_Out15[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/FFT_32_Pt_tb/Re_Out16" type="array">
+      <obj_property name="ElementShortName">Re_Out16[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Re_Out16[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/FFT_32_Pt_tb/Re_Out17" type="array">
+      <obj_property name="ElementShortName">Re_Out17[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Re_Out17[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/FFT_32_Pt_tb/Re_Out18" type="array">
+      <obj_property name="ElementShortName">Re_Out18[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Re_Out18[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/FFT_32_Pt_tb/Re_Out19" type="array">
+      <obj_property name="ElementShortName">Re_Out19[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Re_Out19[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/FFT_32_Pt_tb/Re_Out20" type="array">
+      <obj_property name="ElementShortName">Re_Out20[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Re_Out20[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/FFT_32_Pt_tb/Re_Out21" type="array">
+      <obj_property name="ElementShortName">Re_Out21[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Re_Out21[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/FFT_32_Pt_tb/Re_Out22" type="array">
+      <obj_property name="ElementShortName">Re_Out22[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Re_Out22[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/FFT_32_Pt_tb/Re_Out23" type="array">
+      <obj_property name="ElementShortName">Re_Out23[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Re_Out23[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/FFT_32_Pt_tb/Re_Out24" type="array">
+      <obj_property name="ElementShortName">Re_Out24[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Re_Out24[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/FFT_32_Pt_tb/Re_Out25" type="array">
+      <obj_property name="ElementShortName">Re_Out25[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Re_Out25[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/FFT_32_Pt_tb/Re_Out26" type="array">
+      <obj_property name="ElementShortName">Re_Out26[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Re_Out26[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/FFT_32_Pt_tb/Re_Out27" type="array">
+      <obj_property name="ElementShortName">Re_Out27[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Re_Out27[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/FFT_32_Pt_tb/Re_Out28" type="array">
+      <obj_property name="ElementShortName">Re_Out28[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Re_Out28[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/FFT_32_Pt_tb/Re_Out29" type="array">
+      <obj_property name="ElementShortName">Re_Out29[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Re_Out29[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/FFT_32_Pt_tb/Re_Out30" type="array">
+      <obj_property name="ElementShortName">Re_Out30[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Re_Out30[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/FFT_32_Pt_tb/Re_Out31" type="array">
+      <obj_property name="ElementShortName">Re_Out31[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Re_Out31[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/FFT_32_Pt_tb/Im_Out0" type="array">
+      <obj_property name="ElementShortName">Im_Out0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Im_Out0[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/FFT_32_Pt_tb/Im_Out1" type="array">
+      <obj_property name="ElementShortName">Im_Out1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Im_Out1[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/FFT_32_Pt_tb/Im_Out2" type="array">
+      <obj_property name="ElementShortName">Im_Out2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Im_Out2[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/FFT_32_Pt_tb/Im_Out3" type="array">
+      <obj_property name="ElementShortName">Im_Out3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Im_Out3[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/FFT_32_Pt_tb/Im_Out4" type="array">
+      <obj_property name="ElementShortName">Im_Out4[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Im_Out4[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/FFT_32_Pt_tb/Im_Out5" type="array">
+      <obj_property name="ElementShortName">Im_Out5[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Im_Out5[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/FFT_32_Pt_tb/Im_Out6" type="array">
+      <obj_property name="ElementShortName">Im_Out6[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Im_Out6[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/FFT_32_Pt_tb/Im_Out7" type="array">
+      <obj_property name="ElementShortName">Im_Out7[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Im_Out7[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/FFT_32_Pt_tb/Im_Out8" type="array">
+      <obj_property name="ElementShortName">Im_Out8[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Im_Out8[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/FFT_32_Pt_tb/Im_Out9" type="array">
+      <obj_property name="ElementShortName">Im_Out9[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Im_Out9[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/FFT_32_Pt_tb/Im_Out10" type="array">
+      <obj_property name="ElementShortName">Im_Out10[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Im_Out10[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/FFT_32_Pt_tb/Im_Out11" type="array">
+      <obj_property name="ElementShortName">Im_Out11[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Im_Out11[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/FFT_32_Pt_tb/Im_Out12" type="array">
+      <obj_property name="ElementShortName">Im_Out12[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Im_Out12[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/FFT_32_Pt_tb/Im_Out13" type="array">
+      <obj_property name="ElementShortName">Im_Out13[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Im_Out13[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/FFT_32_Pt_tb/Im_Out14" type="array">
+      <obj_property name="ElementShortName">Im_Out14[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Im_Out14[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/FFT_32_Pt_tb/Im_Out15" type="array">
+      <obj_property name="ElementShortName">Im_Out15[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Im_Out15[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/FFT_32_Pt_tb/Im_Out16" type="array">
+      <obj_property name="ElementShortName">Im_Out16[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Im_Out16[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/FFT_32_Pt_tb/Im_Out17" type="array">
+      <obj_property name="ElementShortName">Im_Out17[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Im_Out17[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/FFT_32_Pt_tb/Im_Out18" type="array">
+      <obj_property name="ElementShortName">Im_Out18[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Im_Out18[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/FFT_32_Pt_tb/Im_Out19" type="array">
+      <obj_property name="ElementShortName">Im_Out19[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Im_Out19[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/FFT_32_Pt_tb/Im_Out20" type="array">
+      <obj_property name="ElementShortName">Im_Out20[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Im_Out20[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/FFT_32_Pt_tb/Im_Out21" type="array">
+      <obj_property name="ElementShortName">Im_Out21[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Im_Out21[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/FFT_32_Pt_tb/Im_Out22" type="array">
+      <obj_property name="ElementShortName">Im_Out22[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Im_Out22[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/FFT_32_Pt_tb/Im_Out23" type="array">
+      <obj_property name="ElementShortName">Im_Out23[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Im_Out23[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/FFT_32_Pt_tb/Im_Out24" type="array">
+      <obj_property name="ElementShortName">Im_Out24[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Im_Out24[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/FFT_32_Pt_tb/Im_Out25" type="array">
+      <obj_property name="ElementShortName">Im_Out25[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Im_Out25[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/FFT_32_Pt_tb/Im_Out26" type="array">
+      <obj_property name="ElementShortName">Im_Out26[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Im_Out26[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/FFT_32_Pt_tb/Im_Out27" type="array">
+      <obj_property name="ElementShortName">Im_Out27[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Im_Out27[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/FFT_32_Pt_tb/Im_Out28" type="array">
+      <obj_property name="ElementShortName">Im_Out28[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Im_Out28[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/FFT_32_Pt_tb/Im_Out29" type="array">
+      <obj_property name="ElementShortName">Im_Out29[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Im_Out29[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/FFT_32_Pt_tb/Im_Out30" type="array">
+      <obj_property name="ElementShortName">Im_Out30[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Im_Out30[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/FFT_32_Pt_tb/Im_Out31" type="array">
+      <obj_property name="ElementShortName">Im_Out31[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Im_Out31[31:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">FLOATINGPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">24</obj_property>
+      <obj_property name="radix_otherWidth">8</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/FFT_32_Pt_tb/FFTPoints" type="array">
+      <obj_property name="ElementShortName">FFTPoints[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FFTPoints[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/FFT_32_Pt_tb/expWidth" type="array">
+      <obj_property name="ElementShortName">expWidth[31:0]</obj_property>
+      <obj_property name="ObjectShortName">expWidth[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/FFT_32_Pt_tb/sigWidth" type="array">
+      <obj_property name="ElementShortName">sigWidth[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sigWidth[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/FFT_32_Pt_tb/dataWidth" type="array">
+      <obj_property name="ElementShortName">dataWidth[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dataWidth[31:0]</obj_property>
+   </wvobject>
+</wave_config>
